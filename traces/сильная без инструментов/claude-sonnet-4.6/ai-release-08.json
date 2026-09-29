@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "ai-release-08",
+  "source": "fresh",
+  "question": "Как называется максимальный режим возможностей GPT-5.6, представленный в 2026 году?",
+  "answer": "ultra",
+  "evidence": "`ultra` is our highest-capability setting, coordinating multiple agents across parallel workstreams to finish complex tasks faster.",
+  "url": "https://openai.com/index/gpt-5-6/",
+  "page": "openai56"
+ },
+ "answer": "FINAL: unknown",
+ "correct": false,
+ "cost": 0.00037799999999998946,
+ "seconds": 3.1147823999635875,
+ "steps": 1,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ответь на вопрос коротко, только строкой FINAL: <ответ>. Если не знаешь, напиши FINAL: unknown. Не объясняй ответ."
+  },
+  {
+   "role": "user",
+   "content": "Как называется максимальный режим возможностей GPT-5.6, представленный в 2026 году?"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "task": {
+  "id": "fresh-19",
+  "source": "fresh",
+  "question": "In animation, what did Disney Branded Television rebrand itself as on June 15, 2026?",
+  "answer": "Disney Kids & Family",
+  "evidence": "June 15: Disney Branded Television (Parent company of Disney Television Animation) rebrands itself as \"Disney Kids & Family\".",
+  "page": "2026 in animation",
+  "url": "https://en.wikipedia.org/wiki/2026_in_animation",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: unknown.",
+ "correct": false,
+ "cost": 1.1999999999999994e-05,
+ "seconds": 2.4288300999905914,
+ "steps": 1,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ответь на вопрос коротко, только строкой FINAL: <ответ>. Если не знаешь, напиши FINAL: unknown. Не объясняй ответ."
+  },
+  {
+   "role": "user",
+   "content": "In animation, what did Disney Branded Television rebrand itself as on June 15, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

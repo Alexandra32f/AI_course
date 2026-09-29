@@ -1,0 +1,148 @@
+{
+ "task": {
+  "id": "fresh-17",
+  "source": "fresh",
+  "question": "In spaceflight, what was launched by ISRO on September 3, 2026?",
+  "answer": "EOS-05",
+  "evidence": "On 3 September, ISRO launched EOS-05, India's first geostationary Earth observation satellite. The satellite was launched on PSLV's return-to-flight mission after the failed PSLV-C62 in January 2026.",
+  "page": "2026 in spaceflight",
+  "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "На данный момент нет информации о запуске, осуществленном Индийской организацией космических исследований (ISRO) 3 сентября 2026 года. FINAL: Информация отсутствует.",
+ "correct": false,
+ "cost": 0.0009700500000000001,
+ "seconds": 34.78153879987076,
+ "steps": 7,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. На вопросы по-русски можешь искать в ru.wikipedia.org (language=ru), затем читать статью с тем же language. Для фактов о новых моделях проверь официальные анонсы через source_search/source_find. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "In spaceflight, what was launched by ISRO on September 3, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_pKoeZopjUAS6jJb5RzTJF2OU",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\":\"ISRO launch September 3, 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_pKoeZopjUAS6jJb5RzTJF2OU",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_2sRhlME4BHPJA5lGGS22ZcjC",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"ISRO launch September 3, 2026\",\"language\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_2sRhlME4BHPJA5lGGS22ZcjC",
+   "content": "[en:List of spaceflight launches in July–September 2026] This article lists orbital and suborbital launches during the third quarter of the year 2026. For all other spaceflight activities, see 2026 in spaceflight. For launches during the rest of 2026, see List of spaceflight launches in January–March 2026, List of spaceflight launches in April–June 2026, and List of spaceflight launches in October–December 2026. | Other titles: ['Next Generation Launch Vehicle', 'Launch vehicles of ISRO']"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_9AlF21yEduTopI5gIqf7wRwQ",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"List of spaceflight launches in July–September 2026\",\"keywords\":\"ISRO launch, September 3, 2026\",\"language\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_9AlF21yEduTopI5gIqf7wRwQ",
+   "content": "This article lists orbital and suborbital launches during the third quarter of the year 2026.\nFor all other spaceflight activities, see 2026 in spaceflight. For launches during the rest of 2026, see List of spaceflight launches in January–March 2026, List of spaceflight launches in April–June 2026, and List of spaceflight launches in October–December 2026.\n=== September ==="
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_SrsiOssGLvnM1Ast6scp1cZx",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"ISRO September 3 2026\",\"language\":\"ru\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_SrsiOssGLvnM1Ast6scp1cZx",
+   "content": "[ru:2027 год] 2027 (две ты́сячи два́дцать седьмо́й) год по григорианскому календарю — невисокосный год, начинающийся в пятницу. Это 2027 год нашей эры, 7‑й год 3‑го десятилетия XXI века 3‑го тысячелетия, 8‑й год 2020‑х годов. Он наступит через 4 месяца. | Other titles: ['Адитья-L1', 'История исследования Солнечной системы']"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_cue99XmJcszheN29ao9lZeYy",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"ISRO запуски\",\"language\":\"ru\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_cue99XmJcszheN29ao9lZeYy",
+   "content": "[ru:Список космических запусков в 2026 году] В этом списке приводится информация о запусках космических объектов в 2026 году. В списке представлены запуски, ставившие своей целью выведение полезной нагрузки (или массогабаритных макетов) на околоземную орбиту или траекторию отлёта в межпланетное пространство. В списке не представлены суборбитальные запуски, а также запуски баллистических, геофизических и метеорологических ракет. Также не учитываются несостоявшиеся запуски, при которых ракета-носитель не ушла со старта. Информация взята из открытых официальных источников. Названия объектов и запускающих государств соответствуют данным, представляемым странами участниками «Конвенции о регистрации объектов, запускаемых в космическое пространство», принятой на Генеральной Ассамблее ООН в 1974 году. | Other titles: ['Индийская организация космических исследований', 'Список космических запусков в 2024 году']"
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "На данный момент нет информации о запуске, осуществленном Индийской организацией космических исследований (ISRO) 3 сентября 2026 года. FINAL: Информация отсутствует.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

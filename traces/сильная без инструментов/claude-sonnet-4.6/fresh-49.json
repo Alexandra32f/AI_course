@@ -1,0 +1,34 @@
+{
+ "task": {
+  "id": "fresh-49",
+  "source": "fresh",
+  "question": "What was the sentence given to Asiya Andrabi in India on March 24, 2026?",
+  "answer": "life imprisonment",
+  "evidence": "24 March – A special NIA court sentences Kashmiri separatist Asiya Andrabi to life imprisonment for her involvement in terrorist activities in Kashmir.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: unknown",
+ "correct": false,
+ "cost": 0.0003540000000001875,
+ "seconds": 2.82916700001806,
+ "steps": 1,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ответь на вопрос коротко, только строкой FINAL: <ответ>. Если не знаешь, напиши FINAL: unknown. Не объясняй ответ."
+  },
+  {
+   "role": "user",
+   "content": "What was the sentence given to Asiya Andrabi in India on March 24, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

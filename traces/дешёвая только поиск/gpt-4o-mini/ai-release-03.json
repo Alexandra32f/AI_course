@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "ai-release-03",
+  "source": "fresh",
+  "question": "Какой результат GPT-5.4 показала на OSWorld-Verified при анонсе в марте 2026 года?",
+  "answer": "75.0%",
+  "evidence": "On OSWorld-Verified, which measures a model’s ability to navigate a desktop environment through screenshots and keyboard/mouse actions, GPT‑5.4 achieves a state-of-the-art 75.0% success rate",
+  "url": "https://openai.com/index/introducing-gpt-5-4/",
+  "page": "openai54"
+ },
+ "answer": "На данный момент нет информации о результатах GPT-5.4 на OSWorld-Verified, связанных с анонсом в марте 2026 года. FINAL: Нет информации.",
+ "correct": false,
+ "cost": 0.00013530000000000486,
+ "seconds": 6.752602800028399,
+ "steps": 2,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. На вопросы по-русски можешь искать в ru.wikipedia.org (language=ru), затем читать статью с тем же language. Для фактов о новых моделях проверь официальные анонсы через source_search/source_find. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Какой результат GPT-5.4 показала на OSWorld-Verified при анонсе в марте 2026 года?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_zOel5WZz3yhNvS0yBTYGuNFv",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\":\"GPT-5.4 OSWorld-Verified March 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_zOel5WZz3yhNvS0yBTYGuNFv",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": "На данный момент нет информации о результатах GPT-5.4 на OSWorld-Verified, связанных с анонсом в марте 2026 года. FINAL: Нет информации.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

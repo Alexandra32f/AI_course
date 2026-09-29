@@ -1,0 +1,100 @@
+{
+ "task": {
+  "id": "fresh-63",
+  "source": "fresh",
+  "question": "How many people were killed in the avalanche near Ratschings in March 2026?",
+  "answer": "Two",
+  "evidence": "21 March – Two people are killed in an avalanche at the Hohe Ferse near Ratschings.",
+  "page": "2026 in Italy",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Italy",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "I couldn't find any information regarding the avalanche near Ratschings in March 2026 or the number of casualties. It appears that such information is not yet available or hasn't been reported. \n\nFINAL: No information available.",
+ "correct": false,
+ "cost": 0.00029969999999999997,
+ "seconds": 21.898128600092605,
+ "steps": 4,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. На вопросы по-русски можешь искать в ru.wikipedia.org (language=ru), затем читать статью с тем же language. Для фактов о новых моделях проверь официальные анонсы через source_search/source_find. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "How many people were killed in the avalanche near Ratschings in March 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_LgRGvvjIKEpL9ySwatgkhHDJ",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Ratschings avalanche March 2026\",\"language\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_LgRGvvjIKEpL9ySwatgkhHDJ",
+   "content": "[en:2026 in Italy] The following is a list of events of the year 2026 in Italy. | Other titles: ['Deaths in September 2022']"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_m9p0aQ70IaBrWaBzrs1uT5lL",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"лаваж недалеко от Раччинга, март 2026\",\"language\":\"ru\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_m9p0aQ70IaBrWaBzrs1uT5lL",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_1oYkMRAM0B3PsfuEUrBEgffV",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\":\"Ratschings avalanche March 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_1oYkMRAM0B3PsfuEUrBEgffV",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": "I couldn't find any information regarding the avalanche near Ratschings in March 2026 or the number of casualties. It appears that such information is not yet available or hasn't been reported. \n\nFINAL: No information available.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

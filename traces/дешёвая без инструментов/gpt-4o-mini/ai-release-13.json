@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "ai-release-13",
+  "source": "fresh",
+  "question": "Какую оценку HLE-Verified Google указала для Gemini 3.8 Flash в сентябре 2026 года?",
+  "answer": "54.9%",
+  "evidence": "3.8 Flash also achieves a 54.9% on HLE-Verified, demonstrating its ability to handle multi-step reasoning",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+  "page": "google38"
+ },
+ "answer": "FINAL: unknown.",
+ "correct": false,
+ "cost": 1.2599999999999981e-05,
+ "seconds": 2.443280299892649,
+ "steps": 1,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ответь на вопрос коротко, только строкой FINAL: <ответ>. Если не знаешь, напиши FINAL: unknown. Не объясняй ответ."
+  },
+  {
+   "role": "user",
+   "content": "Какую оценку HLE-Verified Google указала для Gemini 3.8 Flash в сентябре 2026 года?"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

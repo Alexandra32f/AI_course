@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "ai-release-01",
+  "source": "fresh",
+  "question": "Каков верхний предел контекстного окна GPT-5.4 в API и Codex, объявленный в марте 2026 года?",
+  "answer": "1M tokens",
+  "evidence": "It supports up to 1M tokens of context, allowing agents to plan, execute, and verify tasks across long horizons.",
+  "url": "https://openai.com/index/introducing-gpt-5-4/",
+  "page": "openai54"
+ },
+ "answer": "FINAL: unknown",
+ "correct": false,
+ "cost": 1.2599999999999981e-05,
+ "seconds": 3.0410332998726517,
+ "steps": 1,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ответь на вопрос коротко, только строкой FINAL: <ответ>. Если не знаешь, напиши FINAL: unknown. Не объясняй ответ."
+  },
+  {
+   "role": "user",
+   "content": "Каков верхний предел контекстного окна GPT-5.4 в API и Codex, объявленный в марте 2026 года?"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "task": {
+  "id": "fresh-78",
+  "source": "fresh",
+  "question": "What is the median overall survival time reported for patients with metastatic pancreatic cancer in May 2026?",
+  "answer": "13.2 months",
+  "evidence": "31 May – A Phase 3 trial published in the New England Journal of Medicine reports that daraxonrasib, an investigational oral RAS(ON) inhibitor, nearly doubles median overall survival in patients with previously treated metastatic pancreatic cancer, from 6.6 months with standard chemotherapy to 13.2 months.",
+  "page": "2026 in science",
+  "url": "https://en.wikipedia.org/wiki/2026_in_science",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "I couldn't find any specific information regarding the median overall survival time for patients with metastatic pancreatic cancer reported in May 2026. This data may not yet be publicly available or confirmed. \n\nFINAL: No data available.",
+ "correct": false,
+ "cost": 0.00020384999999999848,
+ "seconds": 13.96195699996315,
+ "steps": 3,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. На вопросы по-русски можешь искать в ru.wikipedia.org (language=ru), затем читать статью с тем же language. Для фактов о новых моделях проверь официальные анонсы через source_search/source_find. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What is the median overall survival time reported for patients with metastatic pancreatic cancer in May 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_tJmkuxxBLjcRsyiHfCPtgCkj",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\":\"median overall survival time metastatic pancreatic cancer May 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_tJmkuxxBLjcRsyiHfCPtgCkj",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_hs5xqslYO1omcWXwM46kM7xp",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\":\"Pancreatic cancer median overall survival 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_hs5xqslYO1omcWXwM46kM7xp",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": "I couldn't find any specific information regarding the median overall survival time for patients with metastatic pancreatic cancer reported in May 2026. This data may not yet be publicly available or confirmed. \n\nFINAL: No data available.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

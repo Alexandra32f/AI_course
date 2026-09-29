@@ -1,0 +1,104 @@
+{
+ "task": {
+  "id": "ai-release-01",
+  "source": "fresh",
+  "question": "Каков верхний предел контекстного окна GPT-5.4 в API и Codex, объявленный в марте 2026 года?",
+  "answer": "1M tokens",
+  "evidence": "It supports up to 1M tokens of context, allowing agents to plan, execute, and verify tasks across long horizons.",
+  "url": "https://openai.com/index/introducing-gpt-5-4/",
+  "page": "openai54"
+ },
+ "answer": "На данный момент у меня нет информации о верхнем пределе контекстного окна GPT-5.4 в API и Codex, а также о любых объявлениях, связанных с этим, в марте 2026 года. Информация о новых моделях может быть недоступна или не обновлена в базе данных. \n\nFINAL: Информация недоступна.",
+ "correct": false,
+ "cost": 0.00041535000000000877,
+ "seconds": 17.855106099974364,
+ "steps": 3,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. На вопросы по-русски можешь искать в ru.wikipedia.org (language=ru), затем читать статью с тем же language. Для фактов о новых моделях проверь официальные анонсы через source_search/source_find. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Каков верхний предел контекстного окна GPT-5.4 в API и Codex, объявленный в марте 2026 года?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_VNL8ufXDoWGw20gidLSEZzr0",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\": \"GPT-5.4 API контекстное окно\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "call_AuCXrhwiLw4YT5hB3i8GKvPK",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\": \"Codex контекстное окно\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_VNL8ufXDoWGw20gidLSEZzr0",
+   "content": "No data"
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_AuCXrhwiLw4YT5hB3i8GKvPK",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_671aBNAhR8fPaNHCYNMsONAz",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\": \"GPT-5.4 анонс март 2026\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "call_QFBRYcXTIEr5QLTKPnp2aNQW",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\": \"Codex анонс март 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_671aBNAhR8fPaNHCYNMsONAz",
+   "content": "No data"
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_QFBRYcXTIEr5QLTKPnp2aNQW",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": "На данный момент у меня нет информации о верхнем пределе контекстного окна GPT-5.4 в API и Codex, а также о любых объявлениях, связанных с этим, в марте 2026 года. Информация о новых моделях может быть недоступна или не обновлена в базе данных. \n\nFINAL: Информация недоступна.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

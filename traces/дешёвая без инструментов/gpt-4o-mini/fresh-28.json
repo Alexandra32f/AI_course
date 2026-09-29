@@ -1,0 +1,34 @@
+{
+ "task": {
+  "id": "fresh-28",
+  "source": "fresh",
+  "question": "What was the number of people killed in the mass shooting at Tumbler Ridge Secondary School in British Columbia, Canada, in February 2026?",
+  "answer": "nine",
+  "evidence": "February 10 – At least nine people, including the perpetrator, are killed, and 27 are injured in a mass shooting at Tumbler Ridge Secondary School and at a residence in Tumbler Ridge, British Columbia, Canada.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: unknown.",
+ "correct": false,
+ "cost": 1.3199999999999996e-05,
+ "seconds": 2.8647725998889655,
+ "steps": 1,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ответь на вопрос коротко, только строкой FINAL: <ответ>. Если не знаешь, напиши FINAL: unknown. Не объясняй ответ."
+  },
+  {
+   "role": "user",
+   "content": "What was the number of people killed in the mass shooting at Tumbler Ridge Secondary School in British Columbia, Canada, in February 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

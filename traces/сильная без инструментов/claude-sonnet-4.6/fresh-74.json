@@ -1,0 +1,34 @@
+{
+ "task": {
+  "id": "fresh-74",
+  "source": "fresh",
+  "question": "Who ceased Nicaragua's electoral system on July 20, 2026?",
+  "answer": "Daniel Ortega",
+  "evidence": "July 20 – Nicaraguan Co-President Daniel Ortega ceases their country's electoral system, thereby suspending the next general election indefinitely as the country's elections were now declared obsolete.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: unknown",
+ "correct": false,
+ "cost": 0.00032999999999994145,
+ "seconds": 2.7830460001714528,
+ "steps": 1,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ответь на вопрос коротко, только строкой FINAL: <ответ>. Если не знаешь, напиши FINAL: unknown. Не объясняй ответ."
+  },
+  {
+   "role": "user",
+   "content": "Who ceased Nicaragua's electoral system on July 20, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,174 @@
+{
+ "task": {
+  "id": "ai-release-18",
+  "source": "fresh",
+  "question": "Какая модель Meta, запущенная в июле 2026 года, применяет инструменты поиска и программирования при генерации изображений?",
+  "answer": "Muse Image",
+  "evidence": "Muse Image operates as an agent: it invokes search and coding tools to improve accuracy",
+  "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/",
+  "page": "metamuse"
+ },
+ "answer": "Основываясь на найденной информации, модель Meta, которая была запущена в июле 2026 года - это **Muse Spark**. \n\nОднако в доступных данных из Википедии указано, что Muse Spark - это большая языковая модель (LLM), а не модель для генерации изображений. В семействе Muse упоминаются также Muse Image и Muse Video, но конкретной информации о том, какая именно",
+ "correct": true,
+ "cost": 0.02840599999999993,
+ "seconds": 43.80793930008076,
+ "steps": 7,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. На вопросы по-русски можешь искать в ru.wikipedia.org (language=ru), затем читать статью с тем же language. Для фактов о новых моделях проверь официальные анонсы через source_search/source_find. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Какая модель Meta, запущенная в июле 2026 года, применяет инструменты поиска и программирования при генерации изображений?"
+  },
+  {
+   "role": "assistant",
+   "content": "Я помогу вам найти информацию о модели Meta, запущенной в июле 2026 года. Давайте поищем официальные анонсы.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01UG94dW41LH9S4kHVy4yLPb",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\": \"Meta July 2026 image generation search programming tools\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_019S8pJKTi3hMMCPsXLH9AHp",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\": \"Meta 2026 новая модель генерация изображений\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01UG94dW41LH9S4kHVy4yLPb",
+   "content": "No data"
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_019S8pJKTi3hMMCPsXLH9AHp",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": "Попробую поискать более общую информацию о моделях Meta для генерации изображений:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01S389PHuQmAk65ys44W6Qsf",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\": \"Meta image generation model 2026\"}"
+     }
+    },
+    {
+     "type": "function",
+     "index": 1,
+     "id": "toolu_bdrk_01YXCd2QnSP19dcyUcaLW2ya",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\": \"Meta Imagine генерация изображений\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01S389PHuQmAk65ys44W6Qsf",
+   "content": "No data"
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01YXCd2QnSP19dcyUcaLW2ya",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": "Позвольте мне поискать в Википедии информацию о моделях Meta:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01SsTqnwQG1weJmQmNJSGwW3",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Meta AI image generation model July 2026\", \"language\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01SsTqnwQG1weJmQmNJSGwW3",
+   "content": "[en:Meta Superintelligence Labs] Meta Superintelligence Labs (MSL) is an American artificial intelligence division of Meta Platforms, headquartered in Menlo Park, California, founded in June 2025. The division focuses on research and development in the field of artificial superintelligence. MSL produces the Muse family of generative AI models, including the Muse Spark large language model (LLM), Muse Image and Muse Video. MSL was preceded by Facebook Artificial Intelligence Research (FAIR), directed by Yann LeCun. In 2017 FAIR released PyTorch, an open source deep learning framework later used by ChatGPT, Tesla Autopilot, Uber's Pyro, and Hugging Face's Transformers. When Meta rebranded in 2021, FAIR was renamed Fundamental Artificial Intelligence Research, and Meta AI was formed. From 2023 to 2025, Meta released four iterations of the Llama LLM. In June 2025, Meta began developing a larger model codenamed Behemoth, reportedly motivated by CEO Mark Zuckerberg's displeasure with Llama 4. Meta spent more than $14 billion to acquire a 49% non-voting stake in Scale AI, a data annotation and language model benchmarking company. Scale AI's CEO Alexandr Wang moved to Chief AI Officer at Meta, leading MSL. Former GitHub CEO Nat Friedman joined as head of product. Meta had also unsuccessfully sought the acquisition of Safe Superintelligence Inc., Thinking Machines Lab, and Perplexity AI. In November 2025, LeCun left Meta to found Advanced Machine Intelligence Labs. Muse Spark was released in July 2026, achieving a top five result in benchmarks by Artificial Analysis. | Other titles: ['Mistral AI', 'Meta AI']"
+  },
+  {
+   "role": "assistant",
+   "content": "Отлично! Я нашел информацию о модели Muse. Давайте получим больше деталей о Muse Spark и возможностях генерации изображений:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_016nYs4KYYbvbxzPBQYnsop8",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"Meta Superintelligence Labs\", \"keywords\": \"Muse Spark July 2026 image generation search programming tools\", \"language\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_016nYs4KYYbvbxzPBQYnsop8",
+   "content": "Meta Superintelligence Labs (MSL) is an American artificial intelligence division of Meta Platforms, headquartered in Menlo Park, California, founded in June 2025. The division focuses on research and development in the field of artificial superintelligence. MSL produces the Muse family of generative AI models, including the Muse Spark large language model (LLM), Muse Image and Muse Video.\nMSL was preceded by Facebook Artificial Intelligence Research (FAIR), directed by Yann LeCun. In 2017 FAIR released PyTorch, an open source deep learning framework later used by ChatGPT, Tesla Autopilot, Uber's Pyro, and Hugging Face's Transformers. When Meta rebranded in 2021, FAIR was renamed Fundamental Artificial Intelligence Research, and Meta AI was formed. From 2023 to 2025, Meta released four iterations of the Llama LLM.\nIn June 2025, Meta began developing a larger model codenamed Behemoth, reportedly motivated by CEO Mark Zuckerberg's displeasure with Llama 4. Meta spent more than $14 billion to acquire a 49% non-voting stake in Scale AI, a data annotation and language model benchmarking company. Scale AI's CEO Alexandr Wang moved to Chief AI Officer at Meta, leading MSL. Former GitHub CEO Nat Friedman joined as head of product. Meta had also unsuccessfully sought the acquisition of Safe Superintelligence Inc., Thinking Machines Lab, and Perplexity AI. In November 2025, LeCun left Meta to found Advanced Machine Intelligence Labs. Muse Spark was released in July 2026, achieving a top five result in benchmarks by Artificial Analysis.\nThe then-named Facebook founded a AI division in 2013 as Facebook Artificial Intelligence Research (FAIR). It has workspaces in Menlo Park, London, New York City, Paris, Seattle, Pittsburgh, Tel Aviv, and Montreal as of 2025.\nFAIR's research includes self-supervised learning, generative adversarial networks, document classification and translation, and computer vision. FAIR released Torch deep-learning modules as well as PyTorch in 2017, an ope"
+  },
+  {
+   "role": "assistant",
+   "content": "Я вижу, что Muse Spark - это LLM (большая языковая модель), выпущенная в июле 2026. Но нужно найти информацию конкретно о модели для генерации изображений. Давайте поищем информацию о Muse Image:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01ATtTc8gZuHvVvFBs2QtxnN",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Meta Muse Image July 2026 search programming\", \"language\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01ATtTc8gZuHvVvFBs2QtxnN",
+   "content": "[en:Meta Superintelligence Labs] Meta Superintelligence Labs (MSL) is an American artificial intelligence division of Meta Platforms, headquartered in Menlo Park, California, founded in June 2025. The division focuses on research and development in the field of artificial superintelligence. MSL produces the Muse family of generative AI models, including the Muse Spark large language model (LLM), Muse Image and Muse Video. MSL was preceded by Facebook Artificial Intelligence Research (FAIR), directed by Yann LeCun. In 2017 FAIR released PyTorch, an open source deep learning framework later used by ChatGPT, Tesla Autopilot, Uber's Pyro, and Hugging Face's Transformers. When Meta rebranded in 2021, FAIR was renamed Fundamental Artificial Intelligence Research, and Meta AI was formed. From 2023 to 2025, Meta released four iterations of the Llama LLM. In June 2025, Meta began developing a larger model codenamed Behemoth, reportedly motivated by CEO Mark Zuckerberg's displeasure with Llama 4. Meta spent more than $14 billion to acquire a 49% non-voting stake in Scale AI, a data annotation and language model benchmarking company. Scale AI's CEO Alexandr Wang moved to Chief AI Officer at Meta, leading MSL. Former GitHub CEO Nat Friedman joined as head of product. Meta had also unsuccessfully sought the acquisition of Safe Superintelligence Inc., Thinking Machines Lab, and Perplexity AI. In November 2025, LeCun left Meta to found Advanced Machine Intelligence Labs. Muse Spark was released in July 2026, achieving a top five result in benchmarks by Artificial Analysis. | Other titles: ['Meta AI', 'Meta Platforms']"
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "Основываясь на найденной информации, модель Meta, которая была запущена в июле 2026 года - это **Muse Spark**. \n\nОднако в доступных данных из Википедии указано, что Muse Spark - это большая языковая модель (LLM), а не модель для генерации изображений. В семействе Muse упоминаются также Muse Image и Muse Video, но конкретной информации о том, какая именно",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

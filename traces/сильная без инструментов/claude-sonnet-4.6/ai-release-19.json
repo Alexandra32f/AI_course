@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "ai-release-19",
+  "source": "fresh",
+  "question": "Какая техника настройки гиперпараметров описана Meta при релизе Llama 4 Scout и Maverick в апреле 2025 года?",
+  "answer": "MetaP",
+  "evidence": "We developed a new training technique which we refer to as MetaP that allows us to reliably set critical model hyper-parameters",
+  "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+  "page": "meta4"
+ },
+ "answer": "FINAL: iRoPE (интерполяция RoPE) не является ответом на вопрос о гиперпараметрах.\n\nПозвольте переосмыслить: при релизе Llama 4 Scout и Maverick Meta описывала использование **MetaP** — технику настройки гиперпараметров, которая позволяет переносить оптимальные гиперпараметры (например, learning rate) с малых моделей на большие.",
+ "correct": false,
+ "cost": 0.0022289999999998145,
+ "seconds": 4.576609399868175,
+ "steps": 1,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ответь на вопрос коротко, только строкой FINAL: <ответ>. Если не знаешь, напиши FINAL: unknown. Не объясняй ответ."
+  },
+  {
+   "role": "user",
+   "content": "Какая техника настройки гиперпараметров описана Meta при релизе Llama 4 Scout и Maverick в апреле 2025 года?"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: iRoPE (интерполяция RoPE) не является ответом на вопрос о гиперпараметрах.\n\nПозвольте переосмыслить: при релизе Llama 4 Scout и Maverick Meta описывала использование **MetaP** — технику настройки гиперпараметров, которая позволяет переносить оптимальные гиперпараметры (например, learning rate) с малых моделей на большие.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

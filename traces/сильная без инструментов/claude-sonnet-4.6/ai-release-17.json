@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "ai-release-17",
+  "source": "fresh",
+  "question": "Какую видеомодель Meta показала в режиме превью 7 июля 2026 года?",
+  "answer": "Muse Video",
+  "evidence": "We’re excited to launch Muse Image and preview Muse Video, the first media generation models developed by Meta Superintelligence Labs.",
+  "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/",
+  "page": "metamuse"
+ },
+ "answer": "FINAL: unknown",
+ "correct": false,
+ "cost": 0.0003690000000000637,
+ "seconds": 2.5594833998475224,
+ "steps": 1,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ответь на вопрос коротко, только строкой FINAL: <ответ>. Если не знаешь, напиши FINAL: unknown. Не объясняй ответ."
+  },
+  {
+   "role": "user",
+   "content": "Какую видеомодель Meta показала в режиме превью 7 июля 2026 года?"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

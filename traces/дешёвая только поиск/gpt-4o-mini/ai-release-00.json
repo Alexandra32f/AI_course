@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "ai-release-00",
+  "source": "fresh",
+  "question": "Какую модель OpenAI выпустила 5 марта 2026 года в ChatGPT, API и Codex?",
+  "answer": "GPT‑5.4",
+  "evidence": "Today, we’re releasing GPT‑5.4 in ChatGPT (as GPT‑5.4 Thinking), the API, and Codex.",
+  "url": "https://openai.com/index/introducing-gpt-5-4/",
+  "page": "openai54"
+ },
+ "answer": "У меня нет информации о модели OpenAI, выпущенной 5 марта 2026 года в ChatGPT, API и Codex, так как это событие происходит в будущем. FINAL: Нет информации.",
+ "correct": false,
+ "cost": 0.00020475000000000354,
+ "seconds": 11.908199799945578,
+ "steps": 3,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. На вопросы по-русски можешь искать в ru.wikipedia.org (language=ru), затем читать статью с тем же language. Для фактов о новых моделях проверь официальные анонсы через source_search/source_find. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Какую модель OpenAI выпустила 5 марта 2026 года в ChatGPT, API и Codex?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_R2z8VKRr5BjbCNPv9IUf6NiQ",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\":\"OpenAI release March 5 2026 ChatGPT API Codex\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_R2z8VKRr5BjbCNPv9IUf6NiQ",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Ro82UsvPfUCOCTSOI7jPHH1q",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\":\"OpenAI ChatGPT release history\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Ro82UsvPfUCOCTSOI7jPHH1q",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": "У меня нет информации о модели OpenAI, выпущенной 5 марта 2026 года в ChatGPT, API и Codex, так как это событие происходит в будущем. FINAL: Нет информации.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

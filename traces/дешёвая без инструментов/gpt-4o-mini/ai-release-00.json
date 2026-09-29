@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "ai-release-00",
+  "source": "fresh",
+  "question": "Какую модель OpenAI выпустила 5 марта 2026 года в ChatGPT, API и Codex?",
+  "answer": "GPT‑5.4",
+  "evidence": "Today, we’re releasing GPT‑5.4 in ChatGPT (as GPT‑5.4 Thinking), the API, and Codex.",
+  "url": "https://openai.com/index/introducing-gpt-5-4/",
+  "page": "openai54"
+ },
+ "answer": "FINAL: unknown",
+ "correct": false,
+ "cost": 1.1699999999999905e-05,
+ "seconds": 3.367058799834922,
+ "steps": 1,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ответь на вопрос коротко, только строкой FINAL: <ответ>. Если не знаешь, напиши FINAL: unknown. Не объясняй ответ."
+  },
+  {
+   "role": "user",
+   "content": "Какую модель OpenAI выпустила 5 марта 2026 года в ChatGPT, API и Codex?"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

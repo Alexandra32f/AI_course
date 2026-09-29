@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "ai-release-18",
+  "source": "fresh",
+  "question": "Какая модель Meta, запущенная в июле 2026 года, применяет инструменты поиска и программирования при генерации изображений?",
+  "answer": "Muse Image",
+  "evidence": "Muse Image operates as an agent: it invokes search and coding tools to improve accuracy",
+  "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/",
+  "page": "metamuse"
+ },
+ "answer": "FINAL: unknown",
+ "correct": false,
+ "cost": 0.00041100000000016124,
+ "seconds": 2.8510825999546796,
+ "steps": 1,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ответь на вопрос коротко, только строкой FINAL: <ответ>. Если не знаешь, напиши FINAL: unknown. Не объясняй ответ."
+  },
+  {
+   "role": "user",
+   "content": "Какая модель Meta, запущенная в июле 2026 года, применяет инструменты поиска и программирования при генерации изображений?"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

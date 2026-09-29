@@ -1,0 +1,148 @@
+{
+ "task": {
+  "id": "fresh-123",
+  "source": "fresh",
+  "question": "What country broke off diplomatic relations with France in June 2026?",
+  "answer": "Burkina Faso",
+  "evidence": "26 June – Burkina Faso breaks off diplomatic relations with France.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "У меня нет информации о стране, которая разорвала дипломатические отношения с Францией в июне 2026 года. FINAL: неизвестно.",
+ "correct": false,
+ "cost": 0.0009371999999999991,
+ "seconds": 31.9737257999368,
+ "steps": 7,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. На вопросы по-русски можешь искать в ru.wikipedia.org (language=ru), затем читать статью с тем же language. Для фактов о новых моделях проверь официальные анонсы через source_search/source_find. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What country broke off diplomatic relations with France in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_neKDR6YxtjNWKePGkY5ULs9e",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"country broke off diplomatic relations with France in June 2026\",\"language\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_neKDR6YxtjNWKePGkY5ULs9e",
+   "content": "[en:Foreign relations of Nauru] Nauru became a sovereign, independent republic on 31 January 1968, following the passage of the Nauru Independence Act 1967 by the Parliament of Australia and the end of its status as a United Nations Trust Territory. Nauru has established diplomatic relations with a number of nations, including most of its Pacific neighbors with which it maintains economic, cultural and administrative ties. | Other titles: ['International recognition of Israel', 'Foreign relations of Israel']"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_h76RVF8gq2blwE2wkulHSd37",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\":\"June 2026 diplomatic relations France Nauru\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_h76RVF8gq2blwE2wkulHSd37",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_QM1xCMKXu2U090mmPpgzakhd",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Nauru breaks diplomatic relations with France June 2026\",\"language\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_QM1xCMKXu2U090mmPpgzakhd",
+   "content": "[en:Nauru] Nauru, officially the Republic of Naoero, is an island country and microstate in the South Pacific Ocean. It lies within the Micronesia subregion of Oceania, with its nearest neighbour being Banaba (part of Kiribati) about 300 kilometres (190 mi) to the east. Yaren is its de facto capital. With an area of only 21 square kilometres (8.1 mi2; 2,100 ha; 5,200 acres), Nauru is the third-smallest country in the world, as well as the smallest member state of the Commonwealth of Nations by both area and population. Its population of about 12,000 is the world's third-smallest (not including colonies or overseas territories). Nauru is a member of the United Nations, the Commonwealth of Nations, and the Organisation of African, Caribbean and Pacific States. First settled by Micronesians circa 1000 BCE, Nauru was annexed and claimed as a colony by the German Empire in the late 19th century. It was occupied by Australia during World War I and subsequently became a League of Nations mandate administered by Australia with New Zealand and the United Kingdom as co-trustees. Nauru was occupied by Japan for three years during World War II and became a United Nations trust territory after the war's end. Nauru gained its independence from Australia in 1968. At various points since 2001, it has accepted aid from the Australian Government in exchange for hosting the Nauru Regional Processing Centre, a controversial offshore Australian immigration detention facility. As a result of heavy dependence on Australia, some sources have identified Nauru as an Australian client state. Nauru is a phosphate-rock island with rich deposits near the surface, as a result of which most of its interior was profitably, but destructively strip-mined for about a century starting in 1900. The island's viable phosphate reserves were exhausted in the 1990s and, in a classic example of the resource curse, mismanagement of the island's accumulated mining wealth resulted in serious financial troubles t"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_B1Mjdn6MQRZunv15ehpMCoAK",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\":\"Nauru breaks diplomatic relations with France\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_B1Mjdn6MQRZunv15ehpMCoAK",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_rvUukGUB4Au7PpeoTaSAJ8n6",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Nauru diplomatic relations France June 2026\",\"language\":\"ru\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_rvUukGUB4Au7PpeoTaSAJ8n6",
+   "content": "No data"
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "У меня нет информации о стране, которая разорвала дипломатические отношения с Францией в июне 2026 года. FINAL: неизвестно.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

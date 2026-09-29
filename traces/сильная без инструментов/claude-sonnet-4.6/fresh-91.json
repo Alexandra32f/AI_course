@@ -1,0 +1,34 @@
+{
+ "task": {
+  "id": "fresh-91",
+  "source": "fresh",
+  "question": "What was the amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026?",
+  "answer": "₹25,863 crore",
+  "evidence": "5 July – Union Agriculture and Rural Development Minister Shivraj Singh Chouhan releases the first instalment of ₹25,863 crore (US$2.7 billion) to states for the implementation of the VB-G RAM-G scheme.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: unknown",
+ "correct": false,
+ "cost": 0.0003750000000000142,
+ "seconds": 2.9493874001782387,
+ "steps": 1,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ответь на вопрос коротко, только строкой FINAL: <ответ>. Если не знаешь, напиши FINAL: unknown. Не объясняй ответ."
+  },
+  {
+   "role": "user",
+   "content": "What was the amount released by Shivraj Singh Chouhan for the VB-G RAM-G scheme in July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

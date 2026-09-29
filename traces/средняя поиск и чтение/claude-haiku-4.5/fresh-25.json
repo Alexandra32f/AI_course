@@ -1,0 +1,148 @@
+{
+ "task": {
+  "id": "fresh-25",
+  "source": "fresh",
+  "question": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?",
+  "answer": "\"open war\"",
+  "evidence": "February 26 – 2026 Afghanistan–Pakistan war: The government of Pakistan declares \"open war\" against the Taliban in Afghanistan.",
+  "page": "2026",
+  "url": "https://en.wikipedia.org/wiki/2026",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Based on the search results I found, the article about the 2026 Afghanistan-Pakistan war indicates that \"Since February 2026, Pakistan and the Taliban-led government of Afghanistan have been engaged in the most sustained cross-border conflict between the two countries since the Taliban's 2021 return to power in Afghanistan.\"\n\nThe article mentions that Pakistan's Defence Minister Khawaja Asif called it an \"open war\" fought under the codename Operation Ghazab lil-Haq, and the conflict escalated within a week of initial Pakistani airstrikes on alleged Pakistani Taliban (TTP",
+ "correct": true,
+ "cost": 0.03009100000000009,
+ "seconds": 45.01894739991985,
+ "steps": 7,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. На вопросы по-русски можешь искать в ru.wikipedia.org (language=ru), затем читать статью с тем же language. Для фактов о новых моделях проверь официальные анонсы через source_search/source_find. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "In the Afghanistan–Pakistan war, what did the government of Pakistan declare on February 26, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about the Afghanistan-Pakistan war and what Pakistan declared on February 26, 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01CyCzDaJwDdvadTSWXosNwX",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Afghanistan Pakistan war February 26 2026 Pakistan government declaration\", \"language\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01CyCzDaJwDdvadTSWXosNwX",
+   "content": "[en:2025 Afghanistan–Pakistan conflict] In the early hours of 9 October 2025, Pakistan carried out airstrikes in Kabul, Khost, Jalalabad, and Paktika, targeting the Pakistani Taliban (TTP) which it code named \"Operation Khyber Storm\". The group's leader, Noor Wali Mehsud, was the main target of the attack in Kabul, which occurred in Abdul Haq Square, but survived. On the night from 11 to 12 October, the Afghan Taliban launched an attack on multiple Pakistani military posts along the Afghanistan–Pakistan border in retaliation for the Pakistani airstrikes. Following the attack, the Taliban’s Ministry of Defense announced the conclusion of their operation. However, Pakistani officials rejected the Taliban’s ceasefire declaration and continued their offensive, which was confirmed by a Taliban spokesman, noting that clashes persisted into the morning of 12 October. On the same day, reports emerged of Pakistani drone strikes in Kandahar and Helmand provinces, killing 19 Taliban fighters, though these casualties were not confirmed by Taliban officials. Both sides claimed to have inflicted heavy losses on each other and captured or destroyed several border posts. Satellite imagery of a Taliban military compound in Spin Boldak showed that it had suffered significant damage during the clashes. Heavy fighting resumed on 15 October, with both sides accusing the other of initiating the violence. The fiercest fighting occurred around Spin Boldak, where civilian casualties were reported. Pakistan later announced “precision” airstrikes inside Afghanistan, which Afghan locals and media said hit Kabul and military sites in Kandahar, while the Taliban attributed the Kabul explosion to an oil-tanker blast. Following a 48-hour ceasefire, which was only set by Pakistan publicly, the Pakistani military carried out airstrikes in Paktika province after the truce expired. The Taliban accused Pakistan of targeting civilians in Paktika, while Pakistan rebutted that the strikes targeted militan"
+  },
+  {
+   "role": "assistant",
+   "content": "The search results show information about the 2025 Afghanistan-Pakistan conflict, but they don't mention February 26, 2026. Let me search more specifically for that date.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01ACvccymBZAsd32v9X6Y4Fh",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"\\\"February 26, 2026\\\" Pakistan Afghanistan\", \"language\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01ACvccymBZAsd32v9X6Y4Fh",
+   "content": "[en:Opium production in Afghanistan] Afghanistan has long had a history of opium poppy cultivation and harvest. Prior to the 2021 Taliban takeover of Afghanistan, Afghanistan's harvest produced more than 90% of illicit heroin globally, and more than 95% of the European supply. More land was used for opium in Afghanistan than for coca cultivation in Latin America. The country was the world's leading illicit drug producer from 2001 until 2024. In 2007, 93% of the non-pharmaceutical-grade opiates on the world market originated in Afghanistan. In 2019 Afghanistan still produced about 84% of the world market. This amounts to an export value of about US$4 billion, with a quarter being earned by opium farmers and the rest going to district officials, insurgents, warlords, and drug traffickers. In the seven years (1994–2000) prior to a Taliban opium ban, the Afghan farmers' share of gross income from opium was divided among 200,000 families. The Taliban have taken a mixed stance on opium over the years. Poorly enforced restrictions in the 1990s were a prelude to a full ban on religious grounds in 2000. However, the Afghan war in 2001 led to the ban being only briefly effective. The opium trade spiked in 2006 after the Taliban lost control of local warlords. Despite having previously banned opium, the Taliban used opium money to fuel their two-decade campaign to retake Afghanistan, with Taliban allegedly earning up to 60% of their annual revenue from the trade. The then Afghan government also outlawed production, but despite help from coalition military forces to tamp down on drug trafficking, the ban did little to stop production. After the Fall of Kabul in 2021, the opium trade boomed, and most farmers planted at least some opium for harvest in spring 2022. The Taliban outlawed production again in April 2022, during the poppy harvest. In November 2023, a U.N report showed that in the entirety of Afghanistan, poppy cultivation dropped by over 95%, removing it from its place"
+  },
+  {
+   "role": "assistant",
+   "content": "That search isn't returning relevant results about the specific date. Let me try a different search approach.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01Sx9PQAAjcEmemuWyT2Yzx9",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"\\\"26 February 2026\\\" Pakistan declaration war\", \"language\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01Sx9PQAAjcEmemuWyT2Yzx9",
+   "content": "[en:Asia and Pacific Rim Peace Conference] The Asia and Pacific Rim Peace Conference (also known as the Beijing Peace Conference) was held in Beijing, China, from October 2–12, 1952. Delegates from dozens of countries attended the conference, which including a number of speeches and opening remarks by Chinese communist leader Mao Zedong. The gathering took place against the backdrop of the Korean War and the growing Cold War between the communist East and democratic West. It coincided with the heyday of positive Sino-Soviet relations. Delegates, mainly affiliated with domestic communist parties, traveled to Beijing from Canada, the United States, Guatemala, Colombia, Chile, Pakistan, India and Indonesia. Representatives from Australia attended the preliminary conference in Beijing in 1951, but proposed delegates for the 1952 conference had their passports revoked in an unprecedented Federal government intervention. Resolutions were passed, including a signed declaration by the Pakistani and Indian delegates supporting a negotiated settlement to any differences and the resolution of the Kashmir question \"by the people of the Kashmir.\" | Other titles: ['War in Afghanistan (2001–2021)', 'Economy of Bangladesh']"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search for the Afghanistan-Pakistan war Wikipedia article directly to find information about this date.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_015pVBRuGT7cCfXpaPbfwKQZ",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Afghanistan Pakistan war\", \"language\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_015pVBRuGT7cCfXpaPbfwKQZ",
+   "content": "[en:2026 Afghanistan–Pakistan war] Since February 2026, Pakistan and the Taliban-led government of Afghanistan have been engaged in the most sustained cross-border conflict between the two countries since the Taliban's 2021 return to power in Afghanistan. The conflict began with Pakistani airstrikes on alleged Pakistani Taliban (TTP) and Islamic State – Khorasan Province camps in eastern Afghanistan, and escalated within a week into what Pakistan's defence minister, Khawaja Asif, called an \"open war\" fought under the codename Operation Ghazab lil-Haq. The war has combined air and artillery exchanges along the Durand Line with a parallel insurgency inside Pakistan, as the TTP and allied groups intensified attacks in Khyber Pakhtunkhwa and Balochistan. Two ceasefire agreements for the Islamic holidays of Eid al-Fitr and Eid al-Adha briefly reduced hostilities but did not end them; fighting has continued at lower intensity through the summer of 2026 and flared again in September following a mass-casualty attack in Kohat, Pakistan. | Other titles: ['Afghanistan–Pakistan border skirmishes', '2026 Kohat attack']"
+  },
+  {
+   "role": "assistant",
+   "content": "Good! I found a reference to the 2026 Afghanistan-Pakistan war. Now let me read the full article to find what Pakistan declared on February 26, 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01JZkzHvKyC3MPYZdHX2tSXM",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"2026 Afghanistan–Pakistan war\", \"keywords\": \"February 26 2026 Pakistan declaration\", \"language\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01JZkzHvKyC3MPYZdHX2tSXM",
+   "content": "Since February 2026, Pakistan and the Taliban-led government of Afghanistan have been engaged in the most sustained cross-border conflict between the two countries since the Taliban's 2021 return to power in Afghanistan. The conflict began with Pakistani airstrikes on alleged Pakistani Taliban (TTP) and Islamic State – Khorasan Province camps in eastern Afghanistan, and escalated within a week into what Pakistan's defence minister, Khawaja Asif, called an \"open war\" fought under the codename Operation Ghazab lil-Haq.\nThe war has combined air and artillery exchanges along the Durand Line with a parallel insurgency inside Pakistan, as the TTP and allied groups intensified attacks in Khyber Pakhtunkhwa and Balochistan. Two ceasefire agreements for the Islamic holidays of Eid al-Fitr and Eid al-Adha briefly reduced hostilities but did not end them; fighting has continued at lower intensity through the summer of 2026 and flared again in September following a mass-casualty attack in Kohat, Pakistan.\nThe conflict occurred against the backdrop of long-running tensions between Afghanistan and Pakistan rooted in disputes dating back to the independence of Pakistan in 1947. Afghanistan has historically challenged the legitimacy of the Durand Line, which forms the international border between the two nations, contributing to decades of strained relations and periodic clashes.\nRelations deteriorated further following the Taliban's return to power in 2021 in the aftermath of the US withdrawal from Afghanistan. Pakistan has repeatedly accused Afghanistan of providing safe haven to militant groups, particularly the Tehreek-e-Taliban Pakistan (TTP), which has carried out attacks in Pakistan in order to establish an Islamic emirate, similar to the model of government in Afghanistan. Taliban authorities have generally denied these allegations.\nIn early 2026, Pakistan experienced a series of major attacks, primarily in its frontier provinces of Balochistan and Khyber Pakhtunkhwa, along"
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the search results I found, the article about the 2026 Afghanistan-Pakistan war indicates that \"Since February 2026, Pakistan and the Taliban-led government of Afghanistan have been engaged in the most sustained cross-border conflict between the two countries since the Taliban's 2021 return to power in Afghanistan.\"\n\nThe article mentions that Pakistan's Defence Minister Khawaja Asif called it an \"open war\" fought under the codename Operation Ghazab lil-Haq, and the conflict escalated within a week of initial Pakistani airstrikes on alleged Pakistani Taliban (TTP",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

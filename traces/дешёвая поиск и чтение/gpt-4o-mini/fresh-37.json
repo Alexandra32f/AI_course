@@ -1,0 +1,78 @@
+{
+ "task": {
+  "id": "fresh-37",
+  "source": "fresh",
+  "question": "On what date did resident doctors in England announce a four-day strike in June 2026?",
+  "answer": "15 June",
+  "evidence": "Resident doctors in England announce a four-day strike from 7am on 15 June, their 16th strike action over a pay dispute.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "Resident doctors in England announced a four-day strike from 7am on 15 June 2026. \n\nFINAL: 15 June 2026",
+ "correct": true,
+ "cost": 0.00039825000000000277,
+ "seconds": 14.627985199913383,
+ "steps": 3,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. На вопросы по-русски можешь искать в ru.wikipedia.org (language=ru), затем читать статью с тем же language. Для фактов о новых моделях проверь официальные анонсы через source_search/source_find. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "On what date did resident doctors in England announce a four-day strike in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_nirvroR5tdxg4D2wTcoa5dxd",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"resident doctors England four-day strike June 2026\",\"language\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_nirvroR5tdxg4D2wTcoa5dxd",
+   "content": "[en:2026 in England] Events of the year 2026 in England. | Other titles: ['2026 in the United Kingdom', '2026 European heatwaves']"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_mJTP1nFUHjk5pRuINCfpPjIB",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 in England\",\"keywords\":\"resident doctors strike June\",\"language\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_mJTP1nFUHjk5pRuINCfpPjIB",
+   "content": "Staff at two primary schools in Greater Manchester strike over claims their reports of violence and daily assaults are being ignored by senior leadership.\nFormer England striker and manager Kevin Keegan reveals he has been diagnosed with cancer.\nResident doctors in England vote in favour of further strike action in their long-running dispute with the UK government over pay and training posts.\nMadeleine Lonsdale, aged 18, who killed two teenagers in a high-speed car crash in June 2025, weeks after passing her driving test, is sentenced to 14 months in a young offenders' institute.\nUnite the Union is fined £265,000 for breaching an injunction during the Birmingham bin strike by \"slow walking\" in front of waste lorries near depots.\nThe British Medical Association announces that resident doctors in England will stage a six-day strike from 7am on 7 April after talks between union representatives and the UK government broke down.\nResident doctors in England begin a six-day strike\n27 April – John Cotton, leader of Birmingham City Council, says an end to the 14-month-old Birmingham bin strike is \"within sight\".\nAt the Old Bailey, Nancy Pexton is found guilty of the murder of her sister, film director Jennifer Abbott, after slashing her neck and stealing a diamond encrusted Rolex watch belonging to her in June 2025.\nThe 30-storey Altura tower, set to become the tallest residential building in Lancashire, receives planning approval from Preston City Council.\nBomb disposal experts carry out a controlled explosion on a large World War II bomb that was discovered on a building site in Plymouth. 1,200 nearby residents were evacuated as a safety precaution before the detonation took place.\nResident doctors announce a four-day strike from 7am on 15 June, their 16th strike action over a pay dispute.\n=== June ===\n1 June – Vickrum Digwa is sentenced to life imprisonment with a minimum term of 21 years for the murder of Henry Nowak.\n3 June – Nine children are treated in hospital after "
+  },
+  {
+   "role": "assistant",
+   "content": "Resident doctors in England announced a four-day strike from 7am on 15 June 2026. \n\nFINAL: 15 June 2026",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "task": {
+  "id": "ai-release-05",
+  "source": "fresh",
+  "question": "Как называется флагман семейства GPT-5.6, объявленного OpenAI в 2026 году?",
+  "answer": "Sol",
+  "evidence": "our new flagship, Sol, alongside Terra, a balanced model for everyday work, and Luna, our most cost-efficient model.",
+  "url": "https://openai.com/index/gpt-5-6/",
+  "page": "openai56"
+ },
+ "answer": "У меня нет информации о флагмане семейства GPT-5.6, объявленного OpenAI в 2026 году. Возможно, в данный момент нет официальных данных по этому вопросу. \n\nFINAL: Нет информации.",
+ "correct": false,
+ "cost": 0.00027194999999999303,
+ "seconds": 16.075974200153723,
+ "steps": 4,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. На вопросы по-русски можешь искать в ru.wikipedia.org (language=ru), затем читать статью с тем же language. Для фактов о новых моделях проверь официальные анонсы через source_search/source_find. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Как называется флагман семейства GPT-5.6, объявленного OpenAI в 2026 году?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_vj74UtMzWsQAMoEbFgYNG2pR",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\":\"GPT-5.6\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_vj74UtMzWsQAMoEbFgYNG2pR",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_mdsIjNRlXQWmF3JmEAJyE4tK",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\":\"OpenAI GPT-5.6 announcement\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_mdsIjNRlXQWmF3JmEAJyE4tK",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_EoXI0Ava6HVbHC3FfpaOTSlU",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\":\"GPT 5.6 флагман\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_EoXI0Ava6HVbHC3FfpaOTSlU",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": "У меня нет информации о флагмане семейства GPT-5.6, объявленного OpenAI в 2026 году. Возможно, в данный момент нет официальных данных по этому вопросу. \n\nFINAL: Нет информации.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

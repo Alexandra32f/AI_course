@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "ai-release-17",
+  "source": "fresh",
+  "question": "Какую видеомодель Meta показала в режиме превью 7 июля 2026 года?",
+  "answer": "Muse Video",
+  "evidence": "We’re excited to launch Muse Image and preview Muse Video, the first media generation models developed by Meta Superintelligence Labs.",
+  "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/",
+  "page": "metamuse"
+ },
+ "answer": "Не удалось найти информацию о видеомодели Meta, показанной в режиме превью 7 июля 2026 года. Возможно, такая информация еще не доступна в открытых источниках. \n\nFINAL: Информация недоступна.",
+ "correct": false,
+ "cost": 0.00033810000000000784,
+ "seconds": 12.204937899950892,
+ "steps": 3,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. На вопросы по-русски можешь искать в ru.wikipedia.org (language=ru), затем читать статью с тем же language. Для фактов о новых моделях проверь официальные анонсы через source_search/source_find. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Какую видеомодель Meta показала в режиме превью 7 июля 2026 года?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_l34zoSocZFlU3Jy50drgX97z",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\":\"Meta видеомодель превью 7 июля 2026 года\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_l34zoSocZFlU3Jy50drgX97z",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_HzMGd59NdQ5N1qovElHIIqOD",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Meta видеомодель превью 7 июля 2026 года\",\"language\":\"ru\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_HzMGd59NdQ5N1qovElHIIqOD",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": "Не удалось найти информацию о видеомодели Meta, показанной в режиме превью 7 июля 2026 года. Возможно, такая информация еще не доступна в открытых источниках. \n\nFINAL: Информация недоступна.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

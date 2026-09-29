@@ -1,0 +1,122 @@
+{
+ "task": {
+  "id": "fresh-102",
+  "source": "fresh",
+  "question": "Who was recognized as Hero of Ukraine in 2025?",
+  "answer": "Oleksandr Dovhach",
+  "evidence": "9 March – Oleksandr Dovhach, military pilot, Hero of Ukraine (2025).",
+  "page": "2026 in Ukraine",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "Based on the search results, I can see that the Wikipedia article has a 2025 section for Heroes of Ukraine, but the page_find function is only returning the headers and summary statistics rather than the full list of names. The information indicates that as of June 28, 2026, there were 73 heroes of Ukraine from 2025, but the specific names are not showing in the extracted text.\n\nFrom the information available, I can confirm that multiple individuals were recognized as Heroes of Ukraine in 2025 (at least 73 according to the statistics shown), but the specific names of individual recipients are not clearly displayed in the search results I've retrieved.\n\nFINAL: Multiple individuals were recognized as Heroes of Ukraine in 2025 (at least 73 recipients according to official statistics), though the specific names would need to be found in the detailed List of Heroes of Ukraine article on Wikipedia which contains the full enumeration for that year.",
+ "correct": false,
+ "cost": 0.02091299999999996,
+ "seconds": 30.172338099917397,
+ "steps": 5,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. На вопросы по-русски можешь искать в ru.wikipedia.org (language=ru), затем читать статью с тем же language. Для фактов о новых моделях проверь официальные анонсы через source_search/source_find. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who was recognized as Hero of Ukraine in 2025?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about who was recognized as Hero of Ukraine in 2025.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01PvUf3hfBMjEyLr8GTy2P9o",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Hero of Ukraine 2025\", \"language\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01PvUf3hfBMjEyLr8GTy2P9o",
+   "content": "[en:Hero of Ukraine] A Hero of Ukraine (abbr. HOU; Ukrainian: Герой України, romanized: Heroi Ukrainy) is the highest national decoration that can be conferred upon an individual citizen by the president of Ukraine. The decoration was created in 1998 by President Leonid Kuchma. As of July 26, 2026, the total number of recipients was no less than 1,328 (of which decrees awarding 1,282 individuals were published, and for at least 46 individuals, the decrees were not made public). The decoration is granted to two classes of recipients: to civilians, the Order of the State (abbr. OS, Ukrainian: Орден Держави, romanized: Orden Derzhavy); and to military recipients, the Order of the Gold Star (abbr. OGS, Орден «Золота Зірка», Orden \"Zolota Zirka\"). The first foreigner awarded the decoration was Belarusian Mykhailo Zhyznevskyi in June 2017. | Other titles: ['List of Heroes of Ukraine', 'Hero City of Ukraine']"
+  },
+  {
+   "role": "assistant",
+   "content": "The search returned general information about the Hero of Ukraine award but not specific 2025 recipients. Let me search for more specific recent recipients in 2025.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_016qZJVbirzjpXYfkKmYFYn2",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Hero of Ukraine 2025 recipients awarded\", \"language\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_016qZJVbirzjpXYfkKmYFYn2",
+   "content": "[en:List of Heroes of Ukraine] The article uses the latest official Romanization of Ukrainian on resolution of the Government of Ukraine. This is a list of individuals who have been presented with the title Hero of Ukraine in reverse chronological order. As of 26 July 2026, the total number of recipients was no less than 1,328 (of which decrees awarding 1,282 individuals were published, and for at least 46 individuals, the decrees were not made public). Out of all recipients (considering only published decrees), 1007 (79%) have a distinction of the \"Order of the Gold Star\" and 275 (21%) have a distinction of the \"Order of the State\". Number of awards that were given posthumously is 661 (52%). By gender, 1237 (96%) of the recipients are men. The youngest recipient is Stepan Chubenko (died at the age of 16 years and 258 days; awarded posthumously). The oldest recipient, Maksym Hulyi, received the award on his 100th birthday. The only non-citizen awarded the award and for whom specifically an exclusion was made at parliamentary level was Belarusian Mikhail Zhyzneuski in June 2017 (Zhyzneuski was awarded posthumously). There are however 17 other individuals who were awarded the Hero of Ukraine and who were never citizens of Ukraine as they died before Ukraine obtained its independence. Among them are Avgustyn Voloshyn, Stepan Bandera (annulled), Volodymyr Ivasyuk, Vasyl Stus, liquidators Mykola Vashchuk, Vasyl Ihnatenko, Oleksandr Lelechko, Mykola Tytenok, Volodymyr Tishura. There are 17 heroes of Ukraine who previously were awarded the Hero of Socialist Labour. | Other titles: ['Hero of Ukraine', 'Hero of the Russian Federation']"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me access the full List of Heroes of Ukraine article to find the 2025 recipients.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01SUPMsYyNFeNKPfsPcbmRoL",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"List of Heroes of Ukraine\", \"keywords\": \"2025 recipients awarded\", \"language\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01SUPMsYyNFeNKPfsPcbmRoL",
+   "content": "As of 26 July 2026, the total number of recipients was no less than 1,328 (of which decrees awarding 1,282 individuals were published, and for at least 46 individuals, the decrees were not made public).\nOut of all recipients (considering only published decrees), 1007 (79%) have a distinction of the \"Order of the Gold Star\" and 275 (21%) have a distinction of the \"Order of the State\". Number of awards that were given posthumously is 661 (52%). By gender, 1237 (96%) of the recipients are men.\nThe youngest recipient is Stepan Chubenko (died at the age of 16 years and 258 days; awarded posthumously). The oldest recipient, Maksym Hulyi, received the award on his 100th birthday.\nThe only non-citizen awarded the award and for whom specifically an exclusion was made at parliamentary level was Belarusian Mikhail Zhyzneuski in June 2017 (Zhyzneuski was awarded posthumously). There are however 17 other individuals who were awarded the Hero of Ukraine and who were never citizens of Ukraine as they died before Ukraine obtained its independence. Among them are Avgustyn Voloshyn, Stepan Bandera (annulled), Volodymyr Ivasyuk, Vasyl Stus, liquidators Mykola Vashchuk, Vasyl Ihnatenko, Oleksandr Lelechko, Mykola Tytenok, Volodymyr Tishura.\nThere are 17 heroes of Ukraine who previously were awarded the Hero of Socialist Labour.\n== 2025 =="
+  },
+  {
+   "role": "assistant",
+   "content": "Good! There is a 2025 section. Let me search for more specific details about the 2025 Hero of Ukraine awardees.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01VqpbehrgzkPAQYJ2JVQgJF",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"List of Heroes of Ukraine\", \"keywords\": \"2025 January February March April May June July August September October November December\", \"language\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01VqpbehrgzkPAQYJ2JVQgJF",
+   "content": "As of 26 July 2026, the total number of recipients was no less than 1,328 (of which decrees awarding 1,282 individuals were published, and for at least 46 individuals, the decrees were not made public).\nThe only non-citizen awarded the award and for whom specifically an exclusion was made at parliamentary level was Belarusian Mikhail Zhyzneuski in June 2017 (Zhyzneuski was awarded posthumously). There are however 17 other individuals who were awarded the Hero of Ukraine and who were never citizens of Ukraine as they died before Ukraine obtained its independence. Among them are Avgustyn Voloshyn, Stepan Bandera (annulled), Volodymyr Ivasyuk, Vasyl Stus, liquidators Mykola Vashchuk, Vasyl Ihnatenko, Oleksandr Lelechko, Mykola Tytenok, Volodymyr Tishura.\nAs of 28 June 2026: 73.\n== 2025 =="
+  },
+  {
+   "role": "assistant",
+   "content": "Based on the search results, I can see that the Wikipedia article has a 2025 section for Heroes of Ukraine, but the page_find function is only returning the headers and summary statistics rather than the full list of names. The information indicates that as of June 28, 2026, there were 73 heroes of Ukraine from 2025, but the specific names are not showing in the extracted text.\n\nFrom the information available, I can confirm that multiple individuals were recognized as Heroes of Ukraine in 2025 (at least 73 according to the statistics shown), but the specific names of individual recipients are not clearly displayed in the search results I've retrieved.\n\nFINAL: Multiple individuals were recognized as Heroes of Ukraine in 2025 (at least 73 recipients according to official statistics), though the specific names would need to be found in the detailed List of Heroes of Ukraine article on Wikipedia which contains the full enumeration for that year.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,148 @@
+{
+ "task": {
+  "id": "fresh-45",
+  "source": "fresh",
+  "question": "What type of aircraft crashed in Yalova Province, Turkey on August 13, 2026?",
+  "answer": "F-16 Fighting Falcon",
+  "evidence": "13 August – An F-16 Fighting Falcon of the Turkish Air Force crashes in Yalova Province. The pilot ejects safely.",
+  "page": "2026 in Turkey",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Информация о типе самолета, который разбился в провинции Ялова, Турция, 13 августа 2026 года, в данный момент отсутствует. Таким образом, я не могу предоставить точный ответ. \n\nFINAL: Информация отсутствует.",
+ "correct": false,
+ "cost": 0.0010181999999999969,
+ "seconds": 40.1739335001912,
+ "steps": 7,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. На вопросы по-русски можешь искать в ru.wikipedia.org (language=ru), затем читать статью с тем же language. Для фактов о новых моделях проверь официальные анонсы через source_search/source_find. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What type of aircraft crashed in Yalova Province, Turkey on August 13, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_vlyRWJxoQOeBQsxIPnpnL8kd",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Yalova Province Turkey aircraft crash August 13 2026\",\"language\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_vlyRWJxoQOeBQsxIPnpnL8kd",
+   "content": "[en:List of accidents and incidents involving military aircraft (2020–present)] This is a list of accidents and incidents involving military aircraft grouped by the year in which the accident or incident occurred. Not all of the aircraft were in operation at the time. Combat losses are not included except for a few cases denoted by singular circumstances. | Other titles: ['2026 in Turkey', '2025 in Turkey']"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_k5DnjJhzoQrS150yQxDblzrX",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Yalova Province Turkey aircraft accident August 13 2026\",\"language\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_k5DnjJhzoQrS150yQxDblzrX",
+   "content": "[en:2026 in Turkey] Individuals and events related to 2026 in Turkey. | Other titles: ['List of accidents and incidents involving military aircraft (2020–present)', '2025 in Turkey']"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_mgbvogLIRQTClF76Z3QolSCz",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Yalova Province Turkey plane crash August 13 2026\",\"language\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_mgbvogLIRQTClF76Z3QolSCz",
+   "content": "[en:List of accidents and incidents involving military aircraft (2020–present)] This is a list of accidents and incidents involving military aircraft grouped by the year in which the accident or incident occurred. Not all of the aircraft were in operation at the time. Combat losses are not included except for a few cases denoted by singular circumstances. | Other titles: ['2025 in Turkey', 'Turkish war crimes']"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_FT5M4atkbFuajEj3JJ1cwZGI",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"plane crash August 13 2026 Turkey news\",\"language\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_FT5M4atkbFuajEj3JJ1cwZGI",
+   "content": "[en:2025 Turkish Air Force Lockheed C-130 crash] On 11 November 2025, a Turkish Air Force Lockheed C-130 Hercules flying from Ganja International Airport, Ganja, Azerbaijan, to Merzifon Air Base, Merzifon, Turkey, experienced an in-flight breakup, splitting into 3 pieces, and crashed in Georgia, near the Azerbaijan–Georgia border, killing all 20 occupants on board. | Other titles: ['Why Planes Crash', 'List of accidents and incidents involving airliners by location']"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_BFnw1laMhBkPe03vBWv56nzo",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Yalova Province Turkey August 13 2026 aircraft type\",\"language\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_BFnw1laMhBkPe03vBWv56nzo",
+   "content": "[en:1999 İzmit earthquake] An earthquake of moment magnitude 7.6 struck Kocaeli Province, Turkey, on 17 August 1999. According to official figures, at least 18,373 people died and 48,901 people were injured during the earthquake, and 5,840 people were missing. At least 155 deaths were associated with the tsunami. The damage was estimated at between $12 billion and $20 billion (in 1999 U.S. dollars) according to various sources such as the World Bank. The earthquake was named for the epicenter's proximity to the northwestern city of İzmit. It occurred at 03:01 local time (00:01 UTC) at a shallow depth of 15 km (9.3 mi). A maximum Mercalli intensity of X (Extreme) was observed. The earthquake lasted for 37 seconds, causing seismic damage, and is widely remembered as one of the deadliest natural disasters in modern Turkish history. The 1999 earthquake was part of a seismic sequence along the North Anatolian Fault that started in 1939, causing large earthquakes that moved progressively from east to west over a period of 60 years. The earthquake encouraged the establishment of a so-called earthquake tax aimed at providing assistance to those affected by the earthquake, and the creation of National Disaster Insurance Institution for providing compulsory earthquake insurance. | Other titles: ['List of accidents and incidents involving military aircraft (2020–present)', 'Istanbul']"
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "Информация о типе самолета, который разбился в провинции Ялова, Турция, 13 августа 2026 года, в данный момент отсутствует. Таким образом, я не могу предоставить точный ответ. \n\nFINAL: Информация отсутствует.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

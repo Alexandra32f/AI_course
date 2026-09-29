@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "ai-release-04",
+  "source": "fresh",
+  "question": "Какой API-идентификатор получила GPT-5.4 Pro при запуске в марте 2026 года?",
+  "answer": "gpt-5.4-pro",
+  "evidence": "GPT‑5.4 Pro is also available in the API as `gpt-5.4-pro` for developers who need maximum performance on the most complex tasks.",
+  "url": "https://openai.com/index/introducing-gpt-5-4/",
+  "page": "openai54"
+ },
+ "answer": "На данный момент отсутствуют данные о GPT-5.4 Pro и её API-идентификаторе, так как эта информация недоступна на официальных ресурсах и в статьях. \n\nFINAL: Информация недоступна.",
+ "correct": false,
+ "cost": 0.0003397499999999998,
+ "seconds": 10.75642710016109,
+ "steps": 3,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. На вопросы по-русски можешь искать в ru.wikipedia.org (language=ru), затем читать статью с тем же language. Для фактов о новых моделях проверь официальные анонсы через source_search/source_find. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Какой API-идентификатор получила GPT-5.4 Pro при запуске в марте 2026 года?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_3SVrSYs53REQeoQww2anjBwH",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\":\"GPT-5.4 Pro API identifier March 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_3SVrSYs53REQeoQww2anjBwH",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_4ZWOXqLZniRLAMNB6Hz2VgX3",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"GPT-5.4 Pro API-идентификатор\",\"language\":\"ru\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_4ZWOXqLZniRLAMNB6Hz2VgX3",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": "На данный момент отсутствуют данные о GPT-5.4 Pro и её API-идентификаторе, так как эта информация недоступна на официальных ресурсах и в статьях. \n\nFINAL: Информация недоступна.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "task": {
+  "id": "ai-release-01",
+  "source": "fresh",
+  "question": "Каков верхний предел контекстного окна GPT-5.4 в API и Codex, объявленный в марте 2026 года?",
+  "answer": "1M tokens",
+  "evidence": "It supports up to 1M tokens of context, allowing agents to plan, execute, and verify tasks across long horizons.",
+  "url": "https://openai.com/index/introducing-gpt-5-4/",
+  "page": "openai54"
+ },
+ "answer": "FINAL: Информация о GPT-5.4 и его объявлении в марте 2026 года недоступна в официальных источниках. По состоянию на мой последний момент знаний, такая модель и такое объявление не существуют. Возможно, вы имеете в виду другую модель или другую дату.",
+ "correct": false,
+ "cost": 0.013267999999999835,
+ "seconds": 23.627373700030148,
+ "steps": 4,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. На вопросы по-русски можешь искать в ru.wikipedia.org (language=ru), затем читать статью с тем же language. Для фактов о новых моделях проверь официальные анонсы через source_search/source_find. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Каков верхний предел контекстного окна GPT-5.4 в API и Codex, объявленный в марте 2026 года?"
+  },
+  {
+   "role": "assistant",
+   "content": "Я помогу вам найти информацию о контекстном окне GPT-5.4. Сначала проверю официальные источники.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01NfN1sWPGJpTmNr3vJGafHv",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\": \"GPT-5.4 контекстное окно март 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01NfN1sWPGJpTmNr3vJGafHv",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": "Попробую поиск на английском:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01RUEg4NrAUhfnZKTMRoE4jm",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\": \"GPT-5.4 context window March 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01RUEg4NrAUhfnZKTMRoE4jm",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": "Давайте проверим через общий поиск:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01XPqNybwXGDB5WaU1kKhhdP",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"GPT-5.4 context window API March 2026\", \"language\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01XPqNybwXGDB5WaU1kKhhdP",
+   "content": "[en:GPT-4] Generative Pre-trained Transformer 4 (GPT-4) is a large language model developed by OpenAI and the fourth in its series of GPT foundation models. GPT-4 is preceded by GPT-3.5 and followed by its successor GPT-5. GPT-4V is a version of GPT-4 that can process images in addition to text. OpenAI has not revealed technical details and statistics about GPT-4, such as the precise size of the model. An early version of GPT-4 was integrated by Microsoft into Bing Chat, launched in February 2023. GPT-4 was released in ChatGPT in March 2023, and removed in 2025. GPT-4 is still available in OpenAI's API. | Other titles: ['GPT-3', 'ChatGPT']"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: Информация о GPT-5.4 и его объявлении в марте 2026 года недоступна в официальных источниках. По состоянию на мой последний момент знаний, такая модель и такое объявление не существуют. Возможно, вы имеете в виду другую модель или другую дату.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

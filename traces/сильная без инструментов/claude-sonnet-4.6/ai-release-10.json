@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "ai-release-10",
+  "source": "fresh",
+  "question": "Сколько вариантов Gemini 3.8 Google представила 2 сентября 2026 года?",
+  "answer": "2",
+  "evidence": "Gemini 3.8 introduces 2 variants:",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+  "page": "google38"
+ },
+ "answer": "FINAL: unknown",
+ "correct": false,
+ "cost": 0.00037799999999998946,
+ "seconds": 3.159637799952179,
+ "steps": 1,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ответь на вопрос коротко, только строкой FINAL: <ответ>. Если не знаешь, напиши FINAL: unknown. Не объясняй ответ."
+  },
+  {
+   "role": "user",
+   "content": "Сколько вариантов Gemini 3.8 Google представила 2 сентября 2026 года?"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

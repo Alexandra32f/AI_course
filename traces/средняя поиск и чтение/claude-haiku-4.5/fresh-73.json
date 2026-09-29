@@ -1,0 +1,144 @@
+{
+ "task": {
+  "id": "fresh-73",
+  "source": "fresh",
+  "question": "Who was sentenced to two years' imprisonment for bribery in South Korea on August 31, 2026?",
+  "answer": "Han Hak-ja",
+  "evidence": "31 August – A court in Seoul sentences Unification Church leader Han Hak-ja to two years' imprisonment for bribery involving former first lady Kim Keon Hee.",
+  "page": "2026 in South Korea",
+  "url": "https://en.wikipedia.org/wiki/2026_in_South_Korea",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Perfect! I found the answer. According to the Wikipedia article on Hak Ja Han, on August 31, 2026, **Hak Ja Han** (also known as Hak Ja Han Moon) was sentenced to two years' imprisonment for bribery in South Korea.\n\nFINAL: Hak Ja Han",
+ "correct": false,
+ "cost": 0.025197000000000136,
+ "seconds": 43.53158969990909,
+ "steps": 6,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. На вопросы по-русски можешь искать в ru.wikipedia.org (language=ru), затем читать статью с тем же language. Для фактов о новых моделях проверь официальные анонсы через source_search/source_find. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who was sentenced to two years' imprisonment for bribery in South Korea on August 31, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about this bribery conviction in South Korea on August 31, 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01DUtTmCCKrQyAHN4XT4rZi4",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"South Korea bribery sentenced two years imprisonment August 31 2026\", \"language\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01DUtTmCCKrQyAHN4XT4rZi4",
+   "content": "[en:2026 in South Korea] Scheduled events in 2026 in South Korea. | Other titles: ['Corruption in South Korea', 'Kim Keon Hee']"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me search more specifically for this case:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01RBaHQGSSNRcNoMzxCMS6XS",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Kim Keon Hee bribery sentence August 2026\", \"language\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01RBaHQGSSNRcNoMzxCMS6XS",
+   "content": "[en:Kim Keon Hee] Kim Keon Hee (Korean: 김건희; born Kim Myung-shin; 2 September 1972) is a South Korean businesswoman who served as the first lady of South Korea from 2022 to 2025, as the wife of Yoon Suk Yeol, the 13th president of South Korea. From 2009 to 2022, she was the founder, president and chief executive officer of Covana Contents, an art exhibition company that closed down shortly after her husband took office. Born in Yangpyeong County, Kim graduated from Kyonggi University in 1996. In 2012, she married Yoon Suk Yeol, the then-prosecutor in Supreme Prosecutors' Office. Since the 2022 presidential election, Kim has been the subject of several allegations of misconduct, including bribery, as well as falsification of academic and financial reports. On 28 January 2026, Kim was sentenced to 20 months in prison for bribery, but was acquitted on two other accusations of stock manipulation and political funding law violation with the judge citing a lack of evidence regarding her involvement. However, after she appealed the verdict, on 28 April 2026 the appeals court found her guilty of Stock manipulation, increasing her sentence to four years imprisonment, imposing a fine of 50 million won, the confiscation of her necklace and a forfeit of around 20 million won, overturning the lower court's decision. | Other titles: ['2026 in South Korea', 'Kim Yong-hyun']"
+  },
+  {
+   "role": "assistant",
+   "content": "The information from the search shows sentencing dates in January and April 2026, but not August 31, 2026. Let me try another search focusing on that specific date:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01DEn8uTye95otGNLyx8j4bX",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"\\\"August 31 2026\\\" South Korea bribery sentence imprisonment\", \"language\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01DEn8uTye95otGNLyx8j4bX",
+   "content": "[en:Unification Church] The Unification Church (Korean: 통일교; RR: Tongilgyo), officially the Family Federation for World Peace and Unification (FFWPU; 세계평화통일가정연합; Segyepyeonghwatong Ilgajeong Yeonhab), is an Abrahamic monotheistic new religious movement, whose members are called Unificationists or sometimes informally Moonies. The Unification Church was founded in 1954 by Sun Myung Moon in Seoul, South Korea, as the Holy Spirit Association for the Unification of World Christianity (HSA-UWC; 세계기독교통일신령협회; Segyegidoggyotong Ilsinlyeonghyeobhoe); in 1994, the organization changed its name to the FFWPU. It has a presence in approximately 100 countries. The FFWPU's leader is Hak Ja Han, Moon's wife; Moon had previously co-led it until his death. The couple's followers honor them with the title \"True Parents\". The book Divine Principle informs the beliefs of the Unification Church. Moon regarded himself the Second Coming of Christ and taught that he was appointed to complete Jesus Christ's unfinished business, which he claimed was left incomplete due to the crucifixion. This mission included establishing a new ideal family, and a larger human lineage, free from sin. The Unification Church is well known for its mass weddings, known as Blessing ceremonies. Its members have founded, owned and supported related organizations in business, education, politics and more. It has been referred to as South Korean nationalist. Its involvement in politics also includes anti-communism and support for Korean reunification. The Unification Church has been accused of excessive financial exploitation of its members. It has been criticized for its teachings and for its social and political influence, with critics calling it a dangerous cult, a political powerhouse and a business empire. In 2025, Han was arrested due to her links to Yoon Suk Yeol and his wife, Kim Keon Hee. In March 2026, the Tokyo High Court upheld a 2025 decision ordering the Unification Church to dissolve in Japan; in June "
+  },
+  {
+   "role": "assistant",
+   "content": "The search results are showing related figures but not the specific August 31, 2026 case. Let me try searching for Kim Yong-hyun, who was also mentioned in the earlier results:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_015622qq5nWuKT9iD73BtRxx",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Kim Yong-hyun bribery sentence August 2026\", \"language\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_015622qq5nWuKT9iD73BtRxx",
+   "content": "[en:Kim Yong-hyun] Kim Yong-hyun (Korean: 김용현; born 25 June 1959) is a South Korean former three-star army lieutenant general and politician who served as the minister of national defense from 6 September 2024 until his resignation on 5 December 2024. Kim previously served in the Republic of Korea Army from 1982 until he was discharged in 2017. Kim later served as the Chief of the Presidential Security Service from 11 May 2022 until his Minister of National Defense confirmation on 6 September 2024. During his political career, Kim was widely known for his close personal ties with President Yoon Suk Yeol, as the two have known each other since high school. Kim graduated one year ahead of Yoon shortly before entering the military. The two became close friends in 2020, following Yoon's suspension as prosecutor general. After Yoon was elected as president in 2022, Yoon appointed Kim as Presidential Security Service Chief. The two later formed a faction within the military and government consisting of their fellow high school alumni, known as the Chungam Faction. On 3 December 2024, Kim advised President Yoon to impose martial law during a last-minute cabinet meeting. Shortly after, Yoon ultimately declared emergency martial law across the nation. Through the martial law order, Kim ordered military personnel to enter the National Assembly and prevent lawmakers from gathering to vote down the declaration. However the attempt to do so failed as 190 lawmakers made it into the parliament and unanimously voted to lift the martial law only a few hours later on 4 December. After the National Assembly filed an impeachment motion against him, Kim resigned the following day. He attempted to flee the country to avoid prosecution, but was travel barred by the Ministry of Justice. It was soon revealed that Kim had been planning martial law alongside Yoon for several months. He was appointed Defense Minister as part of a martial law strategy to prevent First Lady Kim Keon Hee from goi"
+  },
+  {
+   "role": "assistant",
+   "content": "This shows information about Kim Yong-hyun but doesn't mention an August 31, 2026 bribery sentence. Let me search more directly for who might have been sentenced on that specific date:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01GxnkCMoP9gTqnQtbXLJRAs",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"\\\"31 August 2026\\\" OR \\\"August 31, 2026\\\" South Korea bribery\", \"language\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01GxnkCMoP9gTqnQtbXLJRAs",
+   "content": "[en:Hak Ja Han] Hak Ja Han Moon (Korean: 한학자; Hanja: 韓鶴子; born February 10, 1943) is a Korean religious leader. Her late husband Sun Myung Moon was the founder of the Unification Church. Han and Moon were married in April 1960 and have 10 living children and over 30 grandchildren. In 1992, she established the Women's Federation for World Peace, and traveled the world speaking on its behalf. Since her husband's death, she has assumed leadership of the Unification Church, whose followers call her \"True Mother\" and \"Mother of Peace\". In 2025, she was arrested on bribery charges. On August 31, 2026 she was given a two-year sentence instead of the 13-year prison term requested earlier by special prosecutor Min Joong-ki. | Other titles: ['Lee Jae-yong', 'OECD Anti-Bribery Convention']"
+  },
+  {
+   "role": "assistant",
+   "content": "Perfect! I found the answer. According to the Wikipedia article on Hak Ja Han, on August 31, 2026, **Hak Ja Han** (also known as Hak Ja Han Moon) was sentenced to two years' imprisonment for bribery in South Korea.\n\nFINAL: Hak Ja Han",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

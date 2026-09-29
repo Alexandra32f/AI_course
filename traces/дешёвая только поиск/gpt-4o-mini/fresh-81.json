@@ -1,0 +1,56 @@
+{
+ "task": {
+  "id": "fresh-81",
+  "source": "fresh",
+  "question": "What was the passenger traffic number for Istanbul Airport in July 2026?",
+  "answer": "8.15m",
+  "evidence": "Data from Airports Council International shows that Heathrow Airport has lost its title as Europe's busiest airport, with Istanbul Airport seeing a greater volume of passenger traffic in July. Figures show that 8.15m people passed through Istanbul, compared to 7.86 through Heathrow.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "I couldn't find the passenger traffic number for Istanbul Airport in July 2026. The information may not yet be available or published. \n\nFINAL: Data not available.",
+ "correct": false,
+ "cost": 0.0001263000000000028,
+ "seconds": 7.808901899959892,
+ "steps": 2,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. На вопросы по-русски можешь искать в ru.wikipedia.org (language=ru), затем читать статью с тем же language. Для фактов о новых моделях проверь официальные анонсы через source_search/source_find. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What was the passenger traffic number for Istanbul Airport in July 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_H9ej2I8AIlnKG7pJKQrPFMUT",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\":\"Istanbul Airport passenger traffic July 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_H9ej2I8AIlnKG7pJKQrPFMUT",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": "I couldn't find the passenger traffic number for Istanbul Airport in July 2026. The information may not yet be available or published. \n\nFINAL: Data not available.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

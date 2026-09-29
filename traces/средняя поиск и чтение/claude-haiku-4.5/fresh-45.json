@@ -1,0 +1,122 @@
+{
+ "task": {
+  "id": "fresh-45",
+  "source": "fresh",
+  "question": "What type of aircraft crashed in Yalova Province, Turkey on August 13, 2026?",
+  "answer": "F-16 Fighting Falcon",
+  "evidence": "13 August – An F-16 Fighting Falcon of the Turkish Air Force crashes in Yalova Province. The pilot ejects safely.",
+  "page": "2026 in Turkey",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "Perfect! I found the information.\n\nFINAL: F-16 Fighting Falcon",
+ "correct": true,
+ "cost": 0.019383999999999957,
+ "seconds": 30.701916199875996,
+ "steps": 5,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. На вопросы по-русски можешь искать в ru.wikipedia.org (language=ru), затем читать статью с тем же language. Для фактов о новых моделях проверь официальные анонсы через source_search/source_find. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What type of aircraft crashed in Yalova Province, Turkey on August 13, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "I'll search for information about an aircraft crash in Yalova Province, Turkey on August 13, 2026.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_015dckFxYBwhcAfQUchP59DP",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Yalova Province Turkey aircraft crash August 13 2026\", \"language\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_015dckFxYBwhcAfQUchP59DP",
+   "content": "[en:List of accidents and incidents involving military aircraft (2020–present)] This is a list of accidents and incidents involving military aircraft grouped by the year in which the accident or incident occurred. Not all of the aircraft were in operation at the time. Combat losses are not included except for a few cases denoted by singular circumstances. | Other titles: ['2026 in Turkey', '2025 in Turkey']"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me read more details from this article about military aircraft accidents.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01DfWw3RP4qXT7vETFtfhrGk",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"List of accidents and incidents involving military aircraft (2020–present)\", \"keywords\": \"Yalova August 2026 Turkey crash\", \"language\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01DfWw3RP4qXT7vETFtfhrGk",
+   "content": "A Sudanese Air Force Antonov An-12A crashes shortly after take-off from Geneina Airport, Khartoum. All eighteen people on board are killed.\nSri Lanka Air Force Harbin Yunshuji Y-12 II SCL-857 crashes near Haputale, Sri Lanka. All four people on board are killed.\nAn Afghan National Army Mil Mi-35 crashes in Farah Province, Afghanistan, killing two pilots.\nA Mil Mi-17 helicopter of the Afghan National Army crashes on take-off in Paktia Province, Afghanistan.\nLockheed C-130BZ Hercules 403 of the South African Air Force crashed on landing at Goma Airport, Democratic Republic of the Congo and was severely damaged. All 67 people on board survived.\nA General Dynamics F-16 Fighting Falcon aircraft crashes near Rafah, Egypt, killing the pilot.\nA Mexican Air Force MD Helicopters MD 530F crashes on landing at El Zorillo Airport, Mexico. All five people on board survive.\nSalvadoran Air Force ENAER T-35 Pillán FAS-74 crashes on approach to Ilopango International Airport. Both crew are killed.\nUSAF Bombardier Global Express E-11A 11-9358, of the 430th Expeditionary Electronic Combat Squadron, crashes in Dih Yak District, Afghanistan. Both people on board are killed.\nA Croatian Air Force Bell OH-58 Kiowa crashes near Šibenik, Croatia. Both crew are killed.\nAn Algerian Air Force Sukhoi Su-30 crashes at Mechta Chimot, 8.6 nautical miles (16 km) from Aïn Zitoun, Algeria. Both crew are killed.\nUganda People's Defense Force Bell 206B Jet Ranger III AF302 crashes near Bulo, Gomba District, Uganda. Both crew are killed.\nIndian Army HAL Cheetah Z1930 crashes in Jammu and Kashmir. Both pilots survive.\nA Japan Ground Self Defense Force Bell UH-1 Iroquois crashes at Asahikawa Air Field and is severely damaged.\nA Pakistani Air Force Dassault Mirage crashes shortly after taking off from Rafiqui Air Force Base. The pilot ejects safely.\nAn Indian Navy Mikoyan MiG-29K crashes into the Arabian Sea off Goa. The pilot ejects safely.\nNational Cadet Corps Pipistrel Virus W-3936 crashes at Patiala Airp"
+  },
+  {
+   "role": "assistant",
+   "content": "The search results show information about military aircraft crashes but don't include the specific incident in Yalova Province on August 13, 2026. Let me try a more specific search.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01WZYyMfYT6qNaqViWtjgLov",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\": \"Yalova Turkey August 2026\", \"language\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01WZYyMfYT6qNaqViWtjgLov",
+   "content": "[en:2026 in Turkey] Individuals and events related to 2026 in Turkey. | Other titles: ['Next Turkish presidential election', 'Islamic State – Turkey Province']"
+  },
+  {
+   "role": "assistant",
+   "content": "Let me check the 2026 in Turkey article more thoroughly.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_017hmsWXVZuujUVMVk9XBKCL",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\": \"2026 in Turkey\", \"keywords\": \"Yalova aircraft crash August 13\", \"language\": \"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_017hmsWXVZuujUVMVk9XBKCL",
+   "content": "13 January – A judge is shot and injured by her former partner, a public prosecutor, inside a courthouse in Kartal, Istanbul. The gunman is arrested.\n22 January – Authorities announce the discovery in Istanbul of the body of a Russian swimmer who disappeared while competing in the 2025 Bosphorus Cross Continental Swim in August.\n25 February – An F-16 fighter jet of the Turkish Air Force crashes shortly after takeoff near a section of Otoyol 5 in Balıkesir, killing the pilot.\n13 March – Turkey intercepts an Iranian ballistic missile violating its airspace.\n13 May –\n31 May – A bus crashes into highway barriers and catches fire in Denizli Province, killing eight people and injuring 33 others.\n=== August ===\n1 August – Iraq signs a one-year exportation agreement with Turkey to export 750 thousand barrels of petroleum through the Ceyhan pipeline.\n7 August – Saudi Arabia, Pakistan, and Turkey sign a joint defense agreement.\n11 August – Turkey passes legislation providing thousands of PKK operatives a conditional amnesty once the PKK fully relinquishes its weapons.\n13 August – An F-16 Fighting Falcon of the Turkish Air Force crashes in Yalova Province. The pilot ejects safely.\n21 August – An international arrest warrant for Israeli Prime Minister Benjamin Netanyahu is issued by Turkey over the interception of the Gaza Freedom Flotilla.\n21 August–6 September – 2026 Women's European Volleyball Championship in Azerbaijan, Czech Republic, Sweden and Turkey.\n13 September – Widespread raids are conducted on LGBTQ bars, activists’ houses and HIV support groups as part of a crackdown announced by President Erdoğan.\n30 August\t– Victory Day\n13 January – Ayfer Elmastaşoğlu, 81, footballer and football manager.\n5 August – Bilgesu Erenus, 82, playwright (death announced on this date)"
+  },
+  {
+   "role": "assistant",
+   "content": "Perfect! I found the information.\n\nFINAL: F-16 Fighting Falcon",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

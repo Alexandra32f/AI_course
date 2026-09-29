@@ -1,0 +1,146 @@
+config,model,id,source,correct,steps,tool_calls,cost,seconds,answer,gold
+сильная без инструментов,claude-sonnet-4.6,fresh-0,fresh,False,1,0,0.008445,,"March 15, 2026",15 March
+сильная без инструментов,claude-sonnet-4.6,fresh-1,fresh,False,1,0,0.00204,,"February 27, 2025",22 March
+сильная без инструментов,claude-sonnet-4.6,fresh-2,fresh,False,1,0,0.010851000000000001,,Ukraine (and Russia) entered negotiations with the Trump adm,Miguel Díaz-Canel
+сильная без инструментов,claude-sonnet-4.6,fresh-3,fresh,False,1,0,0.006942,,Ukraine and Romania signed an agreement on military cooperat,a strategic partnership agreement
+сильная без инструментов,claude-sonnet-4.6,fresh-4,fresh,False,1,0,0.041118,,Minimum energy efficiency standards for rental properties ca,A total fire ban
+сильная без инструментов,claude-sonnet-4.6,fresh-5,fresh,False,1,0,0.003375000000000003,,1,two people
+сильная без инструментов,claude-sonnet-4.6,fresh-6,fresh,False,1,0,0.004463999999999996,,I don't have information about floods in Tibet in August 202,"4,500"
+сильная без инструментов,claude-sonnet-4.6,fresh-7,fresh,False,1,0,0.005148,,I don't have verified information about this specific event.,Deniz Göktaş
+сильная без инструментов,claude-sonnet-4.6,fresh-8,fresh,False,1,0,0.003837000000000007,,"I don't have information about this event, as it may be beyo",Pavel Durov
+сильная без инструментов,claude-sonnet-4.6,fresh-9,fresh,False,1,0,0.0029489999999999933,,Zhengzhou,New Delhi
+сильная без инструментов,claude-sonnet-4.6,fresh-10,fresh,False,1,0,0.0029880000000000045,,9,Twelve
+сильная без инструментов,claude-sonnet-4.6,fresh-11,fresh,False,1,0,0.007040999999999992,,I cannot determine the title of this exhibition with the ava,Helter Skelter
+сильная без инструментов,claude-sonnet-4.6,fresh-12,fresh,False,1,0,0.02995500000000001,,The January 2026 SEND statistics for the UK have not been pu,"700,000"
+сильная без инструментов,claude-sonnet-4.6,fresh-13,fresh,False,1,0,0.0020729999999999915,,"I don't have data on 2026 European heatwaves, as this is bey",41.5 °C
+сильная без инструментов,claude-sonnet-4.6,fresh-14,fresh,False,1,0,0.005492999999999998,,I could not verify this information with available sources.,Ciudad Rodrigo
+сильная без инструментов,claude-sonnet-4.6,fresh-15,fresh,False,1,0,0.0043350000000000055,,"I don't have information about events on July 21, 2026, as t",Oleksandr Syrskyi
+сильная без инструментов,claude-sonnet-4.6,fresh-16,fresh,False,1,0,0.021873000000000004,,Minnesota Frost,Montreal Victoire
+сильная без инструментов,claude-sonnet-4.6,fresh-17,fresh,False,1,0,0.331491,,Gaganyaan 1 (India's first crewed human spaceflight mission),EOS-05
+сильная без инструментов,claude-sonnet-4.6,fresh-18,fresh,False,1,0,0.006696000000000035,,"February 25, 2021",13 July
+сильная без инструментов,claude-sonnet-4.6,fresh-19,fresh,False,1,0,0.005153999999999992,,Disney Entertainment Television,Disney Kids & Family
+сильная без инструментов,claude-sonnet-4.6,fresh-20,fresh,False,1,0,0.0031320000000000237,,Round of 32,single-elimination
+сильная без инструментов,claude-sonnet-4.6,fresh-21,fresh,False,1,0,0.004685999999999968,,I could not find reliable information about this event.,Gavin Snider
+сильная без инструментов,claude-sonnet-4.6,fresh-22,fresh,False,1,0,0.006426000000000043,,I cannot determine the answer with available information.,Clara and the Below
+сильная без инструментов,claude-sonnet-4.6,fresh-23,fresh,False,1,0,0.008033999999999986,,Oleksiy Kuleba (Ukraine's Infrastructure Minister),German Galushchenko
+сильная без инструментов,claude-sonnet-4.6,fresh-24,fresh,True,1,0,0.004724999999999979,,Drought,a drought
+сильная без инструментов,claude-sonnet-4.6,fresh-25,fresh,False,1,0,0.013722000000000012,,The government of Pakistan declared a national emergency due,"""open war"""
+сильная без инструментов,claude-sonnet-4.6,fresh-26,fresh,False,1,0,0.004958999999999936,,"I cannot find information about this event, as August 24, 20",nine
+сильная без инструментов,claude-sonnet-4.6,fresh-27,fresh,True,1,0,0.002922000000000091,,Markus Hinterhäuser,Markus Hinterhäuser
+сильная без инструментов,claude-sonnet-4.6,fresh-28,fresh,False,1,0,0.004337999999999953,,No verified information found about this event.,nine
+сильная без инструментов,claude-sonnet-4.6,fresh-29,fresh,False,1,0,0.010830000000000006,,4,43
+сильная без инструментов,claude-sonnet-4.6,fresh-30,fresh,False,1,0,0.005615999999999954,,I could not find verified information about this event.,Ankara
+сильная без инструментов,claude-sonnet-4.6,fresh-31,fresh,False,1,0,0.0035880000000000356,,I don't have information about this future event.,Aibek Dädebai
+сильная без инструментов,claude-sonnet-4.6,fresh-32,fresh,False,1,0,0.003969,,I don't know — no information about the Archibald Prize winn,Richard Lewer
+сильная без инструментов,claude-sonnet-4.6,fresh-33,fresh,False,1,0,0.002742000000000022,,Damian Collins,Marilyn Gladu
+сильная без инструментов,claude-sonnet-4.6,fresh-34,fresh,False,1,0,0.0032280000000000086,,6.2,6.3
+сильная без инструментов,claude-sonnet-4.6,fresh-35,fresh,False,1,0,0.008276999999999979,,Ryan Donalds,Dina Levačić
+сильная без инструментов,claude-sonnet-4.6,fresh-36,fresh,False,1,0,0.0034889999999999644,,I have no verified information about this event.,129
+сильная без инструментов,claude-sonnet-4.6,fresh-37,fresh,False,1,0,0.005373000000000072,,16 May 2025,15 June
+сильная без инструментов,claude-sonnet-4.6,fresh-38,fresh,False,1,0,0.004734000000000016,,I don't have verified information about this future event.,Chief Minister
+сильная без инструментов,claude-sonnet-4.6,fresh-39,fresh,False,1,0,0.0067949999999999955,,"Novelda, Alicante, Spain",Gelida
+сильная без инструментов,claude-sonnet-4.6,fresh-40,fresh,False,1,0,0.004913999999999974,,I don't have information about this event — it may be in the,Vladimir Alekseyev
+сильная без инструментов,claude-sonnet-4.6,fresh-41,fresh,False,1,0,0.004442999999999975,,"over 70,000 participants (according to organizers) in Tokyo ",Thirty thousand people
+сильная без инструментов,claude-sonnet-4.6,fresh-42,fresh,False,1,0,0.008078999999999947,,Narendra Modi,Prime Minister Narendra Modi
+сильная без инструментов,claude-sonnet-4.6,fresh-43,fresh,True,1,0,0.013683,,Zohran Mamdani,Zohran Mamdani
+сильная без инструментов,claude-sonnet-4.6,fresh-44,fresh,False,1,0,0.016482000000000108,,55 Cancri e,LHS 1140 b
+сильная без инструментов,claude-sonnet-4.6,fresh-45,fresh,False,1,0,0.00035099999999976816,3.502233700128272,unknown,F-16 Fighting Falcon
+сильная без инструментов,claude-sonnet-4.6,fresh-46,fresh,False,1,0,0.00033599999999989194,2.624679100001231,unknown,five
+сильная без инструментов,claude-sonnet-4.6,fresh-47,fresh,False,1,0,0.00034500000000026176,2.608946799999103,unknown,Education Minister
+сильная без инструментов,claude-sonnet-4.6,fresh-48,fresh,False,1,0,0.00033599999999989194,2.443003199994564,unknown,Mykhailo Fedorov
+сильная без инструментов,claude-sonnet-4.6,fresh-49,fresh,False,1,0,0.0003540000000001875,2.82916700001806,unknown,life imprisonment
+сильная без инструментов,claude-sonnet-4.6,fresh-50,fresh,False,1,0,0.00036899999999961963,3.624325499869883,unknown,"802,500 lira"
+сильная без инструментов,claude-sonnet-4.6,fresh-51,fresh,False,1,0,0.00035700000000016274,12.737148500047624,unknown,Bruno Foucher
+сильная без инструментов,claude-sonnet-4.6,fresh-52,fresh,False,1,0,0.000348000000000237,2.786066700005904,unknown,5.2
+сильная без инструментов,claude-sonnet-4.6,fresh-53,fresh,False,1,0,0.0003659999999996444,3.2653045000042766,unknown,Tonya McBride Robles
+сильная без инструментов,claude-sonnet-4.6,fresh-54,fresh,False,1,0,0.000360000000000138,3.028758600121364,unknown,80
+сильная без инструментов,claude-sonnet-4.6,fresh-55,fresh,False,1,0,0.0003449999999998177,2.6113235000520945,unknown,two
+сильная без инструментов,claude-sonnet-4.6,fresh-56,fresh,False,1,0,0.0003210000000000157,2.7837709998711944,unknown,3%
+сильная без инструментов,claude-sonnet-4.6,fresh-57,fresh,False,1,0,0.00035700000000016274,2.545505499932915,unknown,Yoon Suk Yeol
+сильная без инструментов,claude-sonnet-4.6,fresh-58,fresh,False,1,0,0.0003869999999999152,2.581195800099522,BYD,BYD Auto
+сильная без инструментов,claude-sonnet-4.6,fresh-59,fresh,False,1,0,0.00035700000000016274,2.2977691998239607,unknown,Carson Ting
+сильная без инструментов,claude-sonnet-4.6,fresh-60,fresh,False,1,0,0.0003329999999999167,2.604327700100839,unknown,209
+сильная без инструментов,claude-sonnet-4.6,fresh-61,fresh,False,1,0,0.00034199999999984243,2.329921399941668,unknown,Fourteen
+сильная без инструментов,claude-sonnet-4.6,fresh-62,fresh,False,1,0,0.0003330000000003608,2.6563768999185413,unknown,13 years
+сильная без инструментов,claude-sonnet-4.6,fresh-63,fresh,False,1,0,0.0003449999999998177,2.7917471998371184,unknown,Two
+сильная без инструментов,claude-sonnet-4.6,fresh-64,fresh,False,1,0,0.00034199999999984243,2.8447807000484318,unknown,mayor of Lutsk
+сильная без инструментов,claude-sonnet-4.6,fresh-65,fresh,False,1,0,0.0003690000000000637,2.2418549999129027,unknown,16
+сильная без инструментов,claude-sonnet-4.6,fresh-66,fresh,False,1,0,0.00036300000000011323,2.765912299975753,unknown,at least six
+сильная без инструментов,claude-sonnet-4.6,fresh-67,fresh,False,1,0,0.00038999999999989043,3.0828857999294996,unknown,Liam Nassereddine
+сильная без инструментов,claude-sonnet-4.6,fresh-68,fresh,False,1,0,0.000348000000000237,2.599863199982792,unknown,Mark Carney
+сильная без инструментов,claude-sonnet-4.6,fresh-69,fresh,False,1,0,0.00037799999999998946,2.5699114000890404,Bratislava,Leipzig
+сильная без инструментов,claude-sonnet-4.6,fresh-70,fresh,True,1,0,0.0021569999999999645,5.80485920002684,"The new rail service that begins on March 26, 2026, in Europ",night train service
+сильная без инструментов,claude-sonnet-4.6,fresh-71,fresh,False,1,0,0.00037799999999998946,3.0561285000294447,unknown,Nikita Solovyov
+сильная без инструментов,claude-sonnet-4.6,fresh-72,fresh,False,1,0,0.00036300000000011323,2.3509831000119448,unknown,Dharmendra Pradhan
+сильная без инструментов,claude-sonnet-4.6,fresh-73,fresh,False,1,0,0.00035699999999971865,2.6317952000536025,unknown,Han Hak-ja
+сильная без инструментов,claude-sonnet-4.6,fresh-74,fresh,False,1,0,0.00032999999999994145,2.7830460001714528,unknown,Daniel Ortega
+сильная без инструментов,claude-sonnet-4.6,fresh-75,fresh,False,1,0,0.00039900000000026026,2.9133928001392633,Georgia (country),Novokuznetsk
+сильная без инструментов,claude-sonnet-4.6,fresh-76,fresh,False,1,0,0.00036299999999966914,3.5059245000593364,unknown,life imprisonment
+сильная без инструментов,claude-sonnet-4.6,fresh-77,fresh,False,1,0,0.00034500000000026176,3.126781400060281,unknown,Carlos Vila Nova
+сильная без инструментов,claude-sonnet-4.6,fresh-78,fresh,False,1,0,0.00035700000000016274,2.3845135997980833,unknown,13.2 months
+сильная без инструментов,claude-sonnet-4.6,fresh-79,fresh,False,1,0,0.0003659999999996444,3.03919759998098,unknown,three
+сильная без инструментов,claude-sonnet-4.6,fresh-80,fresh,False,1,0,0.0003390000000003113,3.5628036998678,unknown,"UGC Equity Regulations, 2026"
+сильная без инструментов,claude-sonnet-4.6,fresh-81,fresh,False,1,0,0.00032999999999994145,2.7878771000541747,unknown,8.15m
+сильная без инструментов,claude-sonnet-4.6,fresh-82,fresh,False,1,0,0.0003449999999998177,2.3507310999557376,unknown,28 people
+сильная без инструментов,claude-sonnet-4.6,fresh-83,fresh,False,1,0,0.00035700000000016274,2.6762763999868184,unknown,improvised explosive device
+сильная без инструментов,claude-sonnet-4.6,fresh-84,fresh,False,1,0,0.0003479999999997929,3.1548586999997497,unknown,eight games
+сильная без инструментов,claude-sonnet-4.6,fresh-85,fresh,False,1,0,0.00035700000000016274,3.41146790003404,unknown,38 °C
+сильная без инструментов,claude-sonnet-4.6,fresh-86,fresh,False,1,0,0.00040499999999976666,3.610440199961886,£15.4 billion,£30.4bn
+сильная без инструментов,claude-sonnet-4.6,fresh-87,fresh,False,1,0,0.0003420000000002865,2.5566152001265436,unknown,José Jerí
+сильная без инструментов,claude-sonnet-4.6,fresh-88,fresh,False,1,0,0.00033599999999989194,3.1191834998317063,unknown,"Henoko, Okinawa Prefecture"
+сильная без инструментов,claude-sonnet-4.6,fresh-89,fresh,False,1,0,0.00035100000000021225,2.6965375998988748,unknown,Doug Armstrong
+сильная без инструментов,claude-sonnet-4.6,fresh-90,fresh,False,1,0,0.0003659999999996444,2.364496900001541,unknown,Imperial College London
+сильная без инструментов,claude-sonnet-4.6,fresh-91,fresh,False,1,0,0.0003750000000000142,2.9493874001782387,unknown,"₹25,863 crore"
+сильная без инструментов,claude-sonnet-4.6,fresh-92,fresh,False,1,0,0.00035100000000021225,2.211489300010726,unknown,Rubén Rocha Moya
+сильная без инструментов,claude-sonnet-4.6,fresh-93,fresh,False,1,0,0.0003449999999998177,2.550493499962613,unknown,Spain
+сильная без инструментов,claude-sonnet-4.6,fresh-94,fresh,False,1,0,0.0003329999999999167,3.650570800062269,unknown,11th
+сильная без инструментов,claude-sonnet-4.6,fresh-95,fresh,False,1,0,0.0003390000000003113,2.91681019985117,unknown,India
+сильная без инструментов,claude-sonnet-4.6,fresh-96,fresh,False,1,0,0.00038399999999993994,2.322443600045517,Odense,Istanbul
+сильная без инструментов,claude-sonnet-4.6,fresh-97,fresh,False,1,0,0.0003329999999999167,2.715343400137499,unknown,Citizens Bank Park
+сильная без инструментов,claude-sonnet-4.6,fresh-98,fresh,False,1,0,0.0003660000000000885,2.5447849999181926,unknown,Islamabad Memorandum
+сильная без инструментов,claude-sonnet-4.6,fresh-99,fresh,True,1,0,0.00040499999999976666,2.5921670999377966,Elon Musk,Elon Musk
+сильная без инструментов,claude-sonnet-4.6,fresh-100,fresh,False,1,0,0.0003540000000001875,3.323623900068924,unknown,"252,756 miles"
+сильная без инструментов,claude-sonnet-4.6,fresh-101,fresh,False,1,0,0.0003389999999998672,2.5184683999978006,unknown,10-day
+сильная без инструментов,claude-sonnet-4.6,fresh-102,fresh,False,1,0,0.0003210000000000157,2.4585808000992984,unknown,Oleksandr Dovhach
+сильная без инструментов,claude-sonnet-4.6,fresh-103,fresh,False,1,0,0.0003329999999999167,3.614645999856293,unknown,José María Balcázar
+сильная без инструментов,claude-sonnet-4.6,fresh-104,fresh,False,1,0,0.000348000000000237,2.384062400087714,unknown,21
+сильная без инструментов,claude-sonnet-4.6,fresh-105,fresh,False,1,0,0.00035099999999976816,2.5548338000662625,unknown,¥60–120
+сильная без инструментов,claude-sonnet-4.6,fresh-106,fresh,False,1,0,0.000444000000000333,2.4625669000670314,A new terminal (Terminal 3),GRU Airport People Mover
+сильная без инструментов,claude-sonnet-4.6,fresh-107,fresh,False,1,0,0.0003479999999997929,2.6064566001296043,Presidential election,2026 Beninese parliamentary election
+сильная без инструментов,claude-sonnet-4.6,fresh-108,fresh,False,1,0,0.0003329999999999167,2.3225136999972165,unknown,Michaelmas Island
+сильная без инструментов,claude-sonnet-4.6,fresh-109,fresh,False,1,0,0.0003420000000002865,2.584805899998173,unknown,conspiracy to commit arson
+сильная без инструментов,claude-sonnet-4.6,fresh-110,fresh,False,1,0,0.0003210000000000157,2.156387499999255,unknown,Clay Fuller
+сильная без инструментов,claude-sonnet-4.6,fresh-111,fresh,False,1,0,0.0003599999999996939,10.316462999908254,unknown,prime minister
+сильная без инструментов,claude-sonnet-4.6,fresh-112,fresh,False,1,0,0.0003420000000002865,2.3756293000187725,unknown,SMILE
+сильная без инструментов,claude-sonnet-4.6,fresh-113,fresh,False,1,0,0.00033599999999989194,3.1196621998678893,unknown,850
+сильная без инструментов,claude-sonnet-4.6,fresh-114,fresh,False,1,0,0.0003690000000000637,2.4661469999700785,unknown,Urgent Care Centre
+сильная без инструментов,claude-sonnet-4.6,fresh-115,fresh,False,1,0,0.0003449999999998177,2.770279200049117,unknown,66
+сильная без инструментов,claude-sonnet-4.6,fresh-116,fresh,False,1,0,0.0021599999999999397,4.6955158999189734,"Annika Sörenstam (the host course is associated with her, bu",Nelly Korda
+сильная без инструментов,claude-sonnet-4.6,fresh-117,fresh,False,1,0,0.00036300000000011323,2.9817303000018,Line 7,Line S2
+сильная без инструментов,claude-sonnet-4.6,fresh-118,fresh,False,1,0,0.00032999999999994145,2.4121343998704106,unknown,Antonello da Messina
+сильная без инструментов,claude-sonnet-4.6,fresh-119,fresh,False,1,0,0.0003210000000000157,2.5468216999433935,unknown,Baku and Tbilisi
+сильная без инструментов,claude-sonnet-4.6,fresh-120,fresh,False,1,0,0.0014340000000001574,4.134307500207797,"Operation Fortune (or specifically, the seizure was related ",Operation Southern Spear
+сильная без инструментов,claude-sonnet-4.6,fresh-121,fresh,False,1,0,0.00032999999999994145,2.5567958001047373,unknown,5.6
+сильная без инструментов,claude-sonnet-4.6,fresh-122,fresh,False,1,0,0.00034199999999984243,2.784078299999237,unknown,Angus Taylor
+сильная без инструментов,claude-sonnet-4.6,fresh-123,fresh,False,1,0,0.0003269999999999662,2.718771900050342,unknown,Burkina Faso
+сильная без инструментов,claude-sonnet-4.6,fresh-124,fresh,False,1,0,0.00032999999999994145,2.3156675999052823,unknown,Kehl
+сильная без инструментов,claude-sonnet-4.6,ai-release-00,fresh,False,1,0,0.0003870000000003593,2.9244057000614703,unknown,GPT‑5.4
+сильная без инструментов,claude-sonnet-4.6,ai-release-01,fresh,False,1,0,0.0004079999999997419,2.3329099998809397,unknown,1M tokens
+сильная без инструментов,claude-sonnet-4.6,ai-release-02,fresh,False,1,0,0.00038999999999989043,2.741488899802789,unknown,tool search
+сильная без инструментов,claude-sonnet-4.6,ai-release-03,fresh,False,1,0,0.0003870000000003593,2.604271700140089,unknown,75.0%
+сильная без инструментов,claude-sonnet-4.6,ai-release-04,fresh,False,1,0,0.00038399999999993994,2.9181305000092834,unknown,gpt-5.4-pro
+сильная без инструментов,claude-sonnet-4.6,ai-release-05,fresh,False,1,0,0.00037799999999998946,2.2912598000839353,unknown,Sol
+сильная без инструментов,claude-sonnet-4.6,ai-release-06,fresh,False,1,0,0.00040499999999976666,4.716171499807388,unknown,Terra
+сильная без инструментов,claude-sonnet-4.6,ai-release-07,fresh,False,1,0,0.0003870000000003593,2.487374800024554,unknown,Luna
+сильная без инструментов,claude-sonnet-4.6,ai-release-08,fresh,False,1,0,0.00037799999999998946,3.1147823999635875,unknown,ultra
+сильная без инструментов,claude-sonnet-4.6,ai-release-09,fresh,False,1,0,0.00038999999999989043,2.791492700111121,unknown,53.6
+сильная без инструментов,claude-sonnet-4.6,ai-release-10,fresh,False,1,0,0.00037799999999998946,3.159637799952179,unknown,2
+сильная без инструментов,claude-sonnet-4.6,ai-release-11,fresh,False,1,0,0.00040499999999976666,2.318215699866414,unknown,Gemini 3.8 Flash Cyber
+сильная без инструментов,claude-sonnet-4.6,ai-release-12,fresh,False,1,0,0.000408000000000186,2.9629365999717265,unknown,Fairwind Program
+сильная без инструментов,claude-sonnet-4.6,ai-release-13,fresh,False,1,0,0.00038999999999989043,2.4985161998774856,unknown,54.9%
+сильная без инструментов,claude-sonnet-4.6,ai-release-14,fresh,False,1,0,0.0003690000000000637,2.774385299999267,unknown,Gemini 3.5 Flash
+сильная без инструментов,claude-sonnet-4.6,ai-release-15,fresh,False,1,0,0.00042000000000008697,2.372674100100994,unknown,Gemini 2.5 computer use model
+сильная без инструментов,claude-sonnet-4.6,ai-release-16,fresh,False,1,0,0.00039899999999981617,4.08424189989455,unknown,Muse Image
+сильная без инструментов,claude-sonnet-4.6,ai-release-17,fresh,False,1,0,0.0003690000000000637,2.5594833998475224,unknown,Muse Video
+сильная без инструментов,claude-sonnet-4.6,ai-release-18,fresh,False,1,0,0.00041100000000016124,2.8510825999546796,unknown,Muse Image
+сильная без инструментов,claude-sonnet-4.6,ai-release-19,fresh,False,1,0,0.0022289999999998145,4.576609399868175,iRoPE (интерполяция RoPE) не является ответом на вопрос о ги,MetaP

@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "ai-release-15",
+  "source": "fresh",
+  "question": "Какая отдельная модель Google раньше предоставляла computer use до его интеграции в Gemini 3.5 Flash в июне 2026 года?",
+  "answer": "Gemini 2.5 computer use model",
+  "evidence": "Previously only available as a standalone Gemini 2.5 computer use model, computer use is now integrated natively in the main Gemini Flash model.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
+  "page": "google35"
+ },
+ "answer": "Не удалось найти информацию о модели Google, которая предоставляла computer use до интеграции в Gemini 3.5 Flash в июне 2026 года. Возможно, таких данных еще нет в открытых источниках. \n\nFINAL: Нет данных.",
+ "correct": false,
+ "cost": 0.00034889999999998533,
+ "seconds": 11.222611099947244,
+ "steps": 3,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. На вопросы по-русски можешь искать в ru.wikipedia.org (language=ru), затем читать статью с тем же language. Для фактов о новых моделях проверь официальные анонсы через source_search/source_find. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Какая отдельная модель Google раньше предоставляла computer use до его интеграции в Gemini 3.5 Flash в июне 2026 года?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_qEIWHIDXbhutP6zxzNU4nqpt",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\":\"Google computer use model before integration in Gemini 3.5 Flash June 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_qEIWHIDXbhutP6zxzNU4nqpt",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_yhGw3ymQTMzGjKXUbW1OHPa1",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Google computer use model before integration in Gemini 3.5 Flash\",\"language\":\"ru\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_yhGw3ymQTMzGjKXUbW1OHPa1",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": "Не удалось найти информацию о модели Google, которая предоставляла computer use до интеграции в Gemini 3.5 Flash в июне 2026 года. Возможно, таких данных еще нет в открытых источниках. \n\nFINAL: Нет данных.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

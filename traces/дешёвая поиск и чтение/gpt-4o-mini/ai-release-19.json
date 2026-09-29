@@ -1,0 +1,120 @@
+{
+ "task": {
+  "id": "ai-release-19",
+  "source": "fresh",
+  "question": "Какая техника настройки гиперпараметров описана Meta при релизе Llama 4 Scout и Maverick в апреле 2025 года?",
+  "answer": "MetaP",
+  "evidence": "We developed a new training technique which we refer to as MetaP that allows us to reliably set critical model hyper-parameters",
+  "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+  "page": "meta4"
+ },
+ "answer": "К сожалению, я не смог найти информации о релизе Llama 4 Scout и Maverick компании Meta в апреле 2025 года или о технике настройки гиперпараметров для этих моделей. Возможно, информация еще не доступна или не опубликована в открытых источниках. \n\nFINAL: Информация не найдена.",
+ "correct": false,
+ "cost": 0.0005942999999999921,
+ "seconds": 22.139449700014666,
+ "steps": 5,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. На вопросы по-русски можешь искать в ru.wikipedia.org (language=ru), затем читать статью с тем же language. Для фактов о новых моделях проверь официальные анонсы через source_search/source_find. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Какая техника настройки гиперпараметров описана Meta при релизе Llama 4 Scout и Maverick в апреле 2025 года?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Cu1du5cbLgZnIewtlpKBmKy0",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\":\"Llama 4 Scout Maverick site:meta.com\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Cu1du5cbLgZnIewtlpKBmKy0",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_yXFY9KVIS78aQRDb3hjDTzQ3",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\":\"Llama 4 Scout Maverick release April 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_yXFY9KVIS78aQRDb3hjDTzQ3",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ZcpjX5iFslZBViSHfu5rbyYs",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\":\"Llama 4 Scout Maverick\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ZcpjX5iFslZBViSHfu5rbyYs",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_OOJdMdBf60WSIjEKtRVdHus2",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Llama 4 Scout и Maverick релиз Meta гиперпараметры\",\"language\":\"ru\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_OOJdMdBf60WSIjEKtRVdHus2",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": "К сожалению, я не смог найти информации о релизе Llama 4 Scout и Maverick компании Meta в апреле 2025 года или о технике настройки гиперпараметров для этих моделей. Возможно, информация еще не доступна или не опубликована в открытых источниках. \n\nFINAL: Информация не найдена.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

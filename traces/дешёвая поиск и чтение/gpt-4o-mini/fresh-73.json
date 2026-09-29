@@ -1,0 +1,148 @@
+{
+ "task": {
+  "id": "fresh-73",
+  "source": "fresh",
+  "question": "Who was sentenced to two years' imprisonment for bribery in South Korea on August 31, 2026?",
+  "answer": "Han Hak-ja",
+  "evidence": "31 August – A court in Seoul sentences Unification Church leader Han Hak-ja to two years' imprisonment for bribery involving former first lady Kim Keon Hee.",
+  "page": "2026 in South Korea",
+  "url": "https://en.wikipedia.org/wiki/2026_in_South_Korea",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "У меня нет информации о том, кто был осуждён за взяточничество в Южной Корее 31 августа 2026 года. FINAL: Информация недоступна.",
+ "correct": false,
+ "cost": 0.0009508500000000031,
+ "seconds": 37.57994699990377,
+ "steps": 7,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. На вопросы по-русски можешь искать в ru.wikipedia.org (language=ru), затем читать статью с тем же language. Для фактов о новых моделях проверь официальные анонсы через source_search/source_find. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who was sentenced to two years' imprisonment for bribery in South Korea on August 31, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_MnYL4eRTZKXDaG6XEPq3oVdn",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"bribery South Korea sentenced two years August 31, 2026\",\"language\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_MnYL4eRTZKXDaG6XEPq3oVdn",
+   "content": "[en:2026 in South Korea] Scheduled events in 2026 in South Korea. | Other titles: ['Corruption in South Korea', 'Kim Keon Hee']"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_67SYGrr8gMoFrlwwjzusuyUn",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"August 31 2026 South Korea bribery sentencing\",\"language\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_67SYGrr8gMoFrlwwjzusuyUn",
+   "content": "[en:2026 in South Korea] Scheduled events in 2026 in South Korea. | Other titles: ['South Korea', 'Corruption in South Korea']"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ZYGa14PnsWW0Sg09riVa8FCo",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"South Korea bribery news August 31 2026\",\"language\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ZYGa14PnsWW0Sg09riVa8FCo",
+   "content": "[en:2026 in South Korea] Scheduled events in 2026 in South Korea. | Other titles: ['South Korea', 'Democratic Party (South Korea, 2015)']"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_HiWaflWjbdMdoJiVVeqrwIYV",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"bribery case sentenced to two years South Korea August 31 2026\",\"language\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_HiWaflWjbdMdoJiVVeqrwIYV",
+   "content": "[en:2026 in South Korea] Scheduled events in 2026 in South Korea. | Other titles: ['Corruption in South Korea', 'Kim Keon Hee']"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_CdiHRc2hzK6o1Lqn0jgQvZ6V",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"South Korea bribery scandal sentenced August 31 2026\",\"language\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_CdiHRc2hzK6o1Lqn0jgQvZ6V",
+   "content": "[en:Corruption in South Korea] Corruption in South Korea is moderate compared to most countries in the Asia–Pacific and the broader international community. Transparency International's 2025 Corruption Perceptions Index, scored South Korea at 63 on a scale from 0 (\"highly corrupt\") to 100 (\"very clean\"). When ranked by score, South Korea ranked 31st among the 182 countries in the Index, where the country ranked first is perceived to have the most honest public sector. For comparison with regional scores, the best score among those countries of the Asia Pacific region that appeared in the Index was 84, the average score was 45 and the worst score was 15. For comparison with worldwide scores, the best score was 89 (ranked 1), the average score was 42, and the worst score was 9 (ranked 181, in a two-way tie). | Other titles: ['National Intelligence Service (South Korea)', 'Kim Keon Hee']"
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "У меня нет информации о том, кто был осуждён за взяточничество в Южной Корее 31 августа 2026 года. FINAL: Информация недоступна.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

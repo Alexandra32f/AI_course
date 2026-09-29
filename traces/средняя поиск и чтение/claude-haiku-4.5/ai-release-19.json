@@ -1,0 +1,98 @@
+{
+ "task": {
+  "id": "ai-release-19",
+  "source": "fresh",
+  "question": "Какая техника настройки гиперпараметров описана Meta при релизе Llama 4 Scout и Maverick в апреле 2025 года?",
+  "answer": "MetaP",
+  "evidence": "We developed a new training technique which we refer to as MetaP that allows us to reliably set critical model hyper-parameters",
+  "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+  "page": "meta4"
+ },
+ "answer": "К сожалению, я не могу найти официальный анонс Meta о релизе Llama 4 Scout и Maverick в апреле 2025 года через доступные источники. Это может означать, что:\n\n1. Такой релиз не произошел или информация еще не доступна\n2. Информация находится на страницах, которые мой инструмент поиска не может индексировать\n3. Названия или даты в запросе могут отличаться от фактических\n\nЕсли вы располагаете конкретной ссылкой на официальный анонс Meta о Llama 4 Scout и Maverick, я смогу помочь вам найти там информацию о технике настройки гиперпараметров через инструмент source_find.\n\nFINAL: Не удалось найти информацию об официальном релизе Meta Llama 4 Scout и Maverick в апреле 2025 года в доступных источниках.",
+ "correct": false,
+ "cost": 0.013927000000000245,
+ "seconds": 33.47850940003991,
+ "steps": 4,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. На вопросы по-русски можешь искать в ru.wikipedia.org (language=ru), затем читать статью с тем же language. Для фактов о новых моделях проверь официальные анонсы через source_search/source_find. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Какая техника настройки гиперпараметров описана Meta при релизе Llama 4 Scout и Maverick в апреле 2025 года?"
+  },
+  {
+   "role": "assistant",
+   "content": "Я помогу вам найти информацию о технике настройки гиперпараметров для Llama 4 Scout и Maverick. Давайте начнем с поиска официального анонса Meta.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01N7WDk4Rb7rR9f4aKnzF1Md",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\": \"Llama 4 Scout Maverick Meta апрель 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01N7WDk4Rb7rR9f4aKnzF1Md",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": "Попробуем другой поисковый запрос:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01LK692pw1Z9DuA938UrbAvV",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\": \"Llama 4 Scout Maverick 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01LK692pw1Z9DuA938UrbAvV",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": "Поищу более общий запрос:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01CDhntFDgafhRnELyWHMJiD",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\": \"Meta Llama 4 2025 release\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01CDhntFDgafhRnELyWHMJiD",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": "К сожалению, я не могу найти официальный анонс Meta о релизе Llama 4 Scout и Maverick в апреле 2025 года через доступные источники. Это может означать, что:\n\n1. Такой релиз не произошел или информация еще не доступна\n2. Информация находится на страницах, которые мой инструмент поиска не может индексировать\n3. Названия или даты в запросе могут отличаться от фактических\n\nЕсли вы располагаете конкретной ссылкой на официальный анонс Meta о Llama 4 Scout и Maverick, я смогу помочь вам найти там информацию о технике настройки гиперпараметров через инструмент source_find.\n\nFINAL: Не удалось найти информацию об официальном релизе Meta Llama 4 Scout и Maverick в апреле 2025 года в доступных источниках.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

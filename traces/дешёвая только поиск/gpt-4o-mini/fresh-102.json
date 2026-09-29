@@ -1,0 +1,100 @@
+{
+ "task": {
+  "id": "fresh-102",
+  "source": "fresh",
+  "question": "Who was recognized as Hero of Ukraine in 2025?",
+  "answer": "Oleksandr Dovhach",
+  "evidence": "9 March – Oleksandr Dovhach, military pilot, Hero of Ukraine (2025).",
+  "page": "2026 in Ukraine",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "В 2025 году звание Героя Украины был удостоен Роберт Иосифович Бровди, командующий Силами беспилотных систем Украины. FINAL: Роберт Иосифович Бровди",
+ "correct": false,
+ "cost": 0.00038699999999999846,
+ "seconds": 20.384892700007185,
+ "steps": 4,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. На вопросы по-русски можешь искать в ru.wikipedia.org (language=ru), затем читать статью с тем же language. Для фактов о новых моделях проверь официальные анонсы через source_search/source_find. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who was recognized as Hero of Ukraine in 2025?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_vE3RD3z3nqxiVMzIuj86zuCg",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Hero of Ukraine 2025\",\"language\":\"ru\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_vE3RD3z3nqxiVMzIuj86zuCg",
+   "content": "[ru:Интернациональный легион территориальной обороны Украины] Интернациональный легион территориальной обороны Украины (укр. Інтернаціональний легіон територіальної оборони України, англ. International Legion Defence of Ukraine) — проект правительства Украины по привлечению иностранных добровольцев для отражения российского вторжения. Первоначально был частью Сил территориальных обороны, позже перейдя в состав Сухопутных войск Украины. | Other titles: ['Григорьев, Андрей Николаевич', 'Призрак Киева']"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_o2yQUtppltWatpWZTub51ncz",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Герой Украины 2025\",\"language\":\"ru\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_o2yQUtppltWatpWZTub51ncz",
+   "content": "[ru:Бровди, Роберт Иосифович] Ро́берт Ио́сифович Бро́вди (укр. Роберт Йосипович Бровді, венг. Bródi Róbert, позывной — Мадяр (с укр. — «венгр»); род. 9 августа 1975, Ужгород) — украинский военнослужащий, майор, участник российско-украинской войны. С 3 июня 2025 года командующий Силами беспилотных систем Украины, организатор и руководитель аэроразведывательного подразделения ВСУ, неформальное название (укр. Птахи Мадяра — птицы Мадьяра). Герой Украины (2025). | Other titles: ['Город-герой Украины', 'Поклад, Александр Валентинович']"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_ZdQHMyEa246Z4hJStNyyeaSj",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\":\"Hero of Ukraine 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_ZdQHMyEa246Z4hJStNyyeaSj",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": "В 2025 году звание Героя Украины был удостоен Роберт Иосифович Бровди, командующий Силами беспилотных систем Украины. FINAL: Роберт Иосифович Бровди",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

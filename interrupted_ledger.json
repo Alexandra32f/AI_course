@@ -1,0 +1,4146 @@
+[
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 61,
+    "completion": 4,
+    "cost": 1.155e-05,
+    "seconds": 4.0
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 54,
+    "completion": 11,
+    "cost": 1.47e-05,
+    "seconds": 3.17
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 58,
+    "completion": 4,
+    "cost": 1.11e-05,
+    "seconds": 2.96
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 55,
+    "completion": 4,
+    "cost": 1.065e-05,
+    "seconds": 4.28
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 57,
+    "completion": 4,
+    "cost": 1.095e-05,
+    "seconds": 2.59
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 61,
+    "completion": 4,
+    "cost": 1.155e-05,
+    "seconds": 3.0
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 59,
+    "completion": 4,
+    "cost": 1.125e-05,
+    "seconds": 3.53
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 57,
+    "completion": 4,
+    "cost": 1.095e-05,
+    "seconds": 3.56
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 59,
+    "completion": 4,
+    "cost": 1.125e-05,
+    "seconds": 3.61
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 58,
+    "completion": 3,
+    "cost": 1.05e-05,
+    "seconds": 2.45
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 60,
+    "completion": 3,
+    "cost": 1.08e-05,
+    "seconds": 3.29
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 69,
+    "completion": 4,
+    "cost": 1.275e-05,
+    "seconds": 2.84
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 66,
+    "completion": 4,
+    "cost": 1.23e-05,
+    "seconds": 3.05
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 59,
+    "completion": 4,
+    "cost": 1.125e-05,
+    "seconds": 2.21
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 61,
+    "completion": 4,
+    "cost": 1.155e-05,
+    "seconds": 3.53
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 63,
+    "completion": 3,
+    "cost": 1.125e-05,
+    "seconds": 2.87
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 62,
+    "completion": 4,
+    "cost": 1.17e-05,
+    "seconds": 3.21
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 61,
+    "completion": 4,
+    "cost": 1.155e-05,
+    "seconds": 3.16
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 67,
+    "completion": 4,
+    "cost": 1.245e-05,
+    "seconds": 3.27
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 64,
+    "completion": 4,
+    "cost": 1.2e-05,
+    "seconds": 2.43
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 64,
+    "completion": 4,
+    "cost": 1.2e-05,
+    "seconds": 3.36
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 63,
+    "completion": 4,
+    "cost": 1.185e-05,
+    "seconds": 2.66
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 72,
+    "completion": 3,
+    "cost": 1.26e-05,
+    "seconds": 2.58
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 64,
+    "completion": 4,
+    "cost": 1.2e-05,
+    "seconds": 2.97
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 61,
+    "completion": 4,
+    "cost": 1.155e-05,
+    "seconds": 2.7
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 65,
+    "completion": 4,
+    "cost": 1.215e-05,
+    "seconds": 2.54
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 68,
+    "completion": 4,
+    "cost": 1.26e-05,
+    "seconds": 2.97
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 73,
+    "completion": 3,
+    "cost": 1.275e-05,
+    "seconds": 3.38
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 72,
+    "completion": 4,
+    "cost": 1.32e-05,
+    "seconds": 2.86
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 64,
+    "completion": 4,
+    "cost": 1.2e-05,
+    "seconds": 2.65
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 61,
+    "completion": 4,
+    "cost": 1.155e-05,
+    "seconds": 3.26
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 62,
+    "completion": 4,
+    "cost": 1.17e-05,
+    "seconds": 2.71
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 58,
+    "completion": 4,
+    "cost": 1.11e-05,
+    "seconds": 3.26
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 60,
+    "completion": 3,
+    "cost": 1.08e-05,
+    "seconds": 4.8
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 64,
+    "completion": 3,
+    "cost": 1.14e-05,
+    "seconds": 2.86
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 60,
+    "completion": 4,
+    "cost": 1.14e-05,
+    "seconds": 2.94
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 68,
+    "completion": 4,
+    "cost": 1.26e-05,
+    "seconds": 3.19
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 61,
+    "completion": 4,
+    "cost": 1.155e-05,
+    "seconds": 3.06
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 62,
+    "completion": 4,
+    "cost": 1.17e-05,
+    "seconds": 3.15
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 61,
+    "completion": 4,
+    "cost": 1.155e-05,
+    "seconds": 3.3
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 59,
+    "completion": 4,
+    "cost": 1.125e-05,
+    "seconds": 3.52
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 61,
+    "completion": 3,
+    "cost": 1.095e-05,
+    "seconds": 2.14
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 57,
+    "completion": 4,
+    "cost": 1.095e-05,
+    "seconds": 3.37
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 62,
+    "completion": 3,
+    "cost": 1.11e-05,
+    "seconds": 2.92
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 65,
+    "completion": 4,
+    "cost": 1.215e-05,
+    "seconds": 3.36
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 63,
+    "completion": 4,
+    "cost": 1.185e-05,
+    "seconds": 2.21
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 59,
+    "completion": 4,
+    "cost": 1.125e-05,
+    "seconds": 3.33
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 60,
+    "completion": 3,
+    "cost": 1.08e-05,
+    "seconds": 2.86
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 59,
+    "completion": 4,
+    "cost": 1.125e-05,
+    "seconds": 2.78
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 63,
+    "completion": 4,
+    "cost": 1.185e-05,
+    "seconds": 3.42
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 67,
+    "completion": 4,
+    "cost": 1.245e-05,
+    "seconds": 2.78
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 65,
+    "completion": 4,
+    "cost": 1.215e-05,
+    "seconds": 2.23
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 62,
+    "completion": 4,
+    "cost": 1.17e-05,
+    "seconds": 4.07
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 67,
+    "completion": 4,
+    "cost": 1.245e-05,
+    "seconds": 3.18
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 65,
+    "completion": 4,
+    "cost": 1.215e-05,
+    "seconds": 3.55
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 60,
+    "completion": 4,
+    "cost": 1.14e-05,
+    "seconds": 2.48
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 54,
+    "completion": 4,
+    "cost": 1.05e-05,
+    "seconds": 3.23
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 64,
+    "completion": 4,
+    "cost": 1.2e-05,
+    "seconds": 2.31
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 65,
+    "completion": 4,
+    "cost": 1.215e-05,
+    "seconds": 2.69
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 65,
+    "completion": 4,
+    "cost": 1.215e-05,
+    "seconds": 3.35
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 57,
+    "completion": 3,
+    "cost": 1.035e-05,
+    "seconds": 2.84
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 61,
+    "completion": 4,
+    "cost": 1.155e-05,
+    "seconds": 2.32
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 58,
+    "completion": 4,
+    "cost": 1.11e-05,
+    "seconds": 2.39
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 60,
+    "completion": 3,
+    "cost": 1.08e-05,
+    "seconds": 3.04
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 58,
+    "completion": 4,
+    "cost": 1.11e-05,
+    "seconds": 2.85
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 68,
+    "completion": 4,
+    "cost": 1.26e-05,
+    "seconds": 3.27
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 66,
+    "completion": 3,
+    "cost": 1.17e-05,
+    "seconds": 2.85
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 69,
+    "completion": 4,
+    "cost": 1.275e-05,
+    "seconds": 2.72
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 63,
+    "completion": 4,
+    "cost": 1.185e-05,
+    "seconds": 3.84
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 57,
+    "completion": 4,
+    "cost": 1.095e-05,
+    "seconds": 2.82
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 61,
+    "completion": 4,
+    "cost": 1.155e-05,
+    "seconds": 3.06
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 68,
+    "completion": 3,
+    "cost": 1.2e-05,
+    "seconds": 3.06
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 65,
+    "completion": 4,
+    "cost": 1.215e-05,
+    "seconds": 2.65
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 65,
+    "completion": 4,
+    "cost": 1.215e-05,
+    "seconds": 3.14
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 57,
+    "completion": 4,
+    "cost": 1.095e-05,
+    "seconds": 3.44
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 63,
+    "completion": 4,
+    "cost": 1.185e-05,
+    "seconds": 2.27
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 64,
+    "completion": 4,
+    "cost": 1.2e-05,
+    "seconds": 2.25
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 59,
+    "completion": 4,
+    "cost": 1.125e-05,
+    "seconds": 3.16
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 62,
+    "completion": 3,
+    "cost": 1.11e-05,
+    "seconds": 4.26
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 66,
+    "completion": 4,
+    "cost": 1.23e-05,
+    "seconds": 3.49
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 60,
+    "completion": 4,
+    "cost": 1.14e-05,
+    "seconds": 2.84
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 57,
+    "completion": 4,
+    "cost": 1.095e-05,
+    "seconds": 3.74
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 62,
+    "completion": 4,
+    "cost": 1.17e-05,
+    "seconds": 3.01
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 66,
+    "completion": 4,
+    "cost": 1.23e-05,
+    "seconds": 2.65
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 61,
+    "completion": 4,
+    "cost": 1.155e-05,
+    "seconds": 4.04
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 65,
+    "completion": 3,
+    "cost": 1.155e-05,
+    "seconds": 3.3
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 57,
+    "completion": 4,
+    "cost": 1.095e-05,
+    "seconds": 2.74
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 61,
+    "completion": 4,
+    "cost": 1.155e-05,
+    "seconds": 2.52
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 59,
+    "completion": 4,
+    "cost": 1.125e-05,
+    "seconds": 2.9
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 63,
+    "completion": 4,
+    "cost": 1.185e-05,
+    "seconds": 3.17
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 66,
+    "completion": 4,
+    "cost": 1.23e-05,
+    "seconds": 3.65
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 67,
+    "completion": 3,
+    "cost": 1.185e-05,
+    "seconds": 3.38
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 62,
+    "completion": 4,
+    "cost": 1.17e-05,
+    "seconds": 3.86
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 61,
+    "completion": 4,
+    "cost": 1.155e-05,
+    "seconds": 2.86
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 57,
+    "completion": 3,
+    "cost": 1.035e-05,
+    "seconds": 2.72
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 57,
+    "completion": 4,
+    "cost": 1.095e-05,
+    "seconds": 2.31
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 60,
+    "completion": 4,
+    "cost": 1.14e-05,
+    "seconds": 3.35
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 56,
+    "completion": 4,
+    "cost": 1.08e-05,
+    "seconds": 3.28
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 67,
+    "completion": 4,
+    "cost": 1.245e-05,
+    "seconds": 3.19
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 56,
+    "completion": 4,
+    "cost": 1.08e-05,
+    "seconds": 2.37
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 63,
+    "completion": 4,
+    "cost": 1.185e-05,
+    "seconds": 3.44
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 58,
+    "completion": 3,
+    "cost": 1.05e-05,
+    "seconds": 3.18
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 54,
+    "completion": 4,
+    "cost": 1.05e-05,
+    "seconds": 3.49
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 57,
+    "completion": 4,
+    "cost": 1.095e-05,
+    "seconds": 3.13
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 61,
+    "completion": 4,
+    "cost": 1.155e-05,
+    "seconds": 3.57
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 63,
+    "completion": 4,
+    "cost": 1.185e-05,
+    "seconds": 4.08
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 59,
+    "completion": 3,
+    "cost": 1.065e-05,
+    "seconds": 2.86
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 57,
+    "completion": 3,
+    "cost": 1.035e-05,
+    "seconds": 3.2
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 58,
+    "completion": 4,
+    "cost": 1.11e-05,
+    "seconds": 2.67
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 60,
+    "completion": 3,
+    "cost": 1.08e-05,
+    "seconds": 2.68
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 54,
+    "completion": 4,
+    "cost": 1.05e-05,
+    "seconds": 2.67
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 64,
+    "completion": 3,
+    "cost": 1.14e-05,
+    "seconds": 2.83
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 59,
+    "completion": 4,
+    "cost": 1.125e-05,
+    "seconds": 2.85
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 59,
+    "completion": 3,
+    "cost": 1.065e-05,
+    "seconds": 2.74
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 64,
+    "completion": 4,
+    "cost": 1.2e-05,
+    "seconds": 2.86
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 62,
+    "completion": 4,
+    "cost": 1.17e-05,
+    "seconds": 3.56
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 59,
+    "completion": 3,
+    "cost": 1.065e-05,
+    "seconds": 2.96
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 57,
+    "completion": 6,
+    "cost": 1.215e-05,
+    "seconds": 2.79
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 56,
+    "completion": 4,
+    "cost": 1.08e-05,
+    "seconds": 3.44
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 54,
+    "completion": 4,
+    "cost": 1.05e-05,
+    "seconds": 2.59
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 60,
+    "completion": 4,
+    "cost": 1.14e-05,
+    "seconds": 3.06
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 57,
+    "completion": 3,
+    "cost": 1.035e-05,
+    "seconds": 2.6
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 58,
+    "completion": 3,
+    "cost": 1.05e-05,
+    "seconds": 3.47
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 56,
+    "completion": 4,
+    "cost": 1.08e-05,
+    "seconds": 4.66
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 56,
+    "completion": 3,
+    "cost": 1.02e-05,
+    "seconds": 2.03
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 66,
+    "completion": 3,
+    "cost": 1.17e-05,
+    "seconds": 3.37
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 72,
+    "completion": 3,
+    "cost": 1.26e-05,
+    "seconds": 3.04
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 65,
+    "completion": 4,
+    "cost": 1.215e-05,
+    "seconds": 2.94
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 69,
+    "completion": 4,
+    "cost": 1.275e-05,
+    "seconds": 3.51
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 68,
+    "completion": 4,
+    "cost": 1.26e-05,
+    "seconds": 2.28
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 65,
+    "completion": 4,
+    "cost": 1.215e-05,
+    "seconds": 2.56
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 73,
+    "completion": 4,
+    "cost": 1.335e-05,
+    "seconds": 2.55
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 65,
+    "completion": 4,
+    "cost": 1.215e-05,
+    "seconds": 3.66
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 62,
+    "completion": 4,
+    "cost": 1.17e-05,
+    "seconds": 2.66
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 68,
+    "completion": 4,
+    "cost": 1.26e-05,
+    "seconds": 3.28
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 61,
+    "completion": 3,
+    "cost": 1.095e-05,
+    "seconds": 3.1
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 69,
+    "completion": 4,
+    "cost": 1.275e-05,
+    "seconds": 3.04
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 68,
+    "completion": 4,
+    "cost": 1.26e-05,
+    "seconds": 2.58
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 68,
+    "completion": 4,
+    "cost": 1.26e-05,
+    "seconds": 2.44
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 61,
+    "completion": 4,
+    "cost": 1.155e-05,
+    "seconds": 2.23
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 74,
+    "completion": 4,
+    "cost": 1.35e-05,
+    "seconds": 2.37
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 69,
+    "completion": 4,
+    "cost": 1.275e-05,
+    "seconds": 2.03
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 62,
+    "completion": 4,
+    "cost": 1.17e-05,
+    "seconds": 2.14
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 72,
+    "completion": 4,
+    "cost": 1.32e-05,
+    "seconds": 2.82
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 74,
+    "completion": 4,
+    "cost": 1.35e-05,
+    "seconds": 2.34
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 297,
+    "completion": 28,
+    "cost": 6.135e-05,
+    "seconds": 2.55
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 722,
+    "completion": 29,
+    "cost": 0.0001257,
+    "seconds": 2.87
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1148,
+    "completion": 29,
+    "cost": 0.0001896,
+    "seconds": 2.62
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1572,
+    "completion": 29,
+    "cost": 0.0001668,
+    "seconds": 2.88
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1992,
+    "completion": 26,
+    "cost": 0.0001992,
+    "seconds": 2.7
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 2028,
+    "completion": 24,
+    "cost": 0.0001746,
+    "seconds": 2.83
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1902,
+    "completion": 67,
+    "cost": 0.0003255,
+    "seconds": 2.74
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 290,
+    "completion": 23,
+    "cost": 5.73e-05,
+    "seconds": 3.17
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 451,
+    "completion": 26,
+    "cost": 8.325e-05,
+    "seconds": 2.44
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 653,
+    "completion": 29,
+    "cost": 0.00011535,
+    "seconds": 4.15
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 294,
+    "completion": 30,
+    "cost": 6.21e-05,
+    "seconds": 2.39
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 754,
+    "completion": 45,
+    "cost": 0.0001401,
+    "seconds": 2.79
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 291,
+    "completion": 24,
+    "cost": 5.805e-05,
+    "seconds": 2.61
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 376,
+    "completion": 28,
+    "cost": 7.32e-05,
+    "seconds": 2.8
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 915,
+    "completion": 33,
+    "cost": 0.00015705,
+    "seconds": 3.19
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1459,
+    "completion": 29,
+    "cost": 0.00023625,
+    "seconds": 3.37
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1999,
+    "completion": 30,
+    "cost": 0.00021225,
+    "seconds": 3.38
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 2540,
+    "completion": 23,
+    "cost": 0.0002508,
+    "seconds": 3.89
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 2414,
+    "completion": 51,
+    "cost": 0.0003927,
+    "seconds": 5.88
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 293,
+    "completion": 24,
+    "cost": 5.835e-05,
+    "seconds": 2.84
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 400,
+    "completion": 26,
+    "cost": 7.56e-05,
+    "seconds": 2.92
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 850,
+    "completion": 25,
+    "cost": 0.0001425,
+    "seconds": 2.66
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 928,
+    "completion": 25,
+    "cost": 0.0001542,
+    "seconds": 2.98
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1011,
+    "completion": 24,
+    "cost": 0.00016605,
+    "seconds": 2.97
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1089,
+    "completion": 24,
+    "cost": 0.00017775,
+    "seconds": 3.04
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 963,
+    "completion": 56,
+    "cost": 0.00017805,
+    "seconds": 2.8
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 297,
+    "completion": 27,
+    "cost": 6.075e-05,
+    "seconds": 3.04
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 416,
+    "completion": 25,
+    "cost": 7.74e-05,
+    "seconds": 2.77
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 295,
+    "completion": 26,
+    "cost": 5.985e-05,
+    "seconds": 2.4
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 653,
+    "completion": 31,
+    "cost": 0.00011655,
+    "seconds": 2.7
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 293,
+    "completion": 26,
+    "cost": 5.955e-05,
+    "seconds": 2.43
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 762,
+    "completion": 27,
+    "cost": 0.0001305,
+    "seconds": 3.07
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 799,
+    "completion": 29,
+    "cost": 0.00013725,
+    "seconds": 3.03
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1271,
+    "completion": 25,
+    "cost": 0.00020565,
+    "seconds": 2.7
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1677,
+    "completion": 27,
+    "cost": 0.00017175,
+    "seconds": 3.0
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1749,
+    "completion": 27,
+    "cost": 0.00027855,
+    "seconds": 2.7
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1623,
+    "completion": 59,
+    "cost": 0.00027885,
+    "seconds": 2.89
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 295,
+    "completion": 26,
+    "cost": 5.985e-05,
+    "seconds": 2.94
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 398,
+    "completion": 26,
+    "cost": 7.53e-05,
+    "seconds": 2.78
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 434,
+    "completion": 22,
+    "cost": 7.83e-05,
+    "seconds": 2.76
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 466,
+    "completion": 47,
+    "cost": 9.81e-05,
+    "seconds": 3.95
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 294,
+    "completion": 24,
+    "cost": 5.85e-05,
+    "seconds": 2.44
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 403,
+    "completion": 25,
+    "cost": 7.545e-05,
+    "seconds": 2.86
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 296,
+    "completion": 24,
+    "cost": 5.88e-05,
+    "seconds": 2.31
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 382,
+    "completion": 26,
+    "cost": 7.29e-05,
+    "seconds": 2.8
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 469,
+    "completion": 28,
+    "cost": 8.715e-05,
+    "seconds": 2.77
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 557,
+    "completion": 27,
+    "cost": 9.975e-05,
+    "seconds": 2.67
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 644,
+    "completion": 28,
+    "cost": 0.0001134,
+    "seconds": 3.08
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 734,
+    "completion": 28,
+    "cost": 0.0001269,
+    "seconds": 3.11
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 608,
+    "completion": 76,
+    "cost": 0.0001368,
+    "seconds": 3.26
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 305,
+    "completion": 28,
+    "cost": 6.255e-05,
+    "seconds": 3.47
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 343,
+    "completion": 32,
+    "cost": 7.065e-05,
+    "seconds": 3.48
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 419,
+    "completion": 22,
+    "cost": 7.605e-05,
+    "seconds": 2.82
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 563,
+    "completion": 25,
+    "cost": 9.945e-05,
+    "seconds": 2.97
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 632,
+    "completion": 51,
+    "cost": 0.0001254,
+    "seconds": 5.45
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 302,
+    "completion": 27,
+    "cost": 6.15e-05,
+    "seconds": 3.15
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 339,
+    "completion": 35,
+    "cost": 7.185e-05,
+    "seconds": 3.28
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 551,
+    "completion": 83,
+    "cost": 0.00013245,
+    "seconds": 3.73
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 295,
+    "completion": 22,
+    "cost": 5.745e-05,
+    "seconds": 3.05
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 327,
+    "completion": 51,
+    "cost": 7.965e-05,
+    "seconds": 3.85
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 297,
+    "completion": 29,
+    "cost": 6.195e-05,
+    "seconds": 3.71
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 369,
+    "completion": 25,
+    "cost": 7.035e-05,
+    "seconds": 2.63
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 834,
+    "completion": 26,
+    "cost": 0.0001407,
+    "seconds": 2.93
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 870,
+    "completion": 37,
+    "cost": 0.0001527,
+    "seconds": 3.04
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1446,
+    "completion": 38,
+    "cost": 0.0002397,
+    "seconds": 3.41
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 2023,
+    "completion": 29,
+    "cost": 0.00021525,
+    "seconds": 3.72
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1897,
+    "completion": 41,
+    "cost": 0.00030915,
+    "seconds": 3.14
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 299,
+    "completion": 34,
+    "cost": 6.525e-05,
+    "seconds": 3.23
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 566,
+    "completion": 32,
+    "cost": 0.0001041,
+    "seconds": 2.73
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1177,
+    "completion": 27,
+    "cost": 0.00019275,
+    "seconds": 12.98
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1356,
+    "completion": 26,
+    "cost": 0.0001326,
+    "seconds": 3.13
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1392,
+    "completion": 26,
+    "cost": 0.0001284,
+    "seconds": 3.12
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1621,
+    "completion": 28,
+    "cost": 0.00016395,
+    "seconds": 3.05
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1495,
+    "completion": 42,
+    "cost": 0.00024945,
+    "seconds": 3.25
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 298,
+    "completion": 19,
+    "cost": 5.61e-05,
+    "seconds": 2.98
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 327,
+    "completion": 23,
+    "cost": 6.285e-05,
+    "seconds": 2.37
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 541,
+    "completion": 25,
+    "cost": 9.615e-05,
+    "seconds": 2.69
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 297,
+    "completion": 22,
+    "cost": 5.775e-05,
+    "seconds": 2.42
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 329,
+    "completion": 27,
+    "cost": 6.555e-05,
+    "seconds": 2.64
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 483,
+    "completion": 23,
+    "cost": 8.625e-05,
+    "seconds": 2.97
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 587,
+    "completion": 27,
+    "cost": 0.00010425,
+    "seconds": 3.07
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 742,
+    "completion": 24,
+    "cost": 0.0001257,
+    "seconds": 2.61
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 873,
+    "completion": 23,
+    "cost": 0.00014475,
+    "seconds": 2.47
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 747,
+    "completion": 35,
+    "cost": 0.00013305,
+    "seconds": 3.34
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 303,
+    "completion": 33,
+    "cost": 6.525e-05,
+    "seconds": 3.2
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 754,
+    "completion": 30,
+    "cost": 0.0001311,
+    "seconds": 2.87
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1074,
+    "completion": 25,
+    "cost": 0.0001761,
+    "seconds": 5.42
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1517,
+    "completion": 27,
+    "cost": 0.00016695,
+    "seconds": 3.25
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1566,
+    "completion": 29,
+    "cost": 0.0001467,
+    "seconds": 2.89
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1617,
+    "completion": 27,
+    "cost": 0.00014355,
+    "seconds": 4.6
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1491,
+    "completion": 53,
+    "cost": 0.00025545,
+    "seconds": 3.59
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 300,
+    "completion": 25,
+    "cost": 6e-05,
+    "seconds": 2.49
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 335,
+    "completion": 29,
+    "cost": 6.765e-05,
+    "seconds": 2.95
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 778,
+    "completion": 21,
+    "cost": 0.0001293,
+    "seconds": 2.97
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1213,
+    "completion": 25,
+    "cost": 0.00019695,
+    "seconds": 2.88
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1433,
+    "completion": 25,
+    "cost": 0.00014355,
+    "seconds": 2.37
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1468,
+    "completion": 22,
+    "cost": 0.0001278,
+    "seconds": 3.26
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1342,
+    "completion": 34,
+    "cost": 0.0002217,
+    "seconds": 2.73
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 300,
+    "completion": 25,
+    "cost": 6e-05,
+    "seconds": 8.14
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 477,
+    "completion": 84,
+    "cost": 0.00012195,
+    "seconds": 3.59
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 299,
+    "completion": 28,
+    "cost": 6.165e-05,
+    "seconds": 2.87
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 518,
+    "completion": 26,
+    "cost": 9.33e-05,
+    "seconds": 2.16
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 692,
+    "completion": 26,
+    "cost": 0.0001194,
+    "seconds": 2.87
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 870,
+    "completion": 26,
+    "cost": 0.0001461,
+    "seconds": 2.68
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 744,
+    "completion": 60,
+    "cost": 0.0001476,
+    "seconds": 3.9
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 308,
+    "completion": 22,
+    "cost": 5.94e-05,
+    "seconds": 2.97
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 340,
+    "completion": 22,
+    "cost": 6.42e-05,
+    "seconds": 3.53
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 466,
+    "completion": 26,
+    "cost": 8.55e-05,
+    "seconds": 3.04
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 588,
+    "completion": 24,
+    "cost": 0.0001026,
+    "seconds": 2.04
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 706,
+    "completion": 23,
+    "cost": 0.0001197,
+    "seconds": 3.2
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 739,
+    "completion": 63,
+    "cost": 0.00014865,
+    "seconds": 3.13
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 300,
+    "completion": 25,
+    "cost": 6e-05,
+    "seconds": 2.5
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 736,
+    "completion": 29,
+    "cost": 0.0001278,
+    "seconds": 2.87
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1176,
+    "completion": 26,
+    "cost": 0.000192,
+    "seconds": 3.47
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1398,
+    "completion": 28,
+    "cost": 0.0001401,
+    "seconds": 4.91
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1976,
+    "completion": 27,
+    "cost": 0.000207,
+    "seconds": 4.15
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 2553,
+    "completion": 25,
+    "cost": 0.00025395,
+    "seconds": 4.17
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 2427,
+    "completion": 32,
+    "cost": 0.00038325,
+    "seconds": 2.98
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 297,
+    "completion": 24,
+    "cost": 5.895e-05,
+    "seconds": 2.92
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 834,
+    "completion": 29,
+    "cost": 0.0001425,
+    "seconds": 4.36
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 301,
+    "completion": 32,
+    "cost": 6.435e-05,
+    "seconds": 2.66
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 734,
+    "completion": 26,
+    "cost": 0.0001257,
+    "seconds": 3.12
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1015,
+    "completion": 73,
+    "cost": 0.00019605,
+    "seconds": 2.94
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 304,
+    "completion": 31,
+    "cost": 6.42e-05,
+    "seconds": 2.83
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 787,
+    "completion": 30,
+    "cost": 0.00013605,
+    "seconds": 3.14
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 827,
+    "completion": 26,
+    "cost": 0.00013965,
+    "seconds": 2.97
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 863,
+    "completion": 28,
+    "cost": 0.00014625,
+    "seconds": 3.19
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1343,
+    "completion": 40,
+    "cost": 0.00022545,
+    "seconds": 3.2
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 309,
+    "completion": 27,
+    "cost": 6.255e-05,
+    "seconds": 2.85
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 777,
+    "completion": 29,
+    "cost": 0.00013395,
+    "seconds": 3.28
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1071,
+    "completion": 29,
+    "cost": 0.00017805,
+    "seconds": 2.81
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1110,
+    "completion": 25,
+    "cost": 0.0001047,
+    "seconds": 3.02
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1145,
+    "completion": 32,
+    "cost": 0.00011415,
+    "seconds": 2.97
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1445,
+    "completion": 30,
+    "cost": 0.00014835,
+    "seconds": 3.15
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1319,
+    "completion": 45,
+    "cost": 0.00022485,
+    "seconds": 3.15
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 308,
+    "completion": 29,
+    "cost": 6.36e-05,
+    "seconds": 2.86
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 494,
+    "completion": 30,
+    "cost": 9.21e-05,
+    "seconds": 3.42
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 300,
+    "completion": 28,
+    "cost": 6.18e-05,
+    "seconds": 2.64
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 565,
+    "completion": 29,
+    "cost": 0.00010215,
+    "seconds": 2.89
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 297,
+    "completion": 28,
+    "cost": 6.135e-05,
+    "seconds": 2.69
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 335,
+    "completion": 31,
+    "cost": 6.885e-05,
+    "seconds": 2.79
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 376,
+    "completion": 36,
+    "cost": 7.8e-05,
+    "seconds": 2.96
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 298,
+    "completion": 30,
+    "cost": 6.27e-05,
+    "seconds": 2.45
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 704,
+    "completion": 30,
+    "cost": 0.0001236,
+    "seconds": 2.96
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1110,
+    "completion": 28,
+    "cost": 0.0001833,
+    "seconds": 2.85
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1463,
+    "completion": 90,
+    "cost": 0.00019665,
+    "seconds": 3.49
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 294,
+    "completion": 28,
+    "cost": 6.09e-05,
+    "seconds": 2.56
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 522,
+    "completion": 25,
+    "cost": 9.33e-05,
+    "seconds": 3.07
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 609,
+    "completion": 25,
+    "cost": 0.00010635,
+    "seconds": 2.96
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 834,
+    "completion": 30,
+    "cost": 0.0001431,
+    "seconds": 3.11
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1057,
+    "completion": 21,
+    "cost": 0.00017115,
+    "seconds": 2.84
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1088,
+    "completion": 28,
+    "cost": 0.0001032,
+    "seconds": 2.93
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 962,
+    "completion": 36,
+    "cost": 0.0001659,
+    "seconds": 2.89
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 296,
+    "completion": 30,
+    "cost": 6.24e-05,
+    "seconds": 2.76
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 699,
+    "completion": 25,
+    "cost": 0.00011985,
+    "seconds": 2.9
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 858,
+    "completion": 27,
+    "cost": 0.0001449,
+    "seconds": 3.01
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1255,
+    "completion": 26,
+    "cost": 0.00020385,
+    "seconds": 2.71
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1364,
+    "completion": 28,
+    "cost": 0.000135,
+    "seconds": 3.19
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1527,
+    "completion": 26,
+    "cost": 0.00014865,
+    "seconds": 2.94
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1401,
+    "completion": 43,
+    "cost": 0.00023595,
+    "seconds": 2.72
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 300,
+    "completion": 25,
+    "cost": 6e-05,
+    "seconds": 2.75
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 335,
+    "completion": 29,
+    "cost": 6.765e-05,
+    "seconds": 3.2
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 884,
+    "completion": 30,
+    "cost": 0.0001506,
+    "seconds": 3.43
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 957,
+    "completion": 27,
+    "cost": 0.00015975,
+    "seconds": 2.92
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 994,
+    "completion": 54,
+    "cost": 0.0001815,
+    "seconds": 3.16
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 296,
+    "completion": 25,
+    "cost": 5.94e-05,
+    "seconds": 2.65
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 331,
+    "completion": 38,
+    "cost": 7.245e-05,
+    "seconds": 3.41
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 939,
+    "completion": 27,
+    "cost": 0.00015705,
+    "seconds": 3.26
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1592,
+    "completion": 24,
+    "cost": 0.0002532,
+    "seconds": 3.24
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1963,
+    "completion": 24,
+    "cost": 0.00019365,
+    "seconds": 3.47
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 2334,
+    "completion": 26,
+    "cost": 0.0002217,
+    "seconds": 3.11
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 2208,
+    "completion": 36,
+    "cost": 0.0003528,
+    "seconds": 3.11
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 304,
+    "completion": 27,
+    "cost": 6.18e-05,
+    "seconds": 3.21
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 516,
+    "completion": 34,
+    "cost": 9.78e-05,
+    "seconds": 2.99
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 297,
+    "completion": 28,
+    "cost": 6.135e-05,
+    "seconds": 2.42
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 370,
+    "completion": 25,
+    "cost": 7.05e-05,
+    "seconds": 2.97
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 828,
+    "completion": 26,
+    "cost": 0.0001398,
+    "seconds": 2.96
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1287,
+    "completion": 27,
+    "cost": 0.00020925,
+    "seconds": 2.83
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1747,
+    "completion": 26,
+    "cost": 0.00018165,
+    "seconds": 2.74
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 2206,
+    "completion": 27,
+    "cost": 0.0002223,
+    "seconds": 3.18
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 2080,
+    "completion": 53,
+    "cost": 0.0003438,
+    "seconds": 3.18
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 298,
+    "completion": 30,
+    "cost": 6.27e-05,
+    "seconds": 2.94
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 491,
+    "completion": 35,
+    "cost": 9.465e-05,
+    "seconds": 2.8
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 297,
+    "completion": 26,
+    "cost": 6.015e-05,
+    "seconds": 2.69
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 566,
+    "completion": 36,
+    "cost": 0.0001065,
+    "seconds": 3.09
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 295,
+    "completion": 27,
+    "cost": 6.045e-05,
+    "seconds": 2.57
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 498,
+    "completion": 27,
+    "cost": 9.09e-05,
+    "seconds": 6.23
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 890,
+    "completion": 29,
+    "cost": 0.0001509,
+    "seconds": 2.86
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1098,
+    "completion": 29,
+    "cost": 0.0001821,
+    "seconds": 3.22
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1305,
+    "completion": 27,
+    "cost": 0.00013515,
+    "seconds": 3.69
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1507,
+    "completion": 24,
+    "cost": 0.00014445,
+    "seconds": 3.4
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1381,
+    "completion": 47,
+    "cost": 0.00023535,
+    "seconds": 3.26
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 297,
+    "completion": 25,
+    "cost": 5.955e-05,
+    "seconds": 3.49
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 606,
+    "completion": 27,
+    "cost": 0.0001071,
+    "seconds": 3.06
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1058,
+    "completion": 23,
+    "cost": 0.0001725,
+    "seconds": 3.1
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1519,
+    "completion": 30,
+    "cost": 0.00016905,
+    "seconds": 3.38
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1559,
+    "completion": 30,
+    "cost": 0.00014625,
+    "seconds": 3.65
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1879,
+    "completion": 28,
+    "cost": 0.00018345,
+    "seconds": 3.51
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1753,
+    "completion": 32,
+    "cost": 0.00028215,
+    "seconds": 2.79
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 293,
+    "completion": 22,
+    "cost": 5.715e-05,
+    "seconds": 2.71
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 325,
+    "completion": 26,
+    "cost": 6.435e-05,
+    "seconds": 2.62
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 544,
+    "completion": 29,
+    "cost": 9.9e-05,
+    "seconds": 2.89
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1019,
+    "completion": 27,
+    "cost": 0.00016905,
+    "seconds": 3.28
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1244,
+    "completion": 66,
+    "cost": 0.0001494,
+    "seconds": 3.29
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 298,
+    "completion": 30,
+    "cost": 6.27e-05,
+    "seconds": 2.54
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 551,
+    "completion": 33,
+    "cost": 0.00010245,
+    "seconds": 3.03
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 301,
+    "completion": 25,
+    "cost": 6.015e-05,
+    "seconds": 2.52
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 336,
+    "completion": 29,
+    "cost": 6.78e-05,
+    "seconds": 2.94
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 412,
+    "completion": 22,
+    "cost": 7.5e-05,
+    "seconds": 2.76
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 583,
+    "completion": 23,
+    "cost": 0.00010125,
+    "seconds": 2.75
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 754,
+    "completion": 25,
+    "cost": 0.0001281,
+    "seconds": 2.54
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 904,
+    "completion": 27,
+    "cost": 0.0001518,
+    "seconds": 2.81
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 778,
+    "completion": 77,
+    "cost": 0.0001629,
+    "seconds": 4.18
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 299,
+    "completion": 30,
+    "cost": 6.285e-05,
+    "seconds": 2.63
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 421,
+    "completion": 30,
+    "cost": 8.115e-05,
+    "seconds": 2.83
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 461,
+    "completion": 26,
+    "cost": 8.475e-05,
+    "seconds": 2.7
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 497,
+    "completion": 44,
+    "cost": 0.00010095,
+    "seconds": 2.81
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 295,
+    "completion": 27,
+    "cost": 6.045e-05,
+    "seconds": 3.88
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 541,
+    "completion": 30,
+    "cost": 9.915e-05,
+    "seconds": 3.11
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 296,
+    "completion": 27,
+    "cost": 6.06e-05,
+    "seconds": 2.51
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 625,
+    "completion": 28,
+    "cost": 0.00011055,
+    "seconds": 2.68
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 295,
+    "completion": 27,
+    "cost": 6.045e-05,
+    "seconds": 3.46
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 403,
+    "completion": 27,
+    "cost": 7.665e-05,
+    "seconds": 2.5
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 631,
+    "completion": 29,
+    "cost": 0.00011205,
+    "seconds": 2.93
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 859,
+    "completion": 31,
+    "cost": 0.00014745,
+    "seconds": 3.0
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1104,
+    "completion": 36,
+    "cost": 0.0001872,
+    "seconds": 2.81
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 299,
+    "completion": 29,
+    "cost": 6.225e-05,
+    "seconds": 2.41
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 640,
+    "completion": 26,
+    "cost": 0.0001116,
+    "seconds": 3.37
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 978,
+    "completion": 26,
+    "cost": 0.0001623,
+    "seconds": 2.58
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1064,
+    "completion": 29,
+    "cost": 0.000177,
+    "seconds": 2.66
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1149,
+    "completion": 27,
+    "cost": 0.00011175,
+    "seconds": 2.64
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1218,
+    "completion": 28,
+    "cost": 0.0001131,
+    "seconds": 2.62
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1092,
+    "completion": 45,
+    "cost": 0.0001908,
+    "seconds": 2.73
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 303,
+    "completion": 34,
+    "cost": 6.585e-05,
+    "seconds": 2.54
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 492,
+    "completion": 31,
+    "cost": 9.24e-05,
+    "seconds": 2.56
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 686,
+    "completion": 27,
+    "cost": 0.0001191,
+    "seconds": 2.67
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 723,
+    "completion": 27,
+    "cost": 0.00012465,
+    "seconds": 2.21
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 760,
+    "completion": 28,
+    "cost": 0.0001308,
+    "seconds": 2.76
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 946,
+    "completion": 30,
+    "cost": 0.0001599,
+    "seconds": 2.74
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 820,
+    "completion": 43,
+    "cost": 0.0001488,
+    "seconds": 2.7
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 301,
+    "completion": 30,
+    "cost": 6.315e-05,
+    "seconds": 2.82
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 385,
+    "completion": 21,
+    "cost": 7.035e-05,
+    "seconds": 2.8
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 529,
+    "completion": 29,
+    "cost": 9.675e-05,
+    "seconds": 2.87
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 298,
+    "completion": 23,
+    "cost": 5.85e-05,
+    "seconds": 2.86
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 331,
+    "completion": 27,
+    "cost": 6.585e-05,
+    "seconds": 3.01
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 468,
+    "completion": 23,
+    "cost": 8.4e-05,
+    "seconds": 2.85
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 606,
+    "completion": 55,
+    "cost": 0.0001239,
+    "seconds": 3.33
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 303,
+    "completion": 31,
+    "cost": 6.405e-05,
+    "seconds": 2.91
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 344,
+    "completion": 32,
+    "cost": 7.08e-05,
+    "seconds": 3.15
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 452,
+    "completion": 24,
+    "cost": 8.22e-05,
+    "seconds": 2.84
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 547,
+    "completion": 48,
+    "cost": 0.00011085,
+    "seconds": 3.01
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 301,
+    "completion": 27,
+    "cost": 6.135e-05,
+    "seconds": 2.7
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 542,
+    "completion": 30,
+    "cost": 9.93e-05,
+    "seconds": 2.79
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 296,
+    "completion": 27,
+    "cost": 6.06e-05,
+    "seconds": 2.75
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 438,
+    "completion": 26,
+    "cost": 8.13e-05,
+    "seconds": 3.22
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 290,
+    "completion": 24,
+    "cost": 5.79e-05,
+    "seconds": 3.46
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 683,
+    "completion": 23,
+    "cost": 0.00011625,
+    "seconds": 2.85
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1075,
+    "completion": 25,
+    "cost": 0.00017625,
+    "seconds": 3.1
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1469,
+    "completion": 20,
+    "cost": 0.00015555,
+    "seconds": 3.23
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1499,
+    "completion": 40,
+    "cost": 0.00014325,
+    "seconds": 3.09
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 300,
+    "completion": 29,
+    "cost": 6.24e-05,
+    "seconds": 2.72
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 438,
+    "completion": 26,
+    "cost": 8.13e-05,
+    "seconds": 3.01
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 666,
+    "completion": 25,
+    "cost": 0.0001149,
+    "seconds": 2.96
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 896,
+    "completion": 24,
+    "cost": 0.0001488,
+    "seconds": 2.92
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 965,
+    "completion": 25,
+    "cost": 0.00015975,
+    "seconds": 3.15
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1408,
+    "completion": 26,
+    "cost": 0.0002268,
+    "seconds": 2.99
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1282,
+    "completion": 62,
+    "cost": 0.0002295,
+    "seconds": 5.02
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 301,
+    "completion": 24,
+    "cost": 5.955e-05,
+    "seconds": 2.95
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 335,
+    "completion": 28,
+    "cost": 6.705e-05,
+    "seconds": 2.91
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 790,
+    "completion": 27,
+    "cost": 0.0001347,
+    "seconds": 2.8
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1244,
+    "completion": 23,
+    "cost": 0.0002004,
+    "seconds": 3.08
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1739,
+    "completion": 27,
+    "cost": 0.00019065,
+    "seconds": 3.25
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 2131,
+    "completion": 27,
+    "cost": 0.00021105,
+    "seconds": 3.33
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 2005,
+    "completion": 54,
+    "cost": 0.00033315,
+    "seconds": 3.27
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 301,
+    "completion": 21,
+    "cost": 5.775e-05,
+    "seconds": 2.9
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 332,
+    "completion": 34,
+    "cost": 7.02e-05,
+    "seconds": 2.77
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 666,
+    "completion": 29,
+    "cost": 0.0001173,
+    "seconds": 3.28
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 809,
+    "completion": 24,
+    "cost": 0.00013575,
+    "seconds": 3.02
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1271,
+    "completion": 25,
+    "cost": 0.00020565,
+    "seconds": 3.42
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1734,
+    "completion": 25,
+    "cost": 0.0001791,
+    "seconds": 3.59
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1608,
+    "completion": 33,
+    "cost": 0.000261,
+    "seconds": 3.24
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 293,
+    "completion": 25,
+    "cost": 5.895e-05,
+    "seconds": 2.88
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 429,
+    "completion": 24,
+    "cost": 7.875e-05,
+    "seconds": 3.17
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 564,
+    "completion": 25,
+    "cost": 9.96e-05,
+    "seconds": 2.95
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 855,
+    "completion": 24,
+    "cost": 0.00014265,
+    "seconds": 2.78
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 989,
+    "completion": 46,
+    "cost": 0.00017595,
+    "seconds": 3.25
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 297,
+    "completion": 23,
+    "cost": 5.835e-05,
+    "seconds": 2.77
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 330,
+    "completion": 27,
+    "cost": 6.57e-05,
+    "seconds": 3.28
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 446,
+    "completion": 32,
+    "cost": 8.61e-05,
+    "seconds": 3.09
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 294,
+    "completion": 26,
+    "cost": 5.97e-05,
+    "seconds": 2.81
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 361,
+    "completion": 26,
+    "cost": 6.975e-05,
+    "seconds": 2.92
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 435,
+    "completion": 25,
+    "cost": 8.025e-05,
+    "seconds": 2.81
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 508,
+    "completion": 25,
+    "cost": 9.12e-05,
+    "seconds": 2.79
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 582,
+    "completion": 28,
+    "cost": 0.0001041,
+    "seconds": 3.43
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 838,
+    "completion": 27,
+    "cost": 0.0001419,
+    "seconds": 3.02
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 296,
+    "completion": 25,
+    "cost": 5.94e-05,
+    "seconds": 2.45
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 365,
+    "completion": 32,
+    "cost": 7.395e-05,
+    "seconds": 3.3
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 407,
+    "completion": 21,
+    "cost": 7.365e-05,
+    "seconds": 2.96
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 438,
+    "completion": 45,
+    "cost": 9.27e-05,
+    "seconds": 3.24
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 294,
+    "completion": 27,
+    "cost": 6.03e-05,
+    "seconds": 2.43
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 596,
+    "completion": 27,
+    "cost": 0.0001056,
+    "seconds": 3.3
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 672,
+    "completion": 23,
+    "cost": 0.0001146,
+    "seconds": 3.01
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 705,
+    "completion": 33,
+    "cost": 0.00012555,
+    "seconds": 3.1
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 871,
+    "completion": 30,
+    "cost": 0.00014865,
+    "seconds": 3.21
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1385,
+    "completion": 27,
+    "cost": 0.00022395,
+    "seconds": 3.46
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1259,
+    "completion": 57,
+    "cost": 0.00022305,
+    "seconds": 3.44
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 304,
+    "completion": 31,
+    "cost": 6.42e-05,
+    "seconds": 2.97
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 450,
+    "completion": 32,
+    "cost": 8.67e-05,
+    "seconds": 2.63
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 504,
+    "completion": 31,
+    "cost": 9.42e-05,
+    "seconds": 2.48
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 557,
+    "completion": 31,
+    "cost": 0.00010215,
+    "seconds": 2.66
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 703,
+    "completion": 33,
+    "cost": 0.00012525,
+    "seconds": 2.63
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 746,
+    "completion": 29,
+    "cost": 0.0001293,
+    "seconds": 2.92
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 620,
+    "completion": 45,
+    "cost": 0.00012,
+    "seconds": 3.84
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 302,
+    "completion": 25,
+    "cost": 6.03e-05,
+    "seconds": 2.85
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 337,
+    "completion": 22,
+    "cost": 6.375e-05,
+    "seconds": 2.85
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 369,
+    "completion": 26,
+    "cost": 7.095e-05,
+    "seconds": 2.99
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 443,
+    "completion": 27,
+    "cost": 8.265e-05,
+    "seconds": 2.85
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 512,
+    "completion": 44,
+    "cost": 0.0001032,
+    "seconds": 2.88
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 305,
+    "completion": 23,
+    "cost": 5.955e-05,
+    "seconds": 2.33
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 338,
+    "completion": 27,
+    "cost": 6.69e-05,
+    "seconds": 2.6
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 418,
+    "completion": 22,
+    "cost": 7.59e-05,
+    "seconds": 2.58
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 514,
+    "completion": 25,
+    "cost": 9.21e-05,
+    "seconds": 2.51
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 549,
+    "completion": 47,
+    "cost": 0.00011055,
+    "seconds": 3.15
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 299,
+    "completion": 23,
+    "cost": 5.865e-05,
+    "seconds": 2.73
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 332,
+    "completion": 27,
+    "cost": 6.6e-05,
+    "seconds": 2.54
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 414,
+    "completion": 45,
+    "cost": 8.91e-05,
+    "seconds": 2.77
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 293,
+    "completion": 24,
+    "cost": 5.835e-05,
+    "seconds": 2.48
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 482,
+    "completion": 28,
+    "cost": 8.91e-05,
+    "seconds": 2.7
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 297,
+    "completion": 28,
+    "cost": 6.135e-05,
+    "seconds": 2.74
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 399,
+    "completion": 25,
+    "cost": 7.485e-05,
+    "seconds": 2.65
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 434,
+    "completion": 23,
+    "cost": 7.89e-05,
+    "seconds": 2.63
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 531,
+    "completion": 23,
+    "cost": 9.345e-05,
+    "seconds": 2.77
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 564,
+    "completion": 93,
+    "cost": 0.0001404,
+    "seconds": 3.13
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 304,
+    "completion": 27,
+    "cost": 6.18e-05,
+    "seconds": 2.65
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 541,
+    "completion": 40,
+    "cost": 0.00010515,
+    "seconds": 2.94
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 301,
+    "completion": 29,
+    "cost": 6.255e-05,
+    "seconds": 2.33
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 721,
+    "completion": 74,
+    "cost": 0.00015255,
+    "seconds": 3.05
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1485,
+    "completion": 57,
+    "cost": 0.00025695,
+    "seconds": 3.14
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 301,
+    "completion": 30,
+    "cost": 6.315e-05,
+    "seconds": 2.56
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 376,
+    "completion": 29,
+    "cost": 7.38e-05,
+    "seconds": 2.48
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 452,
+    "completion": 28,
+    "cost": 8.46e-05,
+    "seconds": 2.71
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 522,
+    "completion": 34,
+    "cost": 9.87e-05,
+    "seconds": 2.61
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 601,
+    "completion": 29,
+    "cost": 0.00010755,
+    "seconds": 2.68
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 677,
+    "completion": 28,
+    "cost": 0.00011835,
+    "seconds": 2.71
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 551,
+    "completion": 49,
+    "cost": 0.00011205,
+    "seconds": 2.45
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 293,
+    "completion": 28,
+    "cost": 6.075e-05,
+    "seconds": 2.66
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 449,
+    "completion": 27,
+    "cost": 8.355e-05,
+    "seconds": 2.76
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 299,
+    "completion": 33,
+    "cost": 6.465e-05,
+    "seconds": 2.42
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 717,
+    "completion": 29,
+    "cost": 0.00012495,
+    "seconds": 2.69
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1121,
+    "completion": 24,
+    "cost": 0.00018255,
+    "seconds": 2.71
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1155,
+    "completion": 28,
+    "cost": 0.00011325,
+    "seconds": 2.79
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1560,
+    "completion": 52,
+    "cost": 0.0001788,
+    "seconds": 3.37
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 300,
+    "completion": 27,
+    "cost": 6.12e-05,
+    "seconds": 2.65
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 769,
+    "completion": 28,
+    "cost": 0.00013215,
+    "seconds": 3.17
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1239,
+    "completion": 31,
+    "cost": 0.00020445,
+    "seconds": 2.76
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1712,
+    "completion": 28,
+    "cost": 0.0001872,
+    "seconds": 2.99
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 2182,
+    "completion": 29,
+    "cost": 0.0002199,
+    "seconds": 3.51
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 2653,
+    "completion": 29,
+    "cost": 0.00025215,
+    "seconds": 2.88
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 2527,
+    "completion": 37,
+    "cost": 0.00040125,
+    "seconds": 2.56
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 295,
+    "completion": 25,
+    "cost": 5.925e-05,
+    "seconds": 2.65
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 389,
+    "completion": 27,
+    "cost": 7.455e-05,
+    "seconds": 2.92
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 475,
+    "completion": 30,
+    "cost": 8.925e-05,
+    "seconds": 2.76
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 653,
+    "completion": 29,
+    "cost": 0.00011535,
+    "seconds": 2.88
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 849,
+    "completion": 28,
+    "cost": 0.00014415,
+    "seconds": 2.63
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 1063,
+    "completion": 27,
+    "cost": 0.00017565,
+    "seconds": 3.1
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 937,
+    "completion": 60,
+    "cost": 0.00017655,
+    "seconds": 3.8
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 298,
+    "completion": 24,
+    "cost": 5.91e-05,
+    "seconds": 2.95
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 332,
+    "completion": 23,
+    "cost": 6.36e-05,
+    "seconds": 2.68
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 365,
+    "completion": 44,
+    "cost": 8.115e-05,
+    "seconds": 2.86
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 302,
+    "completion": 31,
+    "cost": 6.39e-05,
+    "seconds": 2.61
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 411,
+    "completion": 27,
+    "cost": 7.785e-05,
+    "seconds": 3.04
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 448,
+    "completion": 29,
+    "cost": 8.46e-05,
+    "seconds": 2.8
+  },
+  {
+    "tag": "agent",
+    "model": "gpt-4o-mini",
+    "prompt": 557,
+    "completion": 28,
+    "cost": 0.00010035,
+    "seconds": 2.98
+  }
+]

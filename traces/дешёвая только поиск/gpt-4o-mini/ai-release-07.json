@@ -1,0 +1,54 @@
+{
+ "task": {
+  "id": "ai-release-07",
+  "source": "fresh",
+  "question": "Как называется самая экономичная модель семейства GPT-5.6, выпущенного в 2026 году?",
+  "answer": "Luna",
+  "evidence": "our new flagship, Sol, alongside Terra, a balanced model for everyday work, and Luna, our most cost-efficient model.",
+  "url": "https://openai.com/index/gpt-5-6/",
+  "page": "openai56"
+ },
+ "answer": "Информации о модели GPT-5.6 и её экономичной версии на данный момент нет. Возможно, данные о ней ещё не были опубликованы. \n\nFINAL: Информации нет.",
+ "correct": false,
+ "cost": 0.00012929999999999886,
+ "seconds": 7.27677660016343,
+ "steps": 2,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. На вопросы по-русски можешь искать в ru.wikipedia.org (language=ru), затем читать статью с тем же language. Для фактов о новых моделях проверь официальные анонсы через source_search/source_find. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Как называется самая экономичная модель семейства GPT-5.6, выпущенного в 2026 году?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_aGgfSOi3Tk0LSeXckF84AXMe",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\":\"GPT-5.6\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_aGgfSOi3Tk0LSeXckF84AXMe",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": "Информации о модели GPT-5.6 и её экономичной версии на данный момент нет. Возможно, данные о ней ещё не были опубликованы. \n\nFINAL: Информации нет.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,34 @@
+{
+ "task": {
+  "id": "fresh-56",
+  "source": "fresh",
+  "question": "What was the UK inflation rate in January 2026?",
+  "answer": "3%",
+  "evidence": "UK inflation fell to 3% in January, down from 3.4% in December, largely driven by lower fuel and food prices, as well as airfares.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: unknown.",
+ "correct": false,
+ "cost": 1.0499999999999984e-05,
+ "seconds": 3.229223200120032,
+ "steps": 1,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ответь на вопрос коротко, только строкой FINAL: <ответ>. Если не знаешь, напиши FINAL: unknown. Не объясняй ответ."
+  },
+  {
+   "role": "user",
+   "content": "What was the UK inflation rate in January 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

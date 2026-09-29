@@ -1,0 +1,34 @@
+{
+ "task": {
+  "id": "fresh-90",
+  "source": "fresh",
+  "question": "What institution produced data suggesting over 2,700 deaths due to heatwaves in the United Kingdom in 2026?",
+  "answer": "Imperial College London",
+  "evidence": "2026 United Kingdom heatwaves: Data produced by Imperial College London, the Met Office and the London School of Hygiene and Tropical Medicine suggests that more than 2,700 deaths may have occurred as a result of the heatwaves in May and June.",
+  "page": "2026 in the United Kingdom",
+  "url": "https://en.wikipedia.org/wiki/2026_in_the_United_Kingdom",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: unknown",
+ "correct": false,
+ "cost": 0.0003659999999996444,
+ "seconds": 2.364496900001541,
+ "steps": 1,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ответь на вопрос коротко, только строкой FINAL: <ответ>. Если не знаешь, напиши FINAL: unknown. Не объясняй ответ."
+  },
+  {
+   "role": "user",
+   "content": "What institution produced data suggesting over 2,700 deaths due to heatwaves in the United Kingdom in 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

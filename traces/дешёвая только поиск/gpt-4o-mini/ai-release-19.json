@@ -1,0 +1,146 @@
+{
+ "task": {
+  "id": "ai-release-19",
+  "source": "fresh",
+  "question": "Какая техника настройки гиперпараметров описана Meta при релизе Llama 4 Scout и Maverick в апреле 2025 года?",
+  "answer": "MetaP",
+  "evidence": "We developed a new training technique which we refer to as MetaP that allows us to reliably set critical model hyper-parameters",
+  "url": "https://ai.meta.com/blog/llama-4-multimodal-intelligence/",
+  "page": "meta4"
+ },
+ "answer": "На данный момент нет информации о конкретной технике настройки гиперпараметров для Llama 4 Scout и Maverick от Meta. Релиз Llama 4 состоялся в апреле 2025 года, однако подробности о методах настройки гиперпараметров не были опубликованы в доступных источниках.\n\nFINAL: Информация отсутствует.",
+ "correct": false,
+ "cost": 0.0007336500000000024,
+ "seconds": 32.692268300103024,
+ "steps": 7,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. На вопросы по-русски можешь искать в ru.wikipedia.org (language=ru), затем читать статью с тем же language. Для фактов о новых моделях проверь официальные анонсы через source_search/source_find. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Какая техника настройки гиперпараметров описана Meta при релизе Llama 4 Scout и Maverick в апреле 2025 года?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_VemfYb5qFChy1z83wO8FEzZ5",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\":\"Llama 4 Scout Maverick hyperparameter tuning release April 2025\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_VemfYb5qFChy1z83wO8FEzZ5",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Yjup8cVCpr3qYJ4wPsTpxn7H",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\":\"Llama 4 Scout Maverick\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Yjup8cVCpr3qYJ4wPsTpxn7H",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_bg2MZkPKJCNP0Na70wTvvNKa",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"гиперпараметры Llama 4 Scout Maverick\",\"language\":\"ru\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_bg2MZkPKJCNP0Na70wTvvNKa",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_i1GU76JmecDWTYZBbdHDrAPG",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"hyperparameter tuning Llama 4 Scout and Maverick Meta\",\"language\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_i1GU76JmecDWTYZBbdHDrAPG",
+   "content": "[en:Llama (language model)] Llama (\"Large Language Model Meta AI\" serving as a backronym) is a family of large language models (LLMs) released by Meta AI starting in February 2023. Llama models come in different sizes, ranging from 1 billion to 2 trillion parameters. Initially only a foundation model, starting with Llama 2, Meta AI released instruction fine-tuned versions alongside foundation models. Model weights for the first version of Llama were only available to researchers on a case-by-case basis, under a non-commercial license. Unauthorized copies of the first model were shared via BitTorrent. Subsequent versions of Llama were made accessible outside academia and released under licenses that permitted some commercial use. Alongside the release of Llama 3, Meta rolled out Meta AI, an AI assistant built on Llama. Meta AI has a dedicated website and is available on Facebook and WhatsApp. The latest version is Llama 4, released in April 2025. In April 2026, Meta Superintelligence Labs released Muse Spark as a replacement for Llama powering chatbots on various Meta services. | Other titles: []"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_jQBvs48p4PHF2rdpNX5nvpub",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Meta Llama 4 Scout Maverick announcement\",\"language\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_jQBvs48p4PHF2rdpNX5nvpub",
+   "content": "[en:Llama (language model)] Llama (\"Large Language Model Meta AI\" serving as a backronym) is a family of large language models (LLMs) released by Meta AI starting in February 2023. Llama models come in different sizes, ranging from 1 billion to 2 trillion parameters. Initially only a foundation model, starting with Llama 2, Meta AI released instruction fine-tuned versions alongside foundation models. Model weights for the first version of Llama were only available to researchers on a case-by-case basis, under a non-commercial license. Unauthorized copies of the first model were shared via BitTorrent. Subsequent versions of Llama were made accessible outside academia and released under licenses that permitted some commercial use. Alongside the release of Llama 3, Meta rolled out Meta AI, an AI assistant built on Llama. Meta AI has a dedicated website and is available on Facebook and WhatsApp. The latest version is Llama 4, released in April 2025. In April 2026, Meta Superintelligence Labs released Muse Spark as a replacement for Llama powering chatbots on various Meta services. | Other titles: []"
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "На данный момент нет информации о конкретной технике настройки гиперпараметров для Llama 4 Scout и Maverick от Meta. Релиз Llama 4 состоялся в апреле 2025 года, однако подробности о методах настройки гиперпараметров не были опубликованы в доступных источниках.\n\nFINAL: Информация отсутствует.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

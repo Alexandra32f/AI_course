@@ -1,0 +1,148 @@
+{
+ "task": {
+  "id": "fresh-123",
+  "source": "fresh",
+  "question": "What country broke off diplomatic relations with France in June 2026?",
+  "answer": "Burkina Faso",
+  "evidence": "26 June – Burkina Faso breaks off diplomatic relations with France.",
+  "page": "2026 in France",
+  "url": "https://en.wikipedia.org/wiki/2026_in_France",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "На данный момент нет информации о стране, которая разорвала дипломатические отношения с Францией в июне 2026 года. \n\nFINAL: Информация отсутствует.",
+ "correct": false,
+ "cost": 0.0011230500000000004,
+ "seconds": 37.44860320002772,
+ "steps": 7,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. На вопросы по-русски можешь искать в ru.wikipedia.org (language=ru), затем читать статью с тем же language. Для фактов о новых моделях проверь официальные анонсы через source_search/source_find. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What country broke off diplomatic relations with France in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_TvXUfmuGHvk7XKJbwkyHY0GV",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"country broke off diplomatic relations with France in June 2026\",\"language\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_TvXUfmuGHvk7XKJbwkyHY0GV",
+   "content": "[en:International recognition of Israel] As of February 2026, the State of Israel is recognized as a sovereign state by 169 of the other 192 member states of the United Nations, or approximately 88% of all UN members. The State of Israel was formally established by the Israeli Declaration of Independence on 14 May 1948, and was admitted to the United Nations (UN) as a full member state on 11 May 1949. It also maintains bilateral ties with all of the UNSC Permanent Five. Twenty-three member states have either never formally recognized Israel or have withdrawn their recognition; others have severed diplomatic relations without explicitly withdrawing their recognition. Additionally, many non-recognizing countries have challenged Israel's existence—predominantly those in the Muslim world—due to significant animosity stemming from the Israeli–Palestinian conflict and the Arab–Israeli conflict. | Other titles: ['Foreign relations of Nauru', 'Foreign relations of Israel']"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_bZ7W96eaiouh5SDayU9PfJZr",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"June 2026 diplomatic relations France\",\"language\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_bZ7W96eaiouh5SDayU9PfJZr",
+   "content": "[en:2026 Poland–Ukraine diplomatic crisis] The 2026 Poland–Ukraine diplomatic crisis began in May 2026 after Ukrainian president Volodymyr Zelenskyy awarded the Ukrainian Special Operations Center North the honorary title \"Heroes of the UPA\", on that unit's request. This decision sparked outrage in Poland as the UPA was responsible for the massacres of Poles in Volhynia and Eastern Galicia, leading to a major crisis in bilateral relations. On 19 June 2026, Polish President Karol Nawrocki stripped the Order of the White Eagle from Ukrainian president Volodymyr Zelenskyy. Zelenskyy promptly returned the Order of the White Eagle to the Polish Presidential Chancellery. In solidarity with Zelenskyy, three former Ukrainian presidents Leonid Kuchma, Viktor Yushchenko, and Petro Poroshenko voluntarily renounced and returned their Orders of the White Eagle to Poland. In response, on 25 June 2026, several Polish politicians renounced their Ukrainian orders, notably Jarosław Kaczyński with his Order of Yaroslav the Wise which was the third-highest Ukrainian order when he received it in 2022. | Other titles: ['2025–2026 China–Japan diplomatic crisis', 'Foreign relations of Andorra']"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_OVQTlmff4CRQNNofjLEZoO65",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"June 2026 country diplomatic relations France\",\"language\":\"ru\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_OVQTlmff4CRQNNofjLEZoO65",
+   "content": "[ru:Китайско-тайваньские отношения] Китайско-тайваньские отношения (иногда называемые отношениями между материковым Китаем и Тайванем, отношениями между Китаем и Тайванем или отношениями между КНР и Китайской Республикой) — это политические и экономические отношения между Китаем (официально Китайской Народной Республикой, или КНР) и Тайванем (официально Китайской Республикой, или КР) через Тайваньский пролив. Из-за существующих споров о статусе Тайваня и вопросе легитимности Китая, ни одна из сторон не определяет их как дипломатические отношения. Отношения между двумя странами были сложными и противоречивыми из-за спора о политическом статусе Тайваня после передачи управления островом от Японии — Китайской Республике в 1945 году, а также раскола между КНР и Китайской Республикой в 1949 году в результате отступления Китайской Республики на остров после поражения в гражданской войне в Китае. Основные вопросы заключаются в том, находятся ли два правительства до сих пор в состоянии гражданской войны за «единый Китай», контролируя один из двух «регионов» или частей одной страны (т.е. «одна нация, два государства»); могут ли они быть объединены в рамках концепции «одна страна, две системы»; или же они теперь являются отдельными странами (либо как «два Китая», либо как «один Китай, один Тайвань»). Английское выражение «cross-smart relations» считается нейтральным термином, избегающим упоминания политического статуса какой-либо из сторон. После капитуляции Японии в конце Второй мировой войны в 1945 году управление Тайванем было передано от Японской империи (аннексировавшей Тайвань в качестве военного трофея в ходе Первой японо-китайской войны) Китайской Республике, которая входила в «большую четвёрку» союзных держав, хотя остаются вопросы относительно юридической формулировки, использованной в Сан-Францисском договоре. В 1949 году, когда Гражданская война в Китае решительно повернулась в пользу Коммунистической партии Китая (КПК), правительство Китайской Республики во главе"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_Nyf6DQFpH2FljzbBrEmEqeED",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"страна разорвавшая дипломатические отношения с Францией в июне 2026\",\"language\":\"ru\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_Nyf6DQFpH2FljzbBrEmEqeED",
+   "content": "[ru:Американо-иранские отношения] Американо-иранские отношения — двусторонние отношения между США и Ираном. Дипломатические отношения между странами были установлены в 1883 году, разорваны в 1980 году. 27 сентября 2013 года, впервые за последние 30 с лишним лет, состоялся телефонный разговор между президентами Бараком Обамой и Хасаном Рухани. | Other titles: ['Американо-кубинские отношения', 'Российско-британские отношения']"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_pN6wO3CxAPFlaKX9sUvoQYAU",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"June 2026 France diplomatic relations\",\"language\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_pN6wO3CxAPFlaKX9sUvoQYAU",
+   "content": "[en:2026 Poland–Ukraine diplomatic crisis] The 2026 Poland–Ukraine diplomatic crisis began in May 2026 after Ukrainian president Volodymyr Zelenskyy awarded the Ukrainian Special Operations Center North the honorary title \"Heroes of the UPA\", on that unit's request. This decision sparked outrage in Poland as the UPA was responsible for the massacres of Poles in Volhynia and Eastern Galicia, leading to a major crisis in bilateral relations. On 19 June 2026, Polish President Karol Nawrocki stripped the Order of the White Eagle from Ukrainian president Volodymyr Zelenskyy. Zelenskyy promptly returned the Order of the White Eagle to the Polish Presidential Chancellery. In solidarity with Zelenskyy, three former Ukrainian presidents Leonid Kuchma, Viktor Yushchenko, and Petro Poroshenko voluntarily renounced and returned their Orders of the White Eagle to Poland. In response, on 25 June 2026, several Polish politicians renounced their Ukrainian orders, notably Jarosław Kaczyński with his Order of Yaroslav the Wise which was the third-highest Ukrainian order when he received it in 2022. | Other titles: ['2025–2026 China–Japan diplomatic crisis', 'Foreign relations of Andorra']"
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "На данный момент нет информации о стране, которая разорвала дипломатические отношения с Францией в июне 2026 года. \n\nFINAL: Информация отсутствует.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

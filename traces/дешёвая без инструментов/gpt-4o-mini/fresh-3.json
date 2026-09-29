@@ -1,0 +1,34 @@
+{
+ "task": {
+  "id": "fresh-3",
+  "source": "fresh",
+  "question": "What agreement did Ukraine and Romania sign in March 2026?",
+  "answer": "a strategic partnership agreement",
+  "evidence": "12 March – Ukraine and Romania sign a strategic partnership agreement in the defense and energy sectors.",
+  "page": "2026 in Ukraine",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Ukraine",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "FINAL: unknown.",
+ "correct": false,
+ "cost": 1.0650000000000001e-05,
+ "seconds": 4.275663500186056,
+ "steps": 1,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ответь на вопрос коротко, только строкой FINAL: <ответ>. Если не знаешь, напиши FINAL: unknown. Не объясняй ответ."
+  },
+  {
+   "role": "user",
+   "content": "What agreement did Ukraine and Romania sign in March 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

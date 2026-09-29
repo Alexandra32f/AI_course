@@ -1,0 +1,148 @@
+{
+ "task": {
+  "id": "fresh-17",
+  "source": "fresh",
+  "question": "In spaceflight, what was launched by ISRO on September 3, 2026?",
+  "answer": "EOS-05",
+  "evidence": "On 3 September, ISRO launched EOS-05, India's first geostationary Earth observation satellite. The satellite was launched on PSLV's return-to-flight mission after the failed PSLV-C62 in January 2026.",
+  "page": "2026 in spaceflight",
+  "url": "https://en.wikipedia.org/wiki/2026_in_spaceflight",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "На данный момент нет доступных данных о запуске, осуществленном ИСРО 3 сентября 2026 года. FINAL: Неподтверждено.",
+ "correct": false,
+ "cost": 0.0007173000000000006,
+ "seconds": 39.3676320000086,
+ "steps": 7,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. На вопросы по-русски можешь искать в ru.wikipedia.org (language=ru), затем читать статью с тем же language. Для фактов о новых моделях проверь официальные анонсы через source_search/source_find. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "In spaceflight, what was launched by ISRO on September 3, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_WdZktVFVayMOsOC8EzMouqLT",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\":\"ISRO September 3, 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_WdZktVFVayMOsOC8EzMouqLT",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_FLdifAeP0531SJdPn38O0HHT",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"ISRO launch September 3, 2026\",\"language\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_FLdifAeP0531SJdPn38O0HHT",
+   "content": "[en:List of spaceflight launches in July–September 2026] This article lists orbital and suborbital launches during the third quarter of the year 2026. For all other spaceflight activities, see 2026 in spaceflight. For launches during the rest of 2026, see List of spaceflight launches in January–March 2026, List of spaceflight launches in April–June 2026, and List of spaceflight launches in October–December 2026. | Other titles: ['Next Generation Launch Vehicle', 'Launch vehicles of ISRO']"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_VMFVA4GeDt3RqsO5oQji9DKN",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"ISRO launches 2026\",\"language\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_VMFVA4GeDt3RqsO5oQji9DKN",
+   "content": "[en:Launch vehicles of ISRO] ISRO manufactures launch vehicles to execute its various space exploration goals. ISRO operates multiple launch vehicles such as the PSLV, the GSLV, the LVM3, and the SSLV. | Other titles: ['Next Generation Launch Vehicle', 'List of spaceflight launches in July–September 2026']"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_LVDA1t2uslLUyjURcc7PqwXK",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"ISRO September 3 2026 launch details\",\"language\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_LVDA1t2uslLUyjURcc7PqwXK",
+   "content": "[en:List of spaceflight launches in July–September 2026] This article lists orbital and suborbital launches during the third quarter of the year 2026. For all other spaceflight activities, see 2026 in spaceflight. For launches during the rest of 2026, see List of spaceflight launches in January–March 2026, List of spaceflight launches in April–June 2026, and List of spaceflight launches in October–December 2026. | Other titles: ['Next Generation Launch Vehicle', 'List of LVM3 launches']"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_zR9abLd2YpEd5RoX5RzEsJGh",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"ISRO September 2026 mission\",\"language\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_zR9abLd2YpEd5RoX5RzEsJGh",
+   "content": "[en:List of ISRO missions] This is a list of ISRO missions. ISRO has carried out 133 spacecraft missions, 104 launch missions and planned several missions including the Gaganyaan (crewed/robotic) and Interplanetary mission such as Chandrayaan-4, Lunar Polar Exploration Mission, Venus Orbiter Mission and Mars Lander Mission. | Other titles: ['List of spaceflight launches in July–September 2026', 'Gaganyaan']"
+  },
+  {
+   "role": "user",
+   "content": "Инструменты больше недоступны. Ответь по тому, что уже известно, последней строкой FINAL: <ответ>."
+  },
+  {
+   "role": "assistant",
+   "content": "На данный момент нет доступных данных о запуске, осуществленном ИСРО 3 сентября 2026 года. FINAL: Неподтверждено.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

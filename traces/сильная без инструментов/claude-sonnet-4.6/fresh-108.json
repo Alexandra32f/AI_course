@@ -1,0 +1,34 @@
+{
+ "task": {
+  "id": "fresh-108",
+  "source": "fresh",
+  "question": "Where does a man get killed in a shark attack in June 2026?",
+  "answer": "Michaelmas Island",
+  "evidence": "6 June – A man is killed in a shark attack off Michaelmas Island in Western Australia.",
+  "page": "2026 in Australia",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Australia",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: unknown",
+ "correct": false,
+ "cost": 0.0003329999999999167,
+ "seconds": 2.3225136999972165,
+ "steps": 1,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ответь на вопрос коротко, только строкой FINAL: <ответ>. Если не знаешь, напиши FINAL: unknown. Не объясняй ответ."
+  },
+  {
+   "role": "user",
+   "content": "Where does a man get killed in a shark attack in June 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

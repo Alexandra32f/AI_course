@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "ai-release-00",
+  "source": "fresh",
+  "question": "Какую модель OpenAI выпустила 5 марта 2026 года в ChatGPT, API и Codex?",
+  "answer": "GPT‑5.4",
+  "evidence": "Today, we’re releasing GPT‑5.4 in ChatGPT (as GPT‑5.4 Thinking), the API, and Codex.",
+  "url": "https://openai.com/index/introducing-gpt-5-4/",
+  "page": "openai54"
+ },
+ "answer": "Информация о событиях на 5 марта 2026 года не найдена в официальных источниках OpenAI. Возможно, это дата в будущем или информация пока не опубликована. Сейчас мы находимся в 2024 году, поэтому 5 марта 2026 года - это будущая дата.\n\nЕсли вы имеете в виду другую дату или другую компанию, пожалуйста, уточните. Или если у вас есть конкретная информация об этом релизе, я помогу вам её проверить.\n\nFINAL: <Информация о событиях на 5 марта 2026 года недоступна - это будущая дата>",
+ "correct": false,
+ "cost": 0.010183000000000053,
+ "seconds": 16.99012940004468,
+ "steps": 3,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. На вопросы по-русски можешь искать в ru.wikipedia.org (language=ru), затем читать статью с тем же language. Для фактов о новых моделях проверь официальные анонсы через source_search/source_find. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Какую модель OpenAI выпустила 5 марта 2026 года в ChatGPT, API и Codex?"
+  },
+  {
+   "role": "assistant",
+   "content": "Я помогу вам найти информацию о модели OpenAI, выпущенной 5 марта 2026 года. Давайте проверим официальные источники.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01J62vKP1ASZ9oe1q3gtCwgQ",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\": \"OpenAI 5 марта 2026 ChatGPT API Codex\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01J62vKP1ASZ9oe1q3gtCwgQ",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": "Попробую другой поиск:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_01P9aKZ5cT8qcm4qNjpDedgF",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\": \"OpenAI March 5 2026 release model\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_01P9aKZ5cT8qcm4qNjpDedgF",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": "Информация о событиях на 5 марта 2026 года не найдена в официальных источниках OpenAI. Возможно, это дата в будущем или информация пока не опубликована. Сейчас мы находимся в 2024 году, поэтому 5 марта 2026 года - это будущая дата.\n\nЕсли вы имеете в виду другую дату или другую компанию, пожалуйста, уточните. Или если у вас есть конкретная информация об этом релизе, я помогу вам её проверить.\n\nFINAL: <Информация о событиях на 5 марта 2026 года недоступна - это будущая дата>",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

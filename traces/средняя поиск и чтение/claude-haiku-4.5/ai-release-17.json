@@ -1,0 +1,76 @@
+{
+ "task": {
+  "id": "ai-release-17",
+  "source": "fresh",
+  "question": "Какую видеомодель Meta показала в режиме превью 7 июля 2026 года?",
+  "answer": "Muse Video",
+  "evidence": "We’re excited to launch Muse Image and preview Muse Video, the first media generation models developed by Meta Superintelligence Labs.",
+  "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/",
+  "page": "metamuse"
+ },
+ "answer": "К сожалению, я не нашел информацию об этом событии в официальных анонсах Meta. Это может быть потому что:\n\n1. Событие еще не произошло (дата 7 июля 2026 года - это будущая дата)\n2. Информация еще не опубликована официально\n3. Событие могло быть анонсировано на других платформах, а не на основных каналах Meta\n\nЕсли вы имеете в виду другую дату или можете предоставить дополнительные детали, я помогу найти нужную информацию.",
+ "correct": false,
+ "cost": 0.010088000000000097,
+ "seconds": 15.592179500032216,
+ "steps": 3,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. На вопросы по-русски можешь искать в ru.wikipedia.org (language=ru), затем читать статью с тем же language. Для фактов о новых моделях проверь официальные анонсы через source_search/source_find. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Какую видеомодель Meta показала в режиме превью 7 июля 2026 года?"
+  },
+  {
+   "role": "assistant",
+   "content": "Я помогу вам найти информацию о видеомодели Meta, показанной в режиме превью 7 июля 2026 года. Дайте мне поискать официальные анонсы Meta.",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_0117ydtshFqze2qnygD4LseM",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\": \"Meta видеомодель июль 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_0117ydtshFqze2qnygD4LseM",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": "Позвольте мне попробовать другой поисковый запрос с более конкретными терминами:",
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "toolu_bdrk_019fcAjQMyBuqAkgBKVmYRA5",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\": \"Meta video model preview July 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "toolu_bdrk_019fcAjQMyBuqAkgBKVmYRA5",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": "К сожалению, я не нашел информацию об этом событии в официальных анонсах Meta. Это может быть потому что:\n\n1. Событие еще не произошло (дата 7 июля 2026 года - это будущая дата)\n2. Информация еще не опубликована официально\n3. Событие могло быть анонсировано на других платформах, а не на основных каналах Meta\n\nЕсли вы имеете в виду другую дату или можете предоставить дополнительные детали, я помогу найти нужную информацию.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

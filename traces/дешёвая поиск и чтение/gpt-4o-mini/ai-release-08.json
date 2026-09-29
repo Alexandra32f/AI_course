@@ -1,0 +1,98 @@
+{
+ "task": {
+  "id": "ai-release-08",
+  "source": "fresh",
+  "question": "Как называется максимальный режим возможностей GPT-5.6, представленный в 2026 году?",
+  "answer": "ultra",
+  "evidence": "`ultra` is our highest-capability setting, coordinating multiple agents across parallel workstreams to finish complex tasks faster.",
+  "url": "https://openai.com/index/gpt-5-6/",
+  "page": "openai56"
+ },
+ "answer": "Не удалось найти информацию о GPT-5.6 и его максимальном режиме возможностей, представленных в 2026 году. Это может быть связано с отсутствием официальных анонсов или публикаций на данный момент. \n\nFINAL: информация не найдена.",
+ "correct": false,
+ "cost": 0.00043695000000001927,
+ "seconds": 16.028939899988472,
+ "steps": 4,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. На вопросы по-русски можешь искать в ru.wikipedia.org (language=ru), затем читать статью с тем же language. Для фактов о новых моделях проверь официальные анонсы через source_search/source_find. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Как называется максимальный режим возможностей GPT-5.6, представленный в 2026 году?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_0F4Tj6TpBkzhBXeyeVTGf7Ii",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\":\"GPT-5.6\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_0F4Tj6TpBkzhBXeyeVTGf7Ii",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_n4rF6pmaGWv0HLJaJIbihQOR",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\":\"GPT-5.6 announcement\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_n4rF6pmaGWv0HLJaJIbihQOR",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_F889AXGvaV59ZBvsjyTguWOt",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\":\"GPT-5.6 maximum capability mode\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_F889AXGvaV59ZBvsjyTguWOt",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": "Не удалось найти информацию о GPT-5.6 и его максимальном режиме возможностей, представленных в 2026 году. Это может быть связано с отсутствием официальных анонсов или публикаций на данный момент. \n\nFINAL: информация не найдена.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,100 @@
+{
+ "task": {
+  "id": "fresh-45",
+  "source": "fresh",
+  "question": "What type of aircraft crashed in Yalova Province, Turkey on August 13, 2026?",
+  "answer": "F-16 Fighting Falcon",
+  "evidence": "13 August – An F-16 Fighting Falcon of the Turkish Air Force crashes in Yalova Province. The pilot ejects safely.",
+  "page": "2026 in Turkey",
+  "url": "https://en.wikipedia.org/wiki/2026_in_Turkey",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "На данный момент нет доступной информации о типе самолета, который потерпел крушение в провинции Ялова, Турция, 13 августа 2026 года. FINAL: Нет информации.",
+ "correct": false,
+ "cost": 0.00032969999999999874,
+ "seconds": 20.038611499825493,
+ "steps": 4,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. На вопросы по-русски можешь искать в ru.wikipedia.org (language=ru), затем читать статью с тем же language. Для фактов о новых моделях проверь официальные анонсы через source_search/source_find. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "What type of aircraft crashed in Yalova Province, Turkey on August 13, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_wRfQJUkaH3WPhVmnt70Fp31g",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Yalova Province Turkey aircraft crash August 13 2026\",\"language\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_wRfQJUkaH3WPhVmnt70Fp31g",
+   "content": "[en:List of accidents and incidents involving military aircraft (2020–present)] This is a list of accidents and incidents involving military aircraft grouped by the year in which the accident or incident occurred. Not all of the aircraft were in operation at the time. Combat losses are not included except for a few cases denoted by singular circumstances. | Other titles: ['2026 in Turkey', '2025 in Turkey']"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_42FOWeOWVxomQHxp6F97PMkm",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Yalova Province Turkey aircraft crash August 13 2026\",\"language\":\"ru\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_42FOWeOWVxomQHxp6F97PMkm",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_JKiPuCZzIfy38wVIHZ8wmiUJ",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\":\"Yalova Province Turkey aircraft crash August 13 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_JKiPuCZzIfy38wVIHZ8wmiUJ",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": "На данный момент нет доступной информации о типе самолета, который потерпел крушение в провинции Ялова, Турция, 13 августа 2026 года. FINAL: Нет информации.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

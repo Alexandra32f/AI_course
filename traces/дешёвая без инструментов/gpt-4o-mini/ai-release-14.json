@@ -1,0 +1,32 @@
+{
+ "task": {
+  "id": "ai-release-14",
+  "source": "fresh",
+  "question": "В какую основную модель Gemini интегрировали computer use 24 июня 2026 года?",
+  "answer": "Gemini 3.5 Flash",
+  "evidence": "Computer use is now a built-in tool supported in Gemini 3.5 Flash, delivering our best performance yet for agentic computer use tasks.",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-computer-use-gemini-3-5-flash/",
+  "page": "google35"
+ },
+ "answer": "FINAL: unknown.",
+ "correct": false,
+ "cost": 1.1550000000000145e-05,
+ "seconds": 2.233193200081587,
+ "steps": 1,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ответь на вопрос коротко, только строкой FINAL: <ответ>. Если не знаешь, напиши FINAL: unknown. Не объясняй ответ."
+  },
+  {
+   "role": "user",
+   "content": "В какую основную модель Gemini интегрировали computer use 24 июня 2026 года?"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: unknown.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "task": {
+  "id": "fresh-74",
+  "source": "fresh",
+  "question": "Who ceased Nicaragua's electoral system on July 20, 2026?",
+  "answer": "Daniel Ortega",
+  "evidence": "July 20 – Nicaraguan Co-President Daniel Ortega ceases their country's electoral system, thereby suspending the next general election indefinitely as the country's elections were now declared obsolete.",
+  "page": "2026 in politics",
+  "url": "https://en.wikipedia.org/wiki/2026_in_politics",
+  "sonnet_answer": "unknown",
+  "agent_ok": true
+ },
+ "answer": "На 20 июля 2026 года ко-президент Никарагуа Даниэль Ортега объявил об отмене электоральной системы с целью предотвратить попытки оппозиции \"захватить правительство\". \n\nFINAL: Даниэль Ортега.",
+ "correct": false,
+ "cost": 0.00043740000000000445,
+ "seconds": 14.73107590014115,
+ "steps": 3,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. На вопросы по-русски можешь искать в ru.wikipedia.org (language=ru), затем читать статью с тем же language. Для фактов о новых моделях проверь официальные анонсы через source_search/source_find. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Who ceased Nicaragua's electoral system on July 20, 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_S0MuyXWHsyrCgUVKg1DkZPhJ",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Nicaragua electoral system July 20, 2026\",\"language\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_S0MuyXWHsyrCgUVKg1DkZPhJ",
+   "content": "[en:2026 Nicaraguan general election] General elections were due to be held in Nicaragua to elect the co-presidents and members of the National Assembly. Originally scheduled for November 2026, a constitutional amendment pushed back the election date to November 2027. However, on 20 July 2026, Co-President Daniel Ortega announced the abolition of the electoral system, saying that Nicaragua would no longer hold elections in order to prevent the opposition from trying to \"seize the government\" and \"seize power\". | Other titles: ['Nicaragua', 'Politics of Nicaragua']"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_QSzmLUVGDYnED1yPONdysKKh",
+     "function": {
+      "name": "page_find",
+      "arguments": "{\"title\":\"2026 Nicaraguan general election\",\"keywords\":\"ceased electoral system\",\"language\":\"en\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_QSzmLUVGDYnED1yPONdysKKh",
+   "content": "General elections were due to be held in Nicaragua to elect the co-presidents and members of the National Assembly. Originally scheduled for November 2026, a constitutional amendment pushed back the election date to November 2027. However, on 20 July 2026, Co-President Daniel Ortega announced the abolition of the electoral system, saying that Nicaragua would no longer hold elections in order to prevent the opposition from trying to \"seize the government\" and \"seize power\".\nIn the lead-up to the election, several amendments to the Constitution increased Ortega's and his wife Rosario Murillo's power and ability to remain in office. Article 133 established the Presidency of the Republic as a dual presidency consisting of a male and a female co-president, essentially converting Nicaragua to a diarchy; Murillo was simultaneously promoted from her previous position of vice president to serve as co-president alongside Ortega. The amendments give the co-presidents the ability to coordinate \"legislative, judicial, electoral, control and supervisory bodies, regional and municipal\". This provision is tied to Article 132, which also extends the overseeing powers of the presidency from the Nicaraguan Army to the Ministry of the Interior and the National Police. In the event of Ortega's death, Murillo would immediately assume the office of president. Furthermore, co-presidents can appoint as many vice presidents as they desire, per the revision of Article 137, also giving the co-presidents the power to appoint and fire ministers and deputy ministers, the attorney and deputy attorney general, the directors of governmental bodies, and the heads of diplomatic missions.\nA new electoral law passed in January 2025 also grants further governmental control over the Supreme Electoral Council (Consejo Supremo Electoral, CSE), which would lead to the opposition being further curtailed with regard to participation in elections, as seen during the 2021 general election and the March 2024 regi"
+  },
+  {
+   "role": "assistant",
+   "content": "На 20 июля 2026 года ко-президент Никарагуа Даниэль Ортега объявил об отмене электоральной системы с целью предотвратить попытки оппозиции \"захватить правительство\". \n\nFINAL: Даниэль Ортега.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

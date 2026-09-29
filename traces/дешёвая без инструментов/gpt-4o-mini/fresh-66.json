@@ -1,0 +1,34 @@
+{
+ "task": {
+  "id": "fresh-66",
+  "source": "fresh",
+  "question": "How many people were reportedly trapped after a hotel collapse in Anuppur, Madhya Pradesh in April 2026?",
+  "answer": "at least six",
+  "evidence": "4 April – One person is killed and at least six others are reportedly trapped after a four-story hotel collapses in Anuppur, Madhya Pradesh.",
+  "page": "2026 in India",
+  "url": "https://en.wikipedia.org/wiki/2026_in_India",
+  "sonnet_answer": "unknown",
+  "agent_ok": false
+ },
+ "answer": "FINAL: unknown",
+ "correct": false,
+ "cost": 1.1700000000000013e-05,
+ "seconds": 2.8515397999435663,
+ "steps": 1,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ответь на вопрос коротко, только строкой FINAL: <ответ>. Если не знаешь, напиши FINAL: unknown. Не объясняй ответ."
+  },
+  {
+   "role": "user",
+   "content": "How many people were reportedly trapped after a hotel collapse in Anuppur, Madhya Pradesh in April 2026?"
+  },
+  {
+   "role": "assistant",
+   "content": "FINAL: unknown",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}

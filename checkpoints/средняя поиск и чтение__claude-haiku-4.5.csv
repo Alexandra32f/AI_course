@@ -1,0 +1,148 @@
+config,model,id,source,correct,steps,tool_calls,cost,seconds,answer,gold
+средняя поиск и чтение,claude-haiku-4.5,fresh-0,fresh,True,6,5,0.026302999999999993,38.46475459984504,15 March 2026,15 March
+средняя поиск и чтение,claude-haiku-4.5,fresh-1,fresh,True,2,1,0.006191000000000002,11.492214200086892,22 March 2026,22 March
+средняя поиск и чтение,claude-haiku-4.5,fresh-2,fresh,False,1,0,0.0030050000000000077,2.97119259997271,"I don't have access to information about events on March 13,",Miguel Díaz-Canel
+средняя поиск и чтение,claude-haiku-4.5,fresh-3,fresh,True,3,2,0.00984299999999999,16.35249389987439,"On 12 March 2026, Ukraine and Romania signed a strategic par",a strategic partnership agreement
+средняя поиск и чтение,claude-haiku-4.5,fresh-4,fresh,True,4,3,0.013827000000000006,25.537799700163305,"A total fire ban came into force in Victoria, Australia on J",A total fire ban
+средняя поиск и чтение,claude-haiku-4.5,fresh-5,fresh,False,2,1,0.006109000000000003,9.909180799964815,2,two people
+средняя поиск и чтение,claude-haiku-4.5,fresh-6,fresh,False,2,1,0.006442000000000003,9.881999699864537,519 people are reported missing in the Tibet Autonomous Regi,"4,500"
+средняя поиск и чтение,claude-haiku-4.5,fresh-7,fresh,False,1,0,0.003108999999999973,3.735575399827212,I don't have access to information about events in July 2026,Deniz Göktaş
+средняя поиск и чтение,claude-haiku-4.5,fresh-8,fresh,False,1,0,0.0030170000000000474,3.2013828998897225,I don't have access to information about events in July 2026,Pavel Durov
+средняя поиск и чтение,claude-haiku-4.5,fresh-9,fresh,True,4,3,0.013656999999999975,23.41136289993301,New Delhi,New Delhi
+средняя поиск и чтение,claude-haiku-4.5,fresh-10,fresh,False,7,5,0.022828000000000015,39.12439560005441,Мне не удалось найти конкретную информацию о взрыве на склад,Twelve
+средняя поиск и чтение,claude-haiku-4.5,fresh-11,fresh,True,4,3,0.01374599999999998,23.27034500008449,Helter Skelter: Arthur Jafa and Richard Prince,Helter Skelter
+средняя поиск и чтение,claude-haiku-4.5,fresh-12,fresh,False,7,5,0.02823399999999998,45.8026956000831,"К сожалению, я не смог найти конкретные данные о количестве ","700,000"
+средняя поиск и чтение,claude-haiku-4.5,fresh-13,fresh,False,1,0,0.003269000000000022,3.9032742001581937,I don't have access to information about 2026 since that yea,41.5 °C
+средняя поиск и чтение,claude-haiku-4.5,fresh-14,fresh,False,5,4,0.018759000000000026,33.27594799990766,I'm not finding specific information about this incident thr,Ciudad Rodrigo
+средняя поиск и чтение,claude-haiku-4.5,fresh-15,fresh,True,3,2,0.01023099999999999,17.59352060011588,Oleksandr Syrskyi was dismissed as Commander-in-Chief of the,Oleksandr Syrskyi
+средняя поиск и чтение,claude-haiku-4.5,fresh-16,fresh,True,3,2,0.011046,18.393832799978554,Montreal Victoire,Montreal Victoire
+средняя поиск и чтение,claude-haiku-4.5,fresh-17,fresh,False,5,4,0.01838099999999998,27.974290099926293,"I apologize, but I'm unable to find specific information abo",EOS-05
+средняя поиск и чтение,claude-haiku-4.5,fresh-18,fresh,False,7,5,0.02915899999999999,45.94146699993871,<Я не смог найти точную дату решения мюнхенского суда по это,13 July
+средняя поиск и чтение,claude-haiku-4.5,fresh-19,fresh,True,4,3,0.015735,25.191907099913806,Disney Kids & Family,Disney Kids & Family
+средняя поиск и чтение,claude-haiku-4.5,fresh-20,fresh,True,3,2,0.01044700000000004,20.553235800005496,Single-elimination tournament,single-elimination
+средняя поиск и чтение,claude-haiku-4.5,fresh-21,fresh,True,6,7,0.02835099999999996,50.37435890012421,Gavin Snider,Gavin Snider
+средняя поиск и чтение,claude-haiku-4.5,fresh-22,fresh,True,5,4,0.01780499999999996,33.37029700004496,Clara and the Below,Clara and the Below
+средняя поиск и чтение,claude-haiku-4.5,fresh-23,fresh,False,1,0,0.002986000000000044,3.4186492001172155,I don't have access to real-time information or events from ,German Galushchenko
+средняя поиск и чтение,claude-haiku-4.5,fresh-24,fresh,True,3,2,0.011351,17.541333900066093,Drought,a drought
+средняя поиск и чтение,claude-haiku-4.5,fresh-25,fresh,True,7,5,0.03009100000000009,45.01894739991985,"Based on the search results I found, the article about the 2","""open war"""
+средняя поиск и чтение,claude-haiku-4.5,fresh-26,fresh,False,7,5,0.027615999999999974,42.38192860013805,"К сожалению, я не смог найти информацию об инциденте с столк",nine
+средняя поиск и чтение,claude-haiku-4.5,fresh-27,fresh,False,7,9,0.03625400000000001,57.91229259991087,Unable to determine - information not found in available sou,Markus Hinterhäuser
+средняя поиск и чтение,claude-haiku-4.5,fresh-28,fresh,False,2,1,0.0065910000000000135,12.351616599829867,6 people were killed at Tumbler Ridge Secondary School. (The,nine
+средняя поиск и чтение,claude-haiku-4.5,fresh-29,fresh,False,3,2,0.01086699999999996,16.412512599956244,"46 people were killed in the train derailment near Adamuz, S",43
+средняя поиск и чтение,claude-haiku-4.5,fresh-30,fresh,True,3,2,0.01034999999999997,16.4689583000727,Ankara,Ankara
+средняя поиск и чтение,claude-haiku-4.5,fresh-31,fresh,False,3,2,0.011021000000000059,17.56637640018016,The government led by Prime Minister Oljas Bektenov formed t,Aibek Dädebai
+средняя поиск и чтение,claude-haiku-4.5,fresh-32,fresh,False,4,3,0.013955999999999968,25.538719200063497,"I cannot provide this information as May 8, 2026 is a future",Richard Lewer
+средняя поиск и чтение,claude-haiku-4.5,fresh-33,fresh,False,4,3,0.014842000000000022,25.401069399900734,This is returning historical information about Winston Churc,Marilyn Gladu
+средняя поиск и чтение,claude-haiku-4.5,fresh-34,fresh,True,3,2,0.010014999999999996,14.655279899947345,The magnitude of the earthquake that hit Haixi prefecture of,6.3
+средняя поиск и чтение,claude-haiku-4.5,fresh-35,fresh,False,7,5,0.027785999999999977,42.69183739996515,"Информация о первом человеке, совершившем заплыв вокруг остр",Dina Levačić
+средняя поиск и чтение,claude-haiku-4.5,fresh-36,fresh,False,2,1,0.0061430000000000096,9.625349999871105,136 people were killed in the earthquake that struck off the,129
+средняя поиск и чтение,claude-haiku-4.5,fresh-37,fresh,True,3,2,0.01102000000000003,18.243041400099173,"The four-day strike was scheduled to begin on 15 June 2026, ",15 June
+средняя поиск и чтение,claude-haiku-4.5,fresh-38,fresh,True,2,1,0.006364000000000036,10.543503499822691,Chief Minister of Kerala,Chief Minister
+средняя поиск и чтение,claude-haiku-4.5,fresh-39,fresh,False,2,1,0.006977999999999929,12.20571199990809,"The train collision in Spain on January 18, 2026 (note: the ",Gelida
+средняя поиск и чтение,claude-haiku-4.5,fresh-40,fresh,False,4,3,0.014296000000000086,26.412412100005895,"I apologize, but my search results are not returning specifi",Vladimir Alekseyev
+средняя поиск и чтение,claude-haiku-4.5,fresh-41,fresh,False,7,5,0.029150999999999927,41.91475539980456,"Based on my searches, I found information about the ""Protest",Thirty thousand people
+средняя поиск и чтение,claude-haiku-4.5,fresh-42,fresh,False,4,3,0.01569799999999999,27.92005839990452,The Wikipedia article does not explicitly specify who inaugu,Prime Minister Narendra Modi
+средняя поиск и чтение,claude-haiku-4.5,fresh-43,fresh,True,2,1,0.006294000000000022,10.254530499922112,Zohran Mamdani,Zohran Mamdani
+средняя поиск и чтение,claude-haiku-4.5,fresh-44,fresh,True,7,6,0.027891,44.820255200145766,"Based on my search results, I found information about LHS 11",LHS 1140 b
+средняя поиск и чтение,claude-haiku-4.5,fresh-45,fresh,True,5,4,0.019383999999999957,30.701916199875996,F-16 Fighting Falcon,F-16 Fighting Falcon
+средняя поиск и чтение,claude-haiku-4.5,fresh-46,fresh,False,3,2,0.010618000000000016,16.718869500095025,"5 people died in total (3 killed at the scene, including the",five
+средняя поиск и чтение,claude-haiku-4.5,fresh-47,fresh,False,2,1,0.006561000000000039,9.798907799879089,Minister of Education,Education Minister
+средняя поиск и чтение,claude-haiku-4.5,fresh-48,fresh,True,2,1,0.0064349999999999685,9.811860700137913,Mykhailo Fedorov,Mykhailo Fedorov
+средняя поиск и чтение,claude-haiku-4.5,fresh-49,fresh,True,4,3,0.015759999999999996,24.16486019990407,"Life imprisonment (on March 25, 2026, for conviction under U",life imprisonment
+средняя поиск и чтение,claude-haiku-4.5,fresh-50,fresh,True,4,3,0.014548000000000005,22.876084600109607,"The Turkish Football Federation issued a fine of 802,500 lir","802,500 lira"
+средняя поиск и чтение,claude-haiku-4.5,fresh-51,fresh,True,4,3,0.013294000000000028,23.396205500001088,Bruno Foucher,Bruno Foucher
+средняя поиск и чтение,claude-haiku-4.5,fresh-52,fresh,True,4,3,0.013961000000000001,23.110608799848706,"The earthquakes that hit Guangxi (Liuzhou) on May 18, 2026 h",5.2
+средняя поиск и чтение,claude-haiku-4.5,fresh-53,fresh,True,5,4,0.016925999999999997,29.747274300083518,Tonya McBride Robles was appointed as the president and chie,Tonya McBride Robles
+средняя поиск и чтение,claude-haiku-4.5,fresh-54,fresh,True,2,1,0.006206000000000045,9.569729800103232,80 people were killed in the fire at Gul Plaza shopping mall,80
+средняя поиск и чтение,claude-haiku-4.5,fresh-55,fresh,False,2,1,0.005983999999999989,9.394650500034913,2,two
+средняя поиск и чтение,claude-haiku-4.5,fresh-56,fresh,True,1,0,0.0035760000000000236,5.752413799986243,I don't have access to real-time data or future information.,3%
+средняя поиск и чтение,claude-haiku-4.5,fresh-57,fresh,True,7,5,0.026667999999999914,51.541638400172815,Based on the search results I obtained before losing access ,Yoon Suk Yeol
+средняя поиск и чтение,claude-haiku-4.5,fresh-58,fresh,False,7,5,0.030604000000000076,50.04731970001012,BYD (BYD Company Limited,BYD Auto
+средняя поиск и чтение,claude-haiku-4.5,fresh-59,fresh,False,6,5,0.025560000000000027,42.85588899999857,I cannot determine who created the official poster for the 2,Carson Ting
+средняя поиск и чтение,claude-haiku-4.5,fresh-60,fresh,False,1,0,0.003630000000000022,4.692487200023606,"I don't have access to real-time data, future events, or spe",209
+средняя поиск и чтение,claude-haiku-4.5,fresh-61,fresh,False,2,1,0.006031999999999815,10.136404100107029,14 people were killed in the Daejeon factory fire in March 2,Fourteen
+средняя поиск и чтение,claude-haiku-4.5,fresh-62,fresh,False,1,0,0.00321500000000019,3.5163243000861257,"I don't have information about events in March 2026, as that",13 years
+средняя поиск и чтение,claude-haiku-4.5,fresh-63,fresh,False,4,3,0.013494999999999813,25.796594500076026,2 people were killed in the avalanche near Ratschings on Mar,Two
+средняя поиск и чтение,claude-haiku-4.5,fresh-64,fresh,False,5,4,0.019739000000000173,32.761697799898684,"I apologize, but I'm unable to find any information about Ih",mayor of Lutsk
+средняя поиск и чтение,claude-haiku-4.5,fresh-65,fresh,False,3,2,0.01043700000000003,18.544051399920136,I cannot find information about this incident. February 2026,16
+средняя поиск и чтение,claude-haiku-4.5,fresh-66,fresh,False,4,3,0.015554999999999986,28.6353611999657,I'm unable to find information about this specific incident ,at least six
+средняя поиск и чтение,claude-haiku-4.5,fresh-67,fresh,True,4,3,0.013911999999999924,24.980545700062066,Liam Nassereddine was announced as the winner of the 'Concer,Liam Nassereddine
+средняя поиск и чтение,claude-haiku-4.5,fresh-68,fresh,False,1,0,0.0030799999999999716,3.514612599974498,I don't have access to real-time information or future event,Mark Carney
+средняя поиск и чтение,claude-haiku-4.5,fresh-69,fresh,True,4,3,0.013702000000000103,23.586235800059512,"Leipzig, Germany",Leipzig
+средняя поиск и чтение,claude-haiku-4.5,fresh-70,fresh,True,3,2,0.00993299999999997,14.606281200191006,"European Sleeper begins a night train service between Paris,",night train service
+средняя поиск и чтение,claude-haiku-4.5,fresh-71,fresh,True,2,2,0.0067070000000000185,13.682861800072715,Nikita Solovyovat,Nikita Solovyov
+средняя поиск и чтение,claude-haiku-4.5,fresh-72,fresh,True,2,1,0.006875999999999882,11.635402700165287,Dharmendra Pradhan,Dharmendra Pradhan
+средняя поиск и чтение,claude-haiku-4.5,fresh-73,fresh,False,6,5,0.025197000000000136,43.53158969990909,Hak Ja Han,Han Hak-ja
+средняя поиск и чтение,claude-haiku-4.5,fresh-74,fresh,True,3,2,0.010575999999999919,18.169303599977866,Daniel Ortega ceased Nicaragua's electoral system on July 20,Daniel Ortega
+средняя поиск и чтение,claude-haiku-4.5,fresh-75,fresh,False,4,3,0.015840999999999994,26.768344500102103,I'm unable to find specific information about two senior doc,Novokuznetsk
+средняя поиск и чтение,claude-haiku-4.5,fresh-76,fresh,True,3,2,0.011285999999999907,17.538109600078315,Life imprisonment for the martial law declaration,life imprisonment
+средняя поиск и чтение,claude-haiku-4.5,fresh-77,fresh,True,3,2,0.009735999999999967,15.134207400027663,"Carlos Vila Nova was reelected president on July 19, 2026 wi",Carlos Vila Nova
+средняя поиск и чтение,claude-haiku-4.5,fresh-78,fresh,False,3,3,0.013745000000000118,24.362354200100526,I cannot provide a specific median overall survival time rep,13.2 months
+средняя поиск и чтение,claude-haiku-4.5,fresh-79,fresh,False,6,5,0.023995999999999906,38.77900519990362,3 games (in the Finals series) or 8 total playoff games to s,three
+средняя поиск и чтение,claude-haiku-4.5,fresh-80,fresh,True,5,4,0.02045000000000008,31.40330639993772,"On January 29, 2026, the Supreme Court of India stayed the U","UGC Equity Regulations, 2026"
+средняя поиск и чтение,claude-haiku-4.5,fresh-81,fresh,False,1,0,0.0031890000000001084,3.4030401001218706,I don't have access to real-time data or future information.,8.15m
+средняя поиск и чтение,claude-haiku-4.5,fresh-82,fresh,True,3,2,0.01002399999999981,19.095950100105256,28 people were killed in a fire at a shoe factory in Jinjian,28 people
+средняя поиск и чтение,claude-haiku-4.5,fresh-83,fresh,False,7,5,0.025733000000000006,47.46423769998364,"Я попытался найти информацию об этом инциденте, но результат",improvised explosive device
+средняя поиск и чтение,claude-haiku-4.5,fresh-84,fresh,False,3,2,0.010058000000000122,16.892580999992788,8 games,eight games
+средняя поиск и чтение,claude-haiku-4.5,fresh-85,fresh,False,5,6,0.02378199999999997,40.5491923999507,38.0 °C (100.4 °F),38 °C
+средняя поиск и чтение,claude-haiku-4.5,fresh-86,fresh,False,1,0,0.0035039999999999516,4.026524799875915,I don't have access to real-time financial data or future go,£30.4bn
+средняя поиск и чтение,claude-haiku-4.5,fresh-87,fresh,False,5,4,0.01948799999999995,30.75068709999323,Keiko Fujimori,José Jerí
+средняя поиск и чтение,claude-haiku-4.5,fresh-88,fresh,False,1,0,0.0033160000000000966,5.445464200107381,I don't have access to real-time information or future event,"Henoko, Okinawa Prefecture"
+средняя поиск и чтение,claude-haiku-4.5,fresh-89,fresh,False,7,5,0.02781100000000003,43.19862519996241,<Unable to determine - information not found in search resul,Doug Armstrong
+средняя поиск и чтение,claude-haiku-4.5,fresh-90,fresh,True,5,7,0.025061999999999918,42.14149870001711,"Imperial College London, London School of Hygiene and Tropic",Imperial College London
+средняя поиск и чтение,claude-haiku-4.5,fresh-91,fresh,True,3,3,0.011114999999999986,20.460832000011578,"₹25,863 crore (US$2.7 billion)","₹25,863 crore"
+средняя поиск и чтение,claude-haiku-4.5,fresh-92,fresh,True,3,2,0.010545000000000027,19.14541650004685,Rubén Rocha Moya returns to office as Sinaloa governor on Au,Rubén Rocha Moya
+средняя поиск и чтение,claude-haiku-4.5,fresh-93,fresh,False,1,0,0.0031840000000000757,3.077355300076306,I don't have access to information about future events. The ,Spain
+средняя поиск и чтение,claude-haiku-4.5,fresh-94,fresh,False,7,6,0.032194999999999974,52.409109300002456,"На основе информации, которую я смог найти, я знаю, что:
+
+1.",11th
+средняя поиск и чтение,claude-haiku-4.5,fresh-95,fresh,True,2,1,0.006305999999999923,16.942435499979183,"India won the 2026 Men's T20 World Cup in cricket, defeating",India
+средняя поиск и чтение,claude-haiku-4.5,fresh-96,fresh,True,2,1,0.006000000000000005,10.125708000035957,Istanbul,Istanbul
+средняя поиск и чтение,claude-haiku-4.5,fresh-97,fresh,True,2,1,0.006162000000000001,10.76791730010882,The 2026 Major League Baseball All-Star Game was held at Cit,Citizens Bank Park
+средняя поиск и чтение,claude-haiku-4.5,fresh-98,fresh,False,3,2,0.011920000000000153,21.15259759989567,I cannot find reliable information about a document signed b,Islamabad Memorandum
+средняя поиск и чтение,claude-haiku-4.5,fresh-99,fresh,True,2,1,0.006095999999999879,9.75068820011802,Elon Musk,Elon Musk
+средняя поиск и чтение,claude-haiku-4.5,fresh-100,fresh,True,3,2,0.011438999999999977,16.876356899971142,"252,756 miles (406,771 km)","252,756 miles"
+средняя поиск и чтение,claude-haiku-4.5,fresh-101,fresh,True,4,3,0.01642800000000011,25.412080800160766,"The initial ceasefire duration was 10 days (agreed April 16,",10-day
+средняя поиск и чтение,claude-haiku-4.5,fresh-102,fresh,False,5,4,0.02091299999999996,30.172338099917397,Multiple individuals were recognized as Heroes of Ukraine in,Oleksandr Dovhach
+средняя поиск и чтение,claude-haiku-4.5,fresh-103,fresh,True,4,4,0.017894000000000077,36.695184000069275,José María Balcázar replaced José Jerí as president of Peru ,José María Balcázar
+средняя поиск и чтение,claude-haiku-4.5,fresh-104,fresh,False,7,5,0.026316000000000006,53.713714600075036,"Based on the search results I found, there was a significant",21
+средняя поиск и чтение,claude-haiku-4.5,fresh-105,fresh,False,4,4,0.017912999999999846,28.748104899888858,I cannot find specific information about the fuel surcharge ,¥60–120
+средняя поиск и чтение,claude-haiku-4.5,fresh-106,fresh,False,6,5,0.02842699999999998,41.67501219990663,Unable to find information in available sources about what o,GRU Airport People Mover
+средняя поиск и чтение,claude-haiku-4.5,fresh-107,fresh,True,3,2,0.009628000000000192,18.3498368000146,The 2026 Beninese parliamentary election occurs on January 1,2026 Beninese parliamentary election
+средняя поиск и чтение,claude-haiku-4.5,fresh-108,fresh,False,1,0,0.0029999999999998916,3.152680200058967,I don't have access to information about events in June 2026,Michaelmas Island
+средняя поиск и чтение,claude-haiku-4.5,fresh-109,fresh,False,5,5,0.021082000000000045,38.4699285000097,Antisemitic attacks (specifically arson attacks on synagogue,conspiracy to commit arson
+средняя поиск и чтение,claude-haiku-4.5,fresh-110,fresh,False,1,0,0.0031159999999998966,3.6060933999251574,I don't have access to information about future events. Spec,Clay Fuller
+средняя поиск и чтение,claude-haiku-4.5,fresh-111,fresh,True,2,1,0.0068030000000001145,10.38419649982825,Prime Minister of the United Kingdom and Leader of the Labou,prime minister
+средняя поиск и чтение,claude-haiku-4.5,fresh-112,fresh,True,5,4,0.019091999999999887,29.134054800029844,SMILE (Solar wind Magnetosphere Ionosphere Link Explorer) - ,SMILE
+средняя поиск и чтение,claude-haiku-4.5,fresh-113,fresh,False,3,2,0.011133999999999977,17.645376100204885,"I apologize, but I'm unable to find specific information abo",850
+средняя поиск и чтение,claude-haiku-4.5,fresh-114,fresh,False,5,4,0.019024000000000152,34.673183400183916,I'm not finding specific information about a facility that o,Urgent Care Centre
+средняя поиск и чтение,claude-haiku-4.5,fresh-115,fresh,False,3,2,0.010379999999999834,14.094459099927917,"23 people were killed in the Kenya floods on March 6–7, 2026",66
+средняя поиск и чтение,claude-haiku-4.5,fresh-116,fresh,False,2,1,0.0065030000000001476,9.15610729996115,Nelly Kord won the 2026 U.S. Women's Open at Riviera Country,Nelly Korda
+средняя поиск и чтение,claude-haiku-4.5,fresh-117,fresh,False,7,5,0.027957999999999927,40.65674990019761,Unable to determine - specific information about Nanjing Met,Line S2
+средняя поиск и чтение,claude-haiku-4.5,fresh-118,fresh,True,4,3,0.014021999999999979,24.253997799940407,Antonello da Messina,Antonello da Messina
+средняя поиск и чтение,claude-haiku-4.5,fresh-119,fresh,False,1,0,0.0032810000000000894,3.9558564000763,I don't have access to real-time information or future data.,Baku and Tbilisi
+средняя поиск и чтение,claude-haiku-4.5,fresh-120,fresh,False,7,5,0.03147100000000003,44.30032659997232,"На основе информации, которую я уже получил, в январе 2026 г",Operation Southern Spear
+средняя поиск и чтение,claude-haiku-4.5,fresh-121,fresh,False,7,5,0.02573099999999995,39.251703900052235,Я не смог найти точ,5.6
+средняя поиск и чтение,claude-haiku-4.5,fresh-122,fresh,True,3,2,0.010939000000000032,21.4300845998805,Angus Taylor ousted Sussan Ley in February 2026 in a leaders,Angus Taylor
+средняя поиск и чтение,claude-haiku-4.5,fresh-123,fresh,False,1,0,0.0033079999999998666,3.586688600014895,I don't have access to real-time information or events beyon,Burkina Faso
+средняя поиск и чтение,claude-haiku-4.5,fresh-124,fresh,False,1,0,0.0030840000000000867,3.33721370017156,I don't have access to information about events in March 202,Kehl
+средняя поиск и чтение,claude-haiku-4.5,ai-release-00,fresh,False,3,2,0.010183000000000053,16.99012940004468,<Информация о событиях на 5 марта 2026 года недоступна - это,GPT‑5.4
+средняя поиск и чтение,claude-haiku-4.5,ai-release-01,fresh,False,4,3,0.013267999999999835,23.627373700030148,Информация о GPT-5.4 и его объявлении в марте 2026 года недо,1M tokens
+средняя поиск и чтение,claude-haiku-4.5,ai-release-02,fresh,False,3,2,0.011210000000000164,17.861962900031358,"** Я не могу найти информацию о GPT-5.4, выпущенной в марте ",tool search
+средняя поиск и чтение,claude-haiku-4.5,ai-release-03,fresh,False,3,2,0.01032500000000014,17.234713200014085,Информация о GPT-5.4 и её результатах на OSWorld-Verified в ,75.0%
+средняя поиск и чтение,claude-haiku-4.5,ai-release-04,fresh,True,3,2,0.010460999999999832,17.379082100000232,Информация о запуске GPT-5.4 Pro в марте 2026 года не найден,gpt-5.4-pro
+средняя поиск и чтение,claude-haiku-4.5,ai-release-05,fresh,False,4,3,0.013878999999999753,24.894925999920815,Информация о флагмане семейства GPT-5.6 (2026) недоступна в ,Sol
+средняя поиск и чтение,claude-haiku-4.5,ai-release-06,fresh,False,7,5,0.02630800000000022,46.70131170004606,"К сожалению, на основе информации, которую я смог получить, ",Terra
+средняя поиск и чтение,claude-haiku-4.5,ai-release-07,fresh,False,3,2,0.010444999999999816,16.153645400190726,"Информация о семействе GPT-5.6, выпущенном в 2026 году, недо",Luna
+средняя поиск и чтение,claude-haiku-4.5,ai-release-08,fresh,True,4,4,0.01602900000000007,25.730279200011864,Sol (самая мощная модель) или режим ultra/max (новые режимы ,ultra
+средняя поиск и чтение,claude-haiku-4.5,ai-release-09,fresh,False,2,2,0.007632000000000083,17.745463999919593,Модель GPT-5.6 Sol и тест Agents' Last Exam не являются реал,53.6
+средняя поиск и чтение,claude-haiku-4.5,ai-release-10,fresh,True,3,2,0.009888000000000119,14.317341500194743,Я не смог найти информацию об представлении Gemini 3.8 Googl,2
+средняя поиск и чтение,claude-haiku-4.5,ai-release-11,fresh,False,3,3,0.012650999999999968,24.198198199970648,"К сожалению, результаты поиска не содержат информацию о конк",Gemini 3.8 Flash Cyber
+средняя поиск и чтение,claude-haiku-4.5,ai-release-12,fresh,False,3,4,0.011499000000000148,19.70516899996437,"К сожалению, мне не удалось найти информацию о Gemini 3.8 Fl",Fairwind Program
+средняя поиск и чтение,claude-haiku-4.5,ai-release-13,fresh,False,2,2,0.0078039999999997,14.659329400165007,Данная информация не может быть найдена. Либо дата находится,54.9%
+средняя поиск и чтение,claude-haiku-4.5,ai-release-14,fresh,False,5,4,0.017033000000000076,28.922215099912137,"Невозможно ответить, так как дата 24 июня 2026 года находитс",Gemini 3.5 Flash
+средняя поиск и чтение,claude-haiku-4.5,ai-release-15,fresh,False,7,8,0.03306100000000001,50.33756130002439,"К сожалению, я не смог найти конкретную информацию о том, ка",Gemini 2.5 computer use model
+средняя поиск и чтение,claude-haiku-4.5,ai-release-16,fresh,True,6,7,0.028356000000000048,59.44214679999277,Muse Image,Muse Image
+средняя поиск и чтение,claude-haiku-4.5,ai-release-17,fresh,False,3,2,0.010088000000000097,15.592179500032216,"К сожалению, я не нашел информацию об этом событии в официал",Muse Video
+средняя поиск и чтение,claude-haiku-4.5,ai-release-18,fresh,True,7,7,0.02840599999999993,43.80793930008076,"Основываясь на найденной информации, модель Meta, которая бы",Muse Image
+средняя поиск и чтение,claude-haiku-4.5,ai-release-19,fresh,False,4,3,0.013927000000000245,33.47850940003991,Не удалось найти информацию об официальном релизе Meta Llama,MetaP

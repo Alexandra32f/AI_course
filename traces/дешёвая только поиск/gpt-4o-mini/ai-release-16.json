@@ -1,0 +1,98 @@
+{
+ "task": {
+  "id": "ai-release-16",
+  "source": "fresh",
+  "question": "Какую модель генерации изображений Meta запустила 7 июля 2026 года одновременно с превью видеомодели?",
+  "answer": "Muse Image",
+  "evidence": "We’re excited to launch Muse Image and preview Muse Video, the first media generation models developed by Meta Superintelligence Labs.",
+  "url": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/",
+  "page": "metamuse"
+ },
+ "answer": "Не удалось найти информацию о модели генерации изображений, запущенной Meta 7 июля 2026 года. Возможно, на этот момент данные еще не опубликованы. \n\nFINAL: Информация не найдена.",
+ "correct": false,
+ "cost": 0.0003155999999999992,
+ "seconds": 19.183132499922067,
+ "steps": 4,
+ "messages": [
+  {
+   "role": "system",
+   "content": "Ты решаешь задачи. На вопросы по-русски можешь искать в ru.wikipedia.org (language=ru), затем читать статью с тем же language. Для фактов о новых моделях проверь официальные анонсы через source_search/source_find. Если нужно посчитать или найти факт, вызывай инструменты, а не угадывай. Когда ответ готов, напиши его последней строкой в формате FINAL: <ответ>. Для числовых задач в FINAL только число, для вопросов о фактах короткая фраза."
+  },
+  {
+   "role": "user",
+   "content": "Какую модель генерации изображений Meta запустила 7 июля 2026 года одновременно с превью видеомодели?"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_QN1ILTPYrzad8EXA2qjrF6yW",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\":\"Meta генерация изображений 7 июля 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_QN1ILTPYrzad8EXA2qjrF6yW",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_b6xa0fmqXeDo9oIloifDpCw4",
+     "function": {
+      "name": "source_search",
+      "arguments": "{\"query\":\"Meta AI image generation model July 7 2026\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_b6xa0fmqXeDo9oIloifDpCw4",
+   "content": "No data"
+  },
+  {
+   "role": "assistant",
+   "content": null,
+   "refusal": null,
+   "reasoning": null,
+   "tool_calls": [
+    {
+     "type": "function",
+     "index": 0,
+     "id": "call_9YjkSEpwPLfelmsyzGAwvHIe",
+     "function": {
+      "name": "web_search",
+      "arguments": "{\"query\":\"Meta генерация изображений 7 июля 2026\",\"language\":\"ru\"}"
+     }
+    }
+   ]
+  },
+  {
+   "role": "tool",
+   "tool_call_id": "call_9YjkSEpwPLfelmsyzGAwvHIe",
+   "content": "[ru:Meta Platforms] Meta Platforms, Inc. (до 28 октября 2021 года — Facebook Inc.) — американская транснациональная холдинговая компания, владеющая технологическим конгломератом и расположенная в Менло-Парке, Калифорния. Является материнской организацией Facebook, Instagram, WhatsApp и Reality Labs. Одна из самых дорогих компаний в мире, а также считается одной из компаний «большой пятёрки» в сфере информационных технологий США, наряду с Amazon, Alphabet (владеет Google), Apple и Microsoft. Практически весь свой доход компания получает за счёт продажи рекламных мест на своих сервисах. Meta Platforms предлагает другие продукты и услуги, включая Facebook Messenger, Facebook Watch и Facebook Portal, также компания приобрела Mapillary, имеет 9,99 % акций в Jio Platforms. | Other titles: ['WhatsApp', 'Qwen']"
+  },
+  {
+   "role": "assistant",
+   "content": "Не удалось найти информацию о модели генерации изображений, запущенной Meta 7 июля 2026 года. Возможно, на этот момент данные еще не опубликованы. \n\nFINAL: Информация не найдена.",
+   "refusal": null,
+   "reasoning": null
+  }
+ ]
+}
