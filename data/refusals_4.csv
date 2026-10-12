@@ -1,0 +1,11 @@
+config,model,id,question,gold,answer,correct,refused,found,cost,error
+средняя RAG всегда,anthropic/claude-haiku-4.5,unknown-0,Who won the 2026 Formula One World Drivers' Championship?,,,False,False,False,0,MilvusException()
+средняя RAG всегда,anthropic/claude-haiku-4.5,unknown-1,Which country won the Eurovision Song Contest 2027?,,,False,False,False,0,MilvusException()
+средняя RAG всегда,anthropic/claude-haiku-4.5,unknown-2,Which film won the Palme d'Or at the 2027 Cannes Film Festival?,,,False,False,False,0,MilvusException()
+средняя RAG всегда,anthropic/claude-haiku-4.5,unknown-3,What was the magnitude of the earthquake that struck Lisbon in December 2026?,,,False,False,False,0,MilvusException()
+средняя RAG всегда,anthropic/claude-haiku-4.5,unknown-4,Which company first reached a ten trillion dollar valuation in November 2026?,,,False,False,False,0,MilvusException()
+средняя RAG всегда,anthropic/claude-haiku-4.5,unknown-5,Who won the 2026 World Chess Championship match in December 2026?,,,False,False,False,0,MilvusException()
+средняя RAG всегда,anthropic/claude-haiku-4.5,unknown-6,What were the names of the judges at every 2026 Winter Olympics event?,,,False,False,False,0,MilvusException()
+средняя RAG всегда,anthropic/claude-haiku-4.5,unknown-7,How many printed tickets were sold at each venue of the 2026 Winter Olympics?,,,False,False,False,0,MilvusException()
+средняя RAG всегда,anthropic/claude-haiku-4.5,unknown-8,What was the attendance at every single concert in Rome during 2026?,,,False,False,False,0,MilvusException()
+средняя RAG всегда,anthropic/claude-haiku-4.5,unknown-9,Which weather station recorded the highest hourly humidity in Nepal in August 2026?,,,False,False,False,0,MilvusException()

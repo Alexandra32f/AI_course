@@ -1,0 +1,161 @@
+{
+  "questions_original": 145,
+  "sources_attempted": 34,
+  "sources_retrieved": 16,
+  "supported_questions": 76,
+  "unsupported_questions": 69,
+  "estimated_line_chunks": 1821,
+  "estimated_char_chunks": 717,
+  "fetch_errors": [
+    {
+      "page": "2026 in art",
+      "error": "429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&titles=2026+in+art&redirects=1&format=json"
+    },
+    {
+      "page": "2026 in the United Kingdom",
+      "error": "429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&titles=2026+in+the+United+Kingdom&redirects=1&format=json"
+    },
+    {
+      "page": "2026 in Spain",
+      "error": "429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&titles=2026+in+Spain&redirects=1&format=json"
+    },
+    {
+      "page": "2026 in ice hockey",
+      "error": "429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&titles=2026+in+ice+hockey&redirects=1&format=json"
+    },
+    {
+      "page": "2026 in animation",
+      "error": "429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&titles=2026+in+animation&redirects=1&format=json"
+    },
+    {
+      "page": "2026 FIFA World Cup",
+      "error": "429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&titles=2026+FIFA+World+Cup&redirects=1&format=json"
+    },
+    {
+      "page": "2026 in Japan",
+      "error": "429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&titles=2026+in+Japan&redirects=1&format=json"
+    },
+    {
+      "page": "2026 in classical music",
+      "error": "429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&titles=2026+in+classical+music&redirects=1&format=json"
+    },
+    {
+      "page": "2026 in Canada",
+      "error": "429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&titles=2026+in+Canada&redirects=1&format=json"
+    },
+    {
+      "page": "2026 in India",
+      "error": "429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&titles=2026+in+India&redirects=1&format=json"
+    },
+    {
+      "page": "2026 in the United States",
+      "error": "429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&titles=2026+in+the+United+States&redirects=1&format=json"
+    },
+    {
+      "page": "2026 in science",
+      "error": "429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&titles=2026+in+science&redirects=1&format=json"
+    },
+    {
+      "page": "2026 in France",
+      "error": "429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&titles=2026+in+France&redirects=1&format=json"
+    },
+    {
+      "page": "2026 in Mexico",
+      "error": "429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&titles=2026+in+Mexico&redirects=1&format=json"
+    },
+    {
+      "page": "2026 in South Korea",
+      "error": "429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&titles=2026+in+South+Korea&redirects=1&format=json"
+    },
+    {
+      "page": "2026 in Italy",
+      "error": "429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&titles=2026+in+Italy&redirects=1&format=json"
+    },
+    {
+      "page": "2026 in Brazil",
+      "error": "429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&titles=2026+in+Brazil&redirects=1&format=json"
+    },
+    {
+      "page": "2026 in rail transport",
+      "error": "429 Client Error: Too Many Requests for url: https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&titles=2026+in+rail+transport&redirects=1&format=json"
+    }
+  ],
+  "question_ids_supported": [
+    "fresh-0",
+    "fresh-2",
+    "fresh-3",
+    "fresh-4",
+    "fresh-5",
+    "fresh-7",
+    "fresh-8",
+    "fresh-9",
+    "fresh-10",
+    "fresh-13",
+    "fresh-15",
+    "fresh-17",
+    "fresh-18",
+    "fresh-23",
+    "fresh-25",
+    "fresh-28",
+    "fresh-30",
+    "fresh-31",
+    "fresh-34",
+    "fresh-35",
+    "fresh-40",
+    "fresh-45",
+    "fresh-46",
+    "fresh-47",
+    "fresh-48",
+    "fresh-50",
+    "fresh-52",
+    "fresh-54",
+    "fresh-58",
+    "fresh-60",
+    "fresh-62",
+    "fresh-64",
+    "fresh-69",
+    "fresh-71",
+    "fresh-74",
+    "fresh-75",
+    "fresh-77",
+    "fresh-82",
+    "fresh-87",
+    "fresh-96",
+    "fresh-97",
+    "fresh-99",
+    "fresh-100",
+    "fresh-101",
+    "fresh-102",
+    "fresh-103",
+    "fresh-105",
+    "fresh-107",
+    "fresh-108",
+    "fresh-111",
+    "fresh-112",
+    "fresh-115",
+    "fresh-116",
+    "fresh-120",
+    "fresh-122",
+    "fresh-124",
+    "ai-release-00",
+    "ai-release-01",
+    "ai-release-02",
+    "ai-release-03",
+    "ai-release-04",
+    "ai-release-05",
+    "ai-release-06",
+    "ai-release-07",
+    "ai-release-08",
+    "ai-release-09",
+    "ai-release-10",
+    "ai-release-11",
+    "ai-release-12",
+    "ai-release-13",
+    "ai-release-14",
+    "ai-release-15",
+    "ai-release-16",
+    "ai-release-17",
+    "ai-release-18",
+    "ai-release-19"
+  ]
+}

@@ -1,0 +1,11 @@
+config,model,id,question,gold,answer,correct,refused,found,cost,error
+сильная без инструментов,anthropic/claude-sonnet-4.6,unknown-0,Who won the 2026 Formula One World Drivers' Championship?,,NOT_FOUND,False,True,False,0.000936,
+сильная без инструментов,anthropic/claude-sonnet-4.6,unknown-1,Which country won the Eurovision Song Contest 2027?,,NOT_FOUND,False,True,False,0.000909,
+сильная без инструментов,anthropic/claude-sonnet-4.6,unknown-2,Which film won the Palme d'Or at the 2027 Cannes Film Festival?,,NOT_FOUND,False,True,False,0.001077,
+сильная без инструментов,anthropic/claude-sonnet-4.6,unknown-3,What was the magnitude of the earthquake that struck Lisbon in December 2026?,,NOT_FOUND,False,True,False,0.001095,
+сильная без инструментов,anthropic/claude-sonnet-4.6,unknown-4,Which company first reached a ten trillion dollar valuation in November 2026?,,NOT_FOUND,False,True,False,0.000924,
+сильная без инструментов,anthropic/claude-sonnet-4.6,unknown-5,Who won the 2026 World Chess Championship match in December 2026?,,NOT_FOUND,False,True,False,0.001062,
+сильная без инструментов,anthropic/claude-sonnet-4.6,unknown-6,What were the names of the judges at every 2026 Winter Olympics event?,,NOT_FOUND,False,True,False,0.001167,
+сильная без инструментов,anthropic/claude-sonnet-4.6,unknown-7,How many printed tickets were sold at each venue of the 2026 Winter Olympics?,,NOT_FOUND,False,True,False,0.001125,
+сильная без инструментов,anthropic/claude-sonnet-4.6,unknown-8,What was the attendance at every single concert in Rome during 2026?,,"I cannot answer this question as it refers to events in 2026, which is beyond my knowledge cutoff.",False,True,False,0.001161,
+сильная без инструментов,anthropic/claude-sonnet-4.6,unknown-9,Which weather station recorded the highest hourly humidity in Nepal in August 2026?,,NOT_FOUND,False,True,False,0.000927,

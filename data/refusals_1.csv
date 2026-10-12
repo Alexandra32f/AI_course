@@ -1,0 +1,11 @@
+config,model,id,question,gold,answer,correct,refused,found,cost,error
+дешёвая без инструментов,openai/gpt-4o-mini,unknown-0,Who won the 2026 Formula One World Drivers' Championship?,,NOT_FOUND.,False,True,False,1.71e-05,
+дешёвая без инструментов,openai/gpt-4o-mini,unknown-1,Which country won the Eurovision Song Contest 2027?,,NOT_FOUND.,False,True,False,1.68e-05,
+дешёвая без инструментов,openai/gpt-4o-mini,unknown-2,Which film won the Palme d'Or at the 2027 Cannes Film Festival?,,NOT_FOUND.,False,True,False,1.755e-05,
+дешёвая без инструментов,openai/gpt-4o-mini,unknown-3,What was the magnitude of the earthquake that struck Lisbon in December 2026?,,NOT_FOUND.,False,True,False,1.815e-05,
+дешёвая без инструментов,openai/gpt-4o-mini,unknown-4,Which company first reached a ten trillion dollar valuation in November 2026?,,NOT_FOUND.,False,True,False,1.74e-05,
+дешёвая без инструментов,openai/gpt-4o-mini,unknown-5,Who won the 2026 World Chess Championship match in December 2026?,,NOT_FOUND.,False,True,False,1.755e-05,
+дешёвая без инструментов,openai/gpt-4o-mini,unknown-6,What were the names of the judges at every 2026 Winter Olympics event?,,NOT_FOUND.,False,True,False,1.755e-05,
+дешёвая без инструментов,openai/gpt-4o-mini,unknown-7,How many printed tickets were sold at each venue of the 2026 Winter Olympics?,,NOT_FOUND.,False,True,False,1.83e-05,
+дешёвая без инструментов,openai/gpt-4o-mini,unknown-8,What was the attendance at every single concert in Rome during 2026?,,NOT_FOUND.,False,True,False,1.74e-05,
+дешёвая без инструментов,openai/gpt-4o-mini,unknown-9,Which weather station recorded the highest hourly humidity in Nepal in August 2026?,,NOT_FOUND.,False,True,False,1.755e-05,
