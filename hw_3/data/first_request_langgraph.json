@@ -1,0 +1,57 @@
+{
+  "model": "openai/gpt-4o-mini",
+  "stream": false,
+  "messages": [
+    {
+      "content": "You answer questions about events of 2026 using Wikipedia tools. Never answer from memory, do not repeat the same call. When done, reply with the short answer only, no explanation.",
+      "role": "system"
+    },
+    {
+      "content": "What is 2 + 2? Reply with the number only.",
+      "role": "user"
+    }
+  ],
+  "temperature": 0.0,
+  "tools": [
+    {
+      "type": "function",
+      "function": {
+        "name": "web_search",
+        "description": "Search English Wikipedia: returns the intro of the best article and the titles of two more articles.",
+        "parameters": {
+          "properties": {
+            "query": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "query"
+          ],
+          "type": "object"
+        }
+      }
+    },
+    {
+      "type": "function",
+      "function": {
+        "name": "page_find",
+        "description": "Look inside the full text of a Wikipedia article.",
+        "parameters": {
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "keywords": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "title",
+            "keywords"
+          ],
+          "type": "object"
+        }
+      }
+    }
+  ]
+}
